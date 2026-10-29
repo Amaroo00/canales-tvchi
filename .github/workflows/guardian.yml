@@ -1,0 +1,38 @@
+name: Guardián 24/7 - IPTV Chile
+
+on:
+  schedule:
+    # Corre automáticamente cada 6 horas (00:00, 06:00, 12:00, 18:00 UTC)
+    - cron: '0 */6 * * *'
+  workflow_dispatch: # Permite ejecutarlo manualmente desde GitHub cuando tú quieras
+
+jobs:
+  check-and-update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Permiso para actualizar canales.m3u y STATUS.md automáticamente
+
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Ejecutar Guardián de Canales
+        run: |
+          python scripts/guardian.py
+
+      - name: Guardar cambios si hubo conmutación o actualización
+        run: |
+          git config --global user.name "Guardian-IPTV[bot]"
+          git config --global user.email "guardian-bot@users.noreply.github.com"
+          git add canales.m3u STATUS.md
+          if git diff --staged --quiet; then
+            echo "Sin cambios necesarios: Todos los canales siguen con el mismo estado."
+          else
+            git commit -m "🤖 Guardián 24/7: Verificación y conmutación automática de señales [skip ci]"
+            git push
+          fi
