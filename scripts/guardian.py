@@ -45,6 +45,7 @@ EMERGENCY_POOL = {
         "https://redirector.rudo.video/hls-video/339f69c6122f6d8f4574732c235f09b7683e31a5/chvn/chvn.smil/playlist.m3u8?PlaylistM3UCL"
     ],
     "tvn hd": [
+        "https://mdstrm.com/live-stream-playlist/57a498c4d7b86d600e5461cb.m3u8?access_token=g0CKPtHuMSfbB6Ii5zIaJ6ohwszptQ9Nmw8VmBE7BLYm0tycyu74R4fuKpudmpApk5x1s1pAF2X",
         "https://iptv.bitred.cl/tvn/index.m3u8",
         "http://138.121.15.230:9002/TVN/index.m3u8"
     ],
