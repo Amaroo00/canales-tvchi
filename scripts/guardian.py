@@ -32,18 +32,25 @@ EMERGENCY_POOL = {
         "https://redirector.dps.live/hls/13cl/13cl.smil/playlist.m3u8",
         "https://origin.dpsgo.com/ssai/event/BBp0VeP6QtOOlH8nu3bWTg/master.m3u8"
     ],
-    "mega": [
+    "mega hd": [
         "https://unlimited2-cl-isp.dps.live/mega/mega.smil/playlist.m3u8?PlaylistM3UCL",
         "https://unlimited1-cl-isp.dps.live/mega/mega.smil/playlist.m3u8",
         "https://redirector.dps.live/hls/mega/playlist.m3u8"
+    ],
+    "mega 2": [
+        "http://15.204.196.147:22880/MEGA2-MEGAMEDIA-EE.UU-PROVEEDOR/index.m3u8"
     ],
     "chilevisión": [
         "https://redirector.rudo.video/hls-video/10b92cafdf3646cbc1e727f3dc76863621a327fd/chv/chv.smil/playlist.m3u8?PlaylistM3UCL",
         "https://redirector.rudo.video/hls-video/339f69c6122f6d8f4574732c235f09b7683e31a5/chvn/chvn.smil/playlist.m3u8?PlaylistM3UCL"
     ],
-    "tvn": [
+    "tvn hd": [
+        "https://iptv.bitred.cl/tvn/index.m3u8",
+        "http://138.121.15.230:9002/TVN/index.m3u8"
+    ],
+    "tvn 24 horas": [
         "https://mdstrm.com/live-stream-playlist/689ba606ecfe7915e1f8f741.m3u8?PlaylistM3UCL",
-        "https://mdstrm.com/live-stream-playlist/5653641561b4eba30a7e4929.m3u8?PlaylistM3UCL"
+        "https://redirector.dps.live/hls/t13/playlist.m3u8"
     ]
 }
 
