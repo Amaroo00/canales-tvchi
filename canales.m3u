@@ -26,8 +26,8 @@ http://138.121.15.230:9002/TVN/index.m3u8
 https://tv-mgmt.gtd.cl/bpk-tv/LARED/default/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.m3u.cl/logo/448_TVN_24_Horas.png" group-title="Noticias", TVN 24 Horas
-https://mdstrm.com/live-stream-playlist/689ba606ecfe7915e1f8f741.m3u8?PlaylistM3UCL
 https://iptv.bitred.cl/tvn/index.m3u8
+https://mdstrm.com/live-stream-playlist/689ba606ecfe7915e1f8f741.m3u8?PlaylistM3UCL
 
 #EXTINF:-1 tvg-logo="https://cdn.m3u.cl/logo/1054_T13.png" group-title="Noticias", T13 En Vivo
 https://redirector.dps.live/hls/t13/playlist.m3u8
@@ -96,3 +96,4 @@ https://mdstrm.com/live-stream-playlist/533adcc949386ce765657d7c.m3u8
 
 #EXTINF:-1 group-title="Nacionales", TNT Sport Chile
 https://2.ftlly.com/tntsportschile/mono.m3u8?token=44d940bb1c727e2864fc02805388da77c4f37305-1f-1793470808-1793452808
+
