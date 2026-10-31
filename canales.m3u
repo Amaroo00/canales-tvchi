@@ -2,16 +2,11 @@
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/iptv-org/epg/master/sites/13.cl/13.cl.png" group-title="Nacionales", Canal 13 HD
 https://redirector.dps.live/hls/13cl/playlist.m3u8
-https://redirector.dps.live/hls/13cl/13cl.smil/playlist.m3u8
-https://origin.dpsgo.com/ssai/event/BBp0VeP6QtOOlH8nu3bWTg/master.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.m3u.cl/logo/455_Mega.png" group-title="Nacionales", Mega HD
-https://unlimited2-cl-isp.dps.live/mega/mega.smil/playlist.m3u8?PlaylistM3UCL
-https://unlimited1-cl-isp.dps.live/mega/mega.smil/playlist.m3u8
 https://redirector.dps.live/hls/mega/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.m3u.cl/logo/1569_CHV.png" group-title="Nacionales", Chilevisión (CHV)
-https://redirector.rudo.video/hls-video/339f69c6122f6d8f4574732c235f09b7683e31a5/chvn/chvn.smil/playlist.m3u8?PlaylistM3UCL
 https://redirector.rudo.video/hls-video/10b92cafdf3646cbc1e727f3dc76863621a327fd/chv/chv.smil/playlist.m3u8?PlaylistM3UCL
 
 #EXTINF:-1 tvg-logo="https://cdn.m3u.cl/logo/458_TV_.png" group-title="Nacionales", TV+ (TV Más)
@@ -19,19 +14,21 @@ https://redirector.rudo.video/hls-video/ey6283je82983je9823je8jowowiekldk9838274
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/3FKZHL4.png" group-title="Nacionales", TVN HD
 https://iptv.bitred.cl/tvn/index.m3u8
-https://mdstrm.com/live-stream-playlist/57a498c4d7b86d600e5461cb.m3u8?access_token=g0CKPtHuMSfbB6Ii5zIaJ6ohwszptQ9Nmw8VmBE7BLYm0tycyu74R4fuKpudmpApk5x1s1pAF2X
-http://138.121.15.230:9002/TVN/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/nJOVM6e.png" group-title="Nacionales", La Red
 https://tv-mgmt.gtd.cl/bpk-tv/LARED/default/index.m3u8
 
+#EXTINF:-1 group-title="Nacionales", Telecanal
+http://45.232.210.1:8029/play/a00s/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/oYFto0V.png" group-title="Nacionales", TV Chile
+http://168.196.127.137:6001/play/a03n/index.m3u8
+
 #EXTINF:-1 tvg-logo="https://cdn.m3u.cl/logo/448_TVN_24_Horas.png" group-title="Noticias", TVN 24 Horas
 https://mdstrm.com/live-stream-playlist/689ba606ecfe7915e1f8f741.m3u8?PlaylistM3UCL
-https://iptv.bitred.cl/tvn/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.m3u.cl/logo/1054_T13.png" group-title="Noticias", T13 En Vivo
 https://redirector.dps.live/hls/t13/playlist.m3u8
-https://redirector.dps.live/hls/13cl/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.m3u.cl/logo/1153_CHV_Noticias.png" group-title="Noticias", CHV Noticias
 https://redirector.rudo.video/hls-video/339f69c6122f6d8f4574732c235f09b7683e31a5/chvn/chvn.smil/playlist.m3u8?PlaylistM3UCL
@@ -41,96 +38,48 @@ https://redirector.rudo.video/hls-video/339f69c6122f6d8f4574732c235f09b7683e31a5
 
 #EXTINF:-1 tvg-logo="https://cdn.m3u.cl/logo/JCVEqTc.png" group-title="Noticias", Meganoticias Ahora
 http://15.204.196.147:22880/MEGANOTICIA-MEGAMEDIA-EE.UU-PROVEEDOR/video.m3u8
+
+#EXTINF:-1 group-title="Noticias", Agricultura TV
 https://redirector.rudo.video/hls-video/ey6283je82983je9823je8jowowiekldk9838274/921tv/921tv.smil/playlist.m3u8
+
+#EXTINF:-1 group-title="Noticias", Pauta
+https://redirector.rudo.video/hls-video/ey6283je82983je9823je8jowowiekldk9838274/pautatv/pautatv.smil/playlist.m3u8
+
+#EXTINF:-1 group-title="Noticias", ADN TV
+https://redirector.rudo.video/hls-video/931b584451fa6dd1313ee66efbfd5802e3f3bcea/adntv/adntv.smil/playlist.m3u8
+
+#EXTINF:-1 group-title="Noticias", Cooperativa
+https://unlimited1-cl-isp.dps.live/coopetv/coopetv.smil/playlist.m3u8
+
+#EXTINF:-1 group-title="Noticias", Puranoticia TV
+https://pnt.janusmedia.tv/hls/pnt.m3u8
+
+#EXTINF:-1 group-title="Noticias", Turno
+https://redirector.dps.live/hls/turno/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.m3u.cl/logo/1763_CHV_Deportes.png" group-title="Deportes", CHV Deportes
 https://redirector.rudo.video/hls-video/10b92cafdf3646cbc1e727f3dc76863621a327fd/chvdeportes/chvdeportes.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://cdn.m3u.cl/logo/45_NTV.png" group-title="Cultura", NTV (TVN Infantil/Cultural)
-https://mdstrm.com/live-stream-playlist/5653641561b4eba30a7e4929.m3u8?PlaylistM3UCL
-https://mdstrm.com/live-stream-playlist/5aaabe9e2c56420918184c6d.m3u8?PlaylistM3UCL
-
-#EXTINF:-1 tvg-logo="https://cdn.m3u.cl/logo/1437_TVN3.png" group-title="Retro", TVN3 Recuerdos
-https://mdstrm.com/live-stream-playlist/5653641561b4eba30a7e4929.m3u8?PlaylistM3UCL
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/CNUZ6ig.png" group-title="Cultura", TV Senado
-https://janus-tv-ply.senado.cl/playlist/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e9/UChile_TV_logo_2020.png" group-title="Cultura", UChile TV
-https://unlimited2-cl-isp.dps.live/uchiletv/uchiletv.smil/playlist.m3u8
-https://pantera1-100gb-cl-movistar.dps.live/uchiletv/uchiletv.smil/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://i.ibb.co/5vFMTxt/Logo-tvu.png" group-title="Cultura", TVU
-https://unlimited1-cl-isp.dps.live/tvu/tvu.smil/playlist.m3u8
-https://unlimited6-cl.dps.live/tvu/tvu.smil/playlist.m3u8
-https://pantera1-100gb-cl-movistar.dps.live/tvu/tvu.smil/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/jjGpZf4T/UCV-Logo.png" group-title="Cultura", UCV TV
-https://unlimited2-cl-isp.dps.live/ucvtv2/ucvtv2.smil/playlist.m3u8
-https://pantera1-100gb-cl-movistar.dps.live/ucvtv2/ucvtv2.smil/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/Zfe2f5j.png" group-title="Cultura", 13C Cultura
-https://origin.dpsgo.com/ssai/event/GI-9cp_bT8KcerLpZwkuhw/master.m3u8
-
 #EXTINF:-1 tvg-logo="https://i.imgur.com/m0SuwMU.png" group-title="Entretenimiento", 13 Realities
 https://origin.dpsgo.com/ssai/event/g7_JOM0ORki9SR5RKHe-Kw/master.m3u8
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/c1ME00r.png" group-title="Entretenimiento", Mega 2
-http://15.204.196.147:22880/MEGA2-MEGAMEDIA-EE.UU-PROVEEDOR/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/Ymk6j5o.png" group-title="Música", 13 Festival
-https://origin.dpsgo.com/ssai/event/Nftd0fM2SXasfDlRphvUsg/master.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/KvMuTzN.png" group-title="Entretenimiento", 13 Humor
 https://origin.dpsgo.com/ssai/event/cKWySXKgSK-SzlJmESkOWw/master.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/8WJUbSD.png" group-title="Infantil", 13 Kids
-https://origin.dpsgo.com/ssai/event/LhHrVtyeQkKZ-Ye_xEU75g/master.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/iptv-org/epg/master/sites/dw.com/dw.com_es.png" group-title="Internacional", DW Español
-https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/oYFto0V.png" group-title="Internacional", TV Chile
-http://168.196.127.137:6001/play/a03n/index.m3u8
-https://mdstrm.com/live-stream-playlist/533adcc949386ce765657d7c.m3u8
-
-#EXTM3U
-
-#EXTINF:-1 group-title="Nacionales", TVN HD (alt 1)
-http://15.204.246.24:8080/TVNHD/index.m3u8
-
-#EXTINF:-1 group-title="Nacionales", TVN HD (alt 2)
-http://38.44.109.41:8003/play/a0gz/index.m3u8
-
-#EXTINF:-1 group-title="Nacionales", TVN HD (alt 3)
-http://45.173.231.22:8000/play/a06l/index.m3u8
-
-#EXTINF:-1 group-title="Nacionales", TV Chile (alt)
-http://38.252.238.18:8000/play/a04b/index.m3u8
-
-#EXTINF:-1 group-title="Nacionales", Chilevisión HD (alt)
-http://15.204.246.24:8080/CHVHD/index.m3u8
-
-#EXTINF:-1 group-title="Nacionales", La Red (alt)
-https://alba-cl-lared-lared.stream.mediatiquestream.com/index.m3u8
-
-#EXTINF:-1 group-title="Nacionales", Telecanal
-http://45.232.210.1:8029/play/a00s/index.m3u8
-
-#EXTINF:-1 group-title="Nacionales", Telecanal (alt)
-https://tr.live.clarovtrcdn.vtrplay.com/telecanalsdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_HD
-
-#EXTINF:-1 group-title="Nacionales", TV+ (alt)
-http://190.234.82.52:8000/play/a0lz/index.m3u8
-
-#EXTINF:-1 group-title="Entretenimiento", Mega Ficción
-http://15.204.196.147:22880/MEGAFICCION-MEGAMEDIA-EE.UU-PROVEEDOR/index.m3u8
+#EXTINF:-1 group-title="Entretenimiento", 13 Entretención
+https://origin.dpsgo.com/ssai/event/BBp0VeP6QtOOlH8nu3bWTg/master.m3u8
 
 #EXTINF:-1 group-title="Entretenimiento", 13 Prime
 https://origin.dpsgo.com/ssai/event/p4mmBxEzSmKAxY1GusOHrw/master.m3u8
 
 #EXTINF:-1 group-title="Entretenimiento", 13 Teleseries
 https://origin.dpsgo.com/ssai/event/f4TrySe8SoiGF8Lu3EIq1g/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/c1ME00r.png" group-title="Entretenimiento", Mega 2
+http://15.204.196.147:22880/MEGA2-MEGAMEDIA-EE.UU-PROVEEDOR/index.m3u8
+
+#EXTINF:-1 group-title="Entretenimiento", Mega Ficción
+http://15.204.196.147:22880/MEGAFICCION-MEGAMEDIA-EE.UU-PROVEEDOR/index.m3u8
 
 #EXTINF:-1 group-title="Entretenimiento", Rewind TV
 https://tls-cl.cdnz.cl/rewindtv/live/playlist.m3u8
@@ -150,23 +99,47 @@ https://v2.tustreaming.cl/tevex/index.m3u8
 #EXTINF:-1 group-title="Entretenimiento", Zona Latina
 http://45.170.130.224:8000/play/a00x/index.m3u8
 
-#EXTINF:-1 group-title="Noticias", Pauta
-https://redirector.rudo.video/hls-video/ey6283je82983je9823je8jowowiekldk9838274/pautatv/pautatv.smil/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Ymk6j5o.png" group-title="Música", 13 Festival
+https://origin.dpsgo.com/ssai/event/Nftd0fM2SXasfDlRphvUsg/master.m3u8
 
-#EXTINF:-1 group-title="Noticias", ADN TV
-https://redirector.rudo.video/hls-video/931b584451fa6dd1313ee66efbfd5802e3f3bcea/adntv/adntv.smil/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/8WJUbSD.png" group-title="Infantil", 13 Kids
+https://origin.dpsgo.com/ssai/event/LhHrVtyeQkKZ-Ye_xEU75g/master.m3u8
 
-#EXTINF:-1 group-title="Noticias", Cooperativa
-https://unlimited1-cl-isp.dps.live/coopetv/coopetv.smil/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.m3u.cl/logo/45_NTV.png" group-title="Cultura", NTV (TVN Infantil/Cultural)
+https://mdstrm.com/live-stream-playlist/5aaabe9e2c56420918184c6d.m3u8?PlaylistM3UCL
 
-#EXTINF:-1 group-title="Noticias", Agricultura TV
-https://redirector.rudo.video/hls-video/ey6283je82983je9823je8jowowiekldk9838274/921tv/921tv.smil/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Zfe2f5j.png" group-title="Cultura", 13C Cultura
+https://origin.dpsgo.com/ssai/event/GI-9cp_bT8KcerLpZwkuhw/master.m3u8
 
-#EXTINF:-1 group-title="Noticias", Puranoticia TV
-https://pnt.janusmedia.tv/hls/pnt.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/CNUZ6ig.png" group-title="Cultura", TV Senado
+https://janus-tv-ply.senado.cl/playlist/playlist.m3u8
 
-#EXTINF:-1 group-title="Noticias", Turno
-https://redirector.dps.live/hls/turno/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e9/UChile_TV_logo_2020.png" group-title="Cultura", UChile TV
+https://unlimited2-cl-isp.dps.live/uchiletv/uchiletv.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/5vFMTxt/Logo-tvu.png" group-title="Cultura", TVU
+https://unlimited1-cl-isp.dps.live/tvu/tvu.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/jjGpZf4T/UCV-Logo.png" group-title="Cultura", UCV TV
+https://unlimited2-cl-isp.dps.live/ucvtv2/ucvtv2.smil/playlist.m3u8
+
+#EXTINF:-1 group-title="Cultura", TV Usach
+https://stv4.janus.cl/playlist/stream.m3u8
+
+#EXTINF:-1 group-title="Cultura", TV UCT
+https://unlimited1-us.dps.live/uct/uct.smil/playlist.m3u8
+
+#EXTINF:-1 group-title="Cultura", Contivision
+https://unlimited6-cl.dps.live/cm/cm.smil/playlist.m3u8
+
+#EXTINF:-1 group-title="Cultura", Chile Channel
+https://v2.tustreaming.cl/chilechannel/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://cdn.m3u.cl/logo/1437_TVN3.png" group-title="Retro", TVN3 Recuerdos (puede estar bloqueado fuera de Chile)
+https://mdstrm.com/live-stream-playlist/5653641561b4eba30a7e4929.m3u8?PlaylistM3UCL
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/iptv-org/epg/master/sites/dw.com/dw.com_es.png" group-title="Internacional", DW Español
+https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8
 
 #EXTINF:-1 group-title="Regionales", Antofagasta TV
 https://unlimited6-cl.dps.live/atv/atv.smil/playlist.m3u8
@@ -228,14 +201,38 @@ https://redirector.dps.live/hls/itv/playlist.m3u8
 #EXTINF:-1 group-title="Regionales", El Pingüino TV
 https://redirector.dps.live/hls/pinguinotv/playlist.m3u8
 
-#EXTINF:-1 group-title="Cultura", TV Usach
-https://stv4.janus.cl/playlist/stream.m3u8
+#EXTINF:-1 group-title="Alternativas", TVN HD (alt 1)
+http://15.204.246.24:8080/TVNHD/index.m3u8
 
-#EXTINF:-1 group-title="Cultura", TV UCT
-https://unlimited1-us.dps.live/uct/uct.smil/playlist.m3u8
+#EXTINF:-1 group-title="Alternativas", TVN HD (alt 2)
+http://38.44.109.41:8003/play/a0gz/index.m3u8
 
-#EXTINF:-1 group-title="Cultura", Contivision
-https://unlimited6-cl.dps.live/cm/cm.smil/playlist.m3u8
+#EXTINF:-1 group-title="Alternativas", TVN HD (alt 3)
+http://45.173.231.22:8000/play/a06l/index.m3u8
 
-#EXTINF:-1 group-title="Cultura", Chile Channel
-https://v2.tustreaming.cl/chilechannel/index.m3u8
+#EXTINF:-1 group-title="Alternativas", TVN HD (alt 4)
+http://138.121.15.230:9002/TVN/index.m3u8
+
+#EXTINF:-1 group-title="Alternativas", Canal 13 HD (alt)
+http://15.204.246.24:8080/Canal13HD/index.m3u8
+
+#EXTINF:-1 group-title="Alternativas", Mega HD (alt)
+https://pantera1-100gb-cl-movistar.dps.live/mega/mega.smil/playlist.m3u8
+
+#EXTINF:-1 group-title="Alternativas", Chilevisión (alt)
+http://15.204.246.24:8080/CHVHD/index.m3u8
+
+#EXTINF:-1 group-title="Alternativas", La Red (alt)
+https://alba-cl-lared-lared.stream.mediatiquestream.com/index.m3u8
+
+#EXTINF:-1 group-title="Alternativas", TV+ (alt)
+http://190.234.82.52:8000/play/a0lz/index.m3u8
+
+#EXTINF:-1 group-title="Alternativas", TV Chile (alt 1)
+http://38.252.238.18:8000/play/a04b/index.m3u8
+
+#EXTINF:-1 group-title="Alternativas", TV Chile (alt 2)
+https://mdstrm.com/live-stream-playlist/533adcc949386ce765657d7c.m3u8
+
+#EXTINF:-1 group-title="Alternativas", Telecanal (alt)
+https://tr.live.clarovtrcdn.vtrplay.com/telecanalsdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_HD
