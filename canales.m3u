@@ -16,10 +16,8 @@ https://redirector.rudo.video/hls-video/10b92cafdf3646cbc1e727f3dc76863621a327fd
 
 #EXTINF:-1 tvg-logo="https://cdn.m3u.cl/logo/458_TV_.png" group-title="Nacionales", TV+ (TV Más)
 https://redirector.rudo.video/hls-video/ey6283je82983je9823je8jowowiekldk9838274/tvmas/tvmas.smil/playlist.m3u8?PlaylistM3UCL
-https://redirector.rudo.video/hls-video/931b584451fa6dd1313ee66efbfd5802e3f3bcea/adntv/adntv.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/3FKZHL4.png" group-title="Nacionales", TVN HD
-https://mdstrm.com/live-stream-playlist/57a498c4d7b86d600e5461cb.m3u8?access_token=g0CKPtHuMSfbB6Ii5zIaJ6ohwszptQ9Nmw8VmBE7BLYm0tycyu74R4fuKpudmpApk5x1s1pAF2X
 https://iptv.bitred.cl/tvn/index.m3u8
 http://138.121.15.230:9002/TVN/index.m3u8
 
@@ -27,8 +25,8 @@ http://138.121.15.230:9002/TVN/index.m3u8
 https://tv-mgmt.gtd.cl/bpk-tv/LARED/default/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.m3u.cl/logo/448_TVN_24_Horas.png" group-title="Noticias", TVN 24 Horas
-https://redirector.dps.live/hls/t13/playlist.m3u8
 https://mdstrm.com/live-stream-playlist/689ba606ecfe7915e1f8f741.m3u8?PlaylistM3UCL
+https://iptv.bitred.cl/tvn/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.m3u.cl/logo/1054_T13.png" group-title="Noticias", T13 En Vivo
 https://redirector.dps.live/hls/t13/playlist.m3u8
@@ -40,8 +38,9 @@ https://redirector.rudo.video/hls-video/339f69c6122f6d8f4574732c235f09b7683e31a5
 #EXTINF:-1 tvg-logo="https://i.imgur.com/lhglEUP.png" group-title="Noticias", BioBio TV
 https://redirector.rudo.video/hls-video/339f69c6122f6d8f4574732c235f09b7683e31a5/bbtv/bbtv.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://cdn.m3u.cl/logo/1471_ADN_TV.png" group-title="Noticias", ADN TV
-https://redirector.rudo.video/hls-video/931b584451fa6dd1313ee66efbfd5802e3f3bcea/adntv/adntv.smil/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.m3u.cl/logo/JCVEqTc.png" group-title="Noticias", Meganoticias Ahora
+http://15.204.196.147:22880/MEGANOTICIA-MEGAMEDIA-EE.UU-PROVEEDOR/video.m3u8
+https://redirector.rudo.video/hls-video/ey6283je82983je9823je8jowowiekldk9838274/921tv/921tv.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.m3u.cl/logo/1763_CHV_Deportes.png" group-title="Deportes", CHV Deportes
 https://redirector.rudo.video/hls-video/10b92cafdf3646cbc1e727f3dc76863621a327fd/chvdeportes/chvdeportes.smil/playlist.m3u8

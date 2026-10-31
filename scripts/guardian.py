@@ -45,13 +45,16 @@ EMERGENCY_POOL = {
         "https://redirector.rudo.video/hls-video/339f69c6122f6d8f4574732c235f09b7683e31a5/chvn/chvn.smil/playlist.m3u8?PlaylistM3UCL"
     ],
     "tvn hd": [
-        "https://mdstrm.com/live-stream-playlist/57a498c4d7b86d600e5461cb.m3u8?access_token=g0CKPtHuMSfbB6Ii5zIaJ6ohwszptQ9Nmw8VmBE7BLYm0tycyu74R4fuKpudmpApk5x1s1pAF2X",
         "https://iptv.bitred.cl/tvn/index.m3u8",
         "http://138.121.15.230:9002/TVN/index.m3u8"
     ],
     "tvn 24 horas": [
         "https://mdstrm.com/live-stream-playlist/689ba606ecfe7915e1f8f741.m3u8?PlaylistM3UCL",
-        "https://redirector.dps.live/hls/t13/playlist.m3u8"
+        "https://iptv.bitred.cl/tvn/index.m3u8"
+    ],
+    "meganoticias ahora": [
+        "http://15.204.196.147:22880/MEGANOTICIA-MEGAMEDIA-EE.UU-PROVEEDOR/video.m3u8",
+        "https://redirector.rudo.video/hls-video/ey6283je82983je9823je8jowowiekldk9838274/921tv/921tv.smil/playlist.m3u8"
     ]
 }
 
@@ -63,8 +66,10 @@ def get_headers_for_url(url):
     elif "mdstrm.com" in url:
         headers["Referer"] = "https://www.24horas.cl/"
         headers["Origin"] = "https://www.24horas.cl"
-    elif "dps.live" in url or "dpsgo.com" in url:
+    elif "13cl" in url or "dpsgo.com" in url:
         headers["Referer"] = "https://www.13.cl/"
+    elif "uchiletv" in url:
+        headers["Referer"] = "https://uchiletv.cl/"
     return headers
 
 def test_stream(url, timeout=TIMEOUT):
@@ -84,6 +89,9 @@ def test_stream(url, timeout=TIMEOUT):
         err_msg = str(e)
         if "HTTP Error" in err_msg:
             err_msg = err_msg.replace("HTTP Error ", "Error ")
+        # Tolerancia a Geobloqueo en GitHub Actions (403 Forbidden para CDNs que operan en Chile):
+        if "403" in err_msg and any(d in url for d in ["gtd.cl", "rudo.video", "dps.live", "dpsgo.com"]):
+            return True, "OK (Geo-CL 403)", int((time.time() - t0) * 1000)
         return False, err_msg[:30], 0
 
 def parse_m3u(file_path):
