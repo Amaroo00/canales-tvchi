@@ -161,6 +161,18 @@ def parse_m3u(text):
     if not any(line.upper().startswith("#EXTM3U") for line in lines[:5]):
         raise ValueError("La respuesta no parece un M3U: no se encontró #EXTM3U")
 
+    # Un playlist HLS de un solo canal (segmentos) también empieza con #EXTM3U,
+    # pero no es una lista de canales. Evitamos mezclarlo con canales.m3u.
+    if re.search(
+        r"^#EXT-X-(TARGETDURATION|MEDIA-SEQUENCE|PLAYLIST-TYPE|STREAM-INF)",
+        text,
+        re.MULTILINE | re.IGNORECASE,
+    ):
+        raise ValueError(
+            "La URL parece un playlist HLS de un solo canal "
+            "(segmentos/variantes), no una lista M3U de canales"
+        )
+
     channels = []
     current = None
 
@@ -181,6 +193,12 @@ def parse_m3u(text):
 
     if current and current["urls"]:
         channels.append(current)
+
+    if channels and not any(channel_name(ch["header"]).strip() for ch in channels):
+        raise ValueError(
+            "La lista no tiene nombres de canal; "
+            "¿es un playlist HLS de un solo stream?"
+        )
 
     return channels
 
