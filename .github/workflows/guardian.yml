@@ -30,6 +30,10 @@ jobs:
         run: |
           python scripts/update_playlist.py
 
+      - name: Renovar tokens de canales públicos
+        run: |
+          python scripts/refresh_tokens.py
+
       - name: Ejecutar Guardián de Canales
         run: |
           python scripts/guardian.py
@@ -42,6 +46,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "Sin cambios necesarios: Todos los canales siguen con el mismo estado."
           else
-            git commit -m "🤖 Guardián 24/7: Verificación y conmutación automática de señales [skip ci]"
+            git commit -m "🤖 Guardián 24/7: Verificación, renovación de tokens y conmutación [skip ci]"
             git push
           fi
