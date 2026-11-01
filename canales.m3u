@@ -98,5 +98,8 @@ https://mdstrm.com/live-stream-playlist/533adcc949386ce765657d7c.m3u8
 https://9.ftlly.com/tntsportschile/mono.m3u8?token=c22fa3155147eb028d7f8fc93037328c11baf18e-26-1793520813-1793502813
 
 
-#EXTINF:-1 group-title="Nacionales", TNT Sport Chile Basico
+#EXTINF:-1 group-title="Nacionales", TNT Sport Chile 2
 https://6.ftlly.com/tntsportschile/mono.m3u8?token=27fd58ae3d2e32f6cd57d9aa7074d2dcbf0d5113-30-1793504008-1793486008
+
+EXTINF:-1 group-title="Nacionales", ESPN Chile PREMIUM
+https://4.ftlly.com/espnpremium/mono.m3u8?token=ce16c5210c0dd5d3f475ba98719980dba51c050c-c5-1793521284-1793503284
