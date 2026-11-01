@@ -24,6 +24,14 @@ jobs:
       - name: Ejecutar Guardián de Canales
         run: |
           python scripts/guardian.py
+            - name: Actualizar lista desde el proveedor
+        env:
+          PLAYLIST_URL: ${{ secrets.PLAYLIST_URL }}
+          PLAYLIST_HEADERS: ${{ secrets.PLAYLIST_HEADERS }}
+          PLAYLIST_COOKIE: ${{ secrets.PLAYLIST_COOKIE }}
+          MERGE_MODE: merge
+        run: |
+          python scripts/update_playlist.py
 
       - name: Guardar cambios si hubo conmutación o actualización
         run: |
