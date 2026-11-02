@@ -1,0 +1,39 @@
+{
+  "_ayuda": "Copia este archivo a config/sources.json y edita las fuentes. Ver docs/RENOVAR_TOKENS.md",
+  "playlist": "canales.m3u",
+  "timeout": 20,
+  "retries": 2,
+  "delay_seconds": 1,
+  "sources": [
+    {
+      "name": "NOMBRE EXACTO DEL CANAL EN canales.m3u",
+      "enabled": true,
+      "page": "https://sitio-oficial.cl/envivo",
+      "headers": {
+        "Referer": "https://sitio-oficial.cl/",
+        "Origin": "https://sitio-oficial.cl"
+      },
+      "patterns": [
+        "https://[^\"'<> ]+\\.m3u8[^\"'<> ]*"
+      ],
+      "replace_urls_containing": "mdstrm.com",
+      "add_if_missing": false
+    },
+    {
+      "name": "OTRO CANAL",
+      "enabled": false,
+      "page": "https://api.proveedor.cl/stream",
+      "headers": {
+        "Authorization": "Bearer ${PROVEEDOR_TOKEN}"
+      },
+      "patterns": [
+        "\"url\"\\s*:\\s*\"([^\"]+\\.m3u8[^\"]*)\""
+      ],
+      "replace_urls_containing": [
+        "?token=",
+        "proveedor.cl"
+      ],
+      "add_if_missing": true
+    }
+  ]
+}

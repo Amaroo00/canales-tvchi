@@ -47,5 +47,6 @@ jobs:
             echo "Sin cambios necesarios: Todos los canales siguen con el mismo estado."
           else
             git commit -m "🤖 Guardián 24/7: Verificación, renovación de tokens y conmutación [skip ci]"
+            git pull --rebase --autostash
             git push
           fi

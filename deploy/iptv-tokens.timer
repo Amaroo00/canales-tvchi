@@ -1,0 +1,11 @@
+[Unit]
+Description=Renovar tokens IPTV cada 3 horas
+
+[Timer]
+OnCalendar=*-*-* 00/3:00:00
+Persistent=true
+RandomizedDelaySec=120
+Unit=iptv-tokens.service
+
+[Install]
+WantedBy=timers.target

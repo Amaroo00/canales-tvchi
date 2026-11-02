@@ -1,0 +1,14 @@
+[Unit]
+Description=Renovar tokens IPTV (canales.m3u)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=iptv
+Group=iptv
+WorkingDirectory=/opt/canales-tvchi
+ExecStart=/opt/canales-tvchi/deploy/refresh_and_push.sh
+
+# Opcional: cookies, API keys o tokens de los sitios.
+# EnvironmentFile=/etc/iptv-tokens.env
