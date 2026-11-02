@@ -1,14 +1,13 @@
 #EXTM3U
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/iptv-org/epg/master/sites/13.cl/13.cl.png" group-title="Nacionales", Canal 13 HD
+https://origin.dpsgo.com/ssai/event/BBp0VeP6QtOOlH8nu3bWTg/master.m3u8
 https://redirector.dps.live/hls/13cl/playlist.m3u8
 https://redirector.dps.live/hls/13cl/13cl.smil/playlist.m3u8
-https://origin.dpsgo.com/ssai/event/BBp0VeP6QtOOlH8nu3bWTg/master.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.m3u.cl/logo/455_Mega.png" group-title="Nacionales", Mega HD
 https://unlimited2-cl-isp.dps.live/mega/mega.smil/playlist.m3u8?PlaylistM3UCL
 https://unlimited1-cl-isp.dps.live/mega/mega.smil/playlist.m3u8
-https://redirector.dps.live/hls/mega/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.m3u.cl/logo/1569_CHV.png" group-title="Nacionales", Chilevisión (CHV)
 https://redirector.rudo.video/hls-video/339f69c6122f6d8f4574732c235f09b7683e31a5/chvn/chvn.smil/playlist.m3u8?PlaylistM3UCL
@@ -95,7 +94,7 @@ http://168.196.127.137:6001/play/a03n/index.m3u8
 https://mdstrm.com/live-stream-playlist/533adcc949386ce765657d7c.m3u8
 
 #EXTINF:-1 group-title="Nacionales", TNT Sport Chile
-https://6.ftlly.com/tntsportschile/mono.m3u8?token=81fb3a487a2ac621b1a6c14ff0b182a8dcb59f73-47-1793578977-1793560977
+https://5.ftlly.com/tntsportschile/mono.m3u8?token=8934ddce2f73c975948e1359a2dbcfa9ce057275-b-1793615140-1793597140
 
 #EXTINF:-1 group-title="Nacionales", TNT Sport Chile 2
 https://7.ftlly.com/tntsportschile/mono.m3u8?token=0699c64ba65193e231b6b24d325f166b9941d8d1-ce-1793578902-1793560902
@@ -103,3 +102,5 @@ https://7.ftlly.com/tntsportschile/mono.m3u8?token=0699c64ba65193e231b6b24d325f1
 #EXTINF:-1 group-title="Nacionales",ESPN CHILE
 https://8.ftlly.com/espnpremium/mono.m3u8?token=22adb1258f589f4fd38188052641047f0b2eadf2-7-1793579003-1793561003
 
+#EXTINF:-1 tvg-name="ESPN Chile PREMIUM" group-title="Nacionales",ESPN Chile PREMIUM
+https://7.ftlly.com/espnpremium/mono.m3u8?token=cec494725370279c020bbec656faa73a31fef5d2-a7-1793615162-1793597162
