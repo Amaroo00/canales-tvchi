@@ -17,7 +17,7 @@ https://redirector.rudo.video/hls-video/10b92cafdf3646cbc1e727f3dc76863621a327fd
 https://redirector.rudo.video/hls-video/ey6283je82983je9823je8jowowiekldk9838274/tvmas/tvmas.smil/playlist.m3u8?PlaylistM3UCL
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/3FKZHL4.png" group-title="Nacionales", TVN HD
-https://cl-a8-i-e-rv11.cdn.mdstrm.com/live-stream-gdai/57a498c4d7b86d600e5461cb/linear/hls/pa/event/-4KOuBUDTUaXhzNVqMNjsQ/stream/7e40c8b1-156c-44b6-95ee-964d2b7faa02:SCL2/master.m3u8?aid=51c2f628b440bd797900051f&dnt=true&dual_render=1&access_token=dqBL2saQeWKDaIUaVNpzz3tKqijOurxzZImXje4tMzyGoWSalHQSP5Lxj2D2pHmlWX4eI4hmy4T&uid=P3n5RHRjHEUm4FU3BuAJg9BQCYLuHGAT&sid=Jmho1DJjsmTxizikxhw36qu6DIhXBbhR&pid=PvuY9rxPyKYPDx6hf0ME7QHCGZIcESRV&ref=mdstrm.com&ext_pb=0&adInsertionGoogleStreamId=7e40c8b1-156c-44b6-95ee-964d2b7faa02%3ASCL2&CMCD=cid%3D%2257a498c4d7b86d600e5461cb%22%2Cmtp%3D500%2Cot%3Dm%2Csf%3Dh%2Csid%3D%22PvuY9rxPyKYPDx6hf0ME7QHCGZIcESRV%22%2Csu&es=cl-a8-i-e-rv11.cdn.mdstrm.com&ote=1793757465053&ot=pUuelmxlMmFJhraERxutqA&proto=https&pz=cl
+https://cl-a8-i-e-rv11.cdn.mdstrm.com/live-stream-gdai/57a498c4d7b86d600e5461cb/linear/hls/pa/event/-4KOuBUDTUaXhzNVqMNjsQ/stream/21468def-567e-4281-8476-277c6f9bfff9:SCL2/master.m3u8?aid=51c2f628b440bd797900051f&dnt=true&dual_render=1&access_token=xiTy5phR8YxvCdHC9fLx0kvuTNnjubhpsWvq6g1y14SBAyw1zdrDajuqI1yXGe8TOHcQpxL5SSl&uid=P3n5RHRjHEUm4FU3BuAJg9BQCYLuHGAT&sid=Jmho1DJjsmTxizikxhw36qu6DIhXBbhR&pid=zAsyCqv2Usu0cmNj0eaKBP4ObRjeGiV0&ref=mdstrm.com&ext_pb=0&adInsertionGoogleStreamId=21468def-567e-4281-8476-277c6f9bfff9%3ASCL2&CMCD=cid%3D%2257a498c4d7b86d600e5461cb%22%2Cmtp%3D500%2Cot%3Dm%2Csf%3Dh%2Csid%3D%22zAsyCqv2Usu0cmNj0eaKBP4ObRjeGiV0%22%2Csu&es=cl-a8-i-e-rv11.cdn.mdstrm.com&ote=1793757666869&ot=DtWytde-R6x_9k1t-WrWQg&proto=https&pz=cl
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/nJOVM6e.png" group-title="Nacionales", La Red
 https://tv-mgmt.gtd.cl/bpk-tv/LARED/default/index.m3u8
@@ -92,13 +92,13 @@ http://168.196.127.137:6001/play/a03n/index.m3u8
 https://mdstrm.com/live-stream-playlist/533adcc949386ce765657d7c.m3u8
 
 #EXTINF:-1 group-title="Nacionales", TNT Sport Chile
-https://2.ftlly.com/tntsportschile/mono.m3u8?token=318ff4b60c34aa9ec57abc860993fc1d6f72d717-fc-1793688196-1793670196
+https://3.ftlly.com/tntsportschile/mono.m3u8?token=9b6f1a703c5464c6ccc65a1c03a4899dfcccc681-48-1793688391-1793670391
 
 #EXTINF:-1 group-title="Nacionales",ESPN CHILE
-https://2.ftlly.com/espn/mono.m3u8?token=217093f31b539d9c6bb5f06b3710b658f0d4e49b-22-1793688218-1793670218
+https://9.ftlly.com/espn/mono.m3u8?token=03939bb378d7b994d225b455311bc1d50c000ee3-31-1793688414-1793670414
 
 #EXTINF:-1 tvg-name="ESPN Chile PREMIUM" group-title="Nacionales",ESPN Chile PREMIUM
-https://4.ftlly.com/espnpremium/mono.m3u8?token=8c40561f67a6a6ad5868efcdafe42a75661076f6-e6-1793688241-1793670241
+https://2.ftlly.com/espnpremium/mono.m3u8?token=33fee2e3c7cc3478c520f77013cf3c2d27d8d2da-a2-1793688437-1793670437
 
 #EXTINF:-1 tvg-name="ESPN 3" group-title="Nacionales",ESPN 3
-https://9.ftlly.com/espn3/mono.m3u8?token=235d918dfbfc538bf3d8f7f4096a78e6631c6f7b-78-1793688264-1793670264
+https://2.ftlly.com/espn3/mono.m3u8?token=521036f6a3fe5df5a27aa869d2c77d11dd66dd22-87-1793688460-1793670460
