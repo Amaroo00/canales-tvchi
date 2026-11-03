@@ -17,7 +17,7 @@ https://redirector.rudo.video/hls-video/10b92cafdf3646cbc1e727f3dc76863621a327fd
 https://redirector.rudo.video/hls-video/ey6283je82983je9823je8jowowiekldk9838274/tvmas/tvmas.smil/playlist.m3u8?PlaylistM3UCL
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/3FKZHL4.png" group-title="Nacionales", TVN HD
-https://content1.avplayer.com/5b59760c073ef46a2e6b8f13/videos/67fe7ab752ad61936e0e5ef3/jit/2/hls-ts-5s/gcs/a-67fe7ad04187b16424059ec3/v-67fe7ad04187b16424059ec2.67fe7ad04187b16424059ec3/s-40d6d3af79c009ab5d45/master.m3u8?AV_TAGID=674d5b02695b5acfd8069c9d&pid=63c6b945dee370f45c083ed4&cid=674d5ae1afa7aaf2410b9b6a&AV_TEMPID=67cf68ddeaa4c79d7103ed05&AV_PUBLISHERID=63c6b945dee370f45c083ed4&av_qd1=67fe7b1b6a0f1b6d630d7a82&videoId=67fe7ab752ad61936e0e5ef3
+https://cl-a8-i-e-rv11.cdn.mdstrm.com/live-stream-gdai/57a498c4d7b86d600e5461cb/linear/hls/pa/event/-4KOuBUDTUaXhzNVqMNjsQ/stream/7e40c8b1-156c-44b6-95ee-964d2b7faa02:SCL2/master.m3u8?aid=51c2f628b440bd797900051f&dnt=true&dual_render=1&access_token=dqBL2saQeWKDaIUaVNpzz3tKqijOurxzZImXje4tMzyGoWSalHQSP5Lxj2D2pHmlWX4eI4hmy4T&uid=P3n5RHRjHEUm4FU3BuAJg9BQCYLuHGAT&sid=Jmho1DJjsmTxizikxhw36qu6DIhXBbhR&pid=PvuY9rxPyKYPDx6hf0ME7QHCGZIcESRV&ref=mdstrm.com&ext_pb=0&adInsertionGoogleStreamId=7e40c8b1-156c-44b6-95ee-964d2b7faa02%3ASCL2&CMCD=cid%3D%2257a498c4d7b86d600e5461cb%22%2Cmtp%3D500%2Cot%3Dm%2Csf%3Dh%2Csid%3D%22PvuY9rxPyKYPDx6hf0ME7QHCGZIcESRV%22%2Csu&es=cl-a8-i-e-rv11.cdn.mdstrm.com&ote=1793757465053&ot=pUuelmxlMmFJhraERxutqA&proto=https&pz=cl
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/nJOVM6e.png" group-title="Nacionales", La Red
 https://tv-mgmt.gtd.cl/bpk-tv/LARED/default/index.m3u8
@@ -92,16 +92,16 @@ http://168.196.127.137:6001/play/a03n/index.m3u8
 https://mdstrm.com/live-stream-playlist/533adcc949386ce765657d7c.m3u8
 
 #EXTINF:-1 group-title="Nacionales", TNT Sport Chile
-https://7.ftlly.com/tntsportschile/mono.m3u8?token=f6deda45fc6b46ac150537a3f22b43bb474d01e3-8b-1793686440-1793668440
+https://2.ftlly.com/tntsportschile/mono.m3u8?token=318ff4b60c34aa9ec57abc860993fc1d6f72d717-fc-1793688196-1793670196
 
 #EXTINF:-1 group-title="Nacionales", TNT Sport Chile 2
 https://11.ftlly.com/tntsportschile/mono.m3u8?token=973bfa3b3df0a8724ef0f87444fb823bada67c4a-f1-1793620957-1793602957
 
 #EXTINF:-1 group-title="Nacionales",ESPN CHILE
-https://8.ftlly.com/espnpremium/mono.m3u8?token=22adb1258f589f4fd38188052641047f0b2eadf2-7-1793579003-1793561003
+https://2.ftlly.com/espn/mono.m3u8?token=217093f31b539d9c6bb5f06b3710b658f0d4e49b-22-1793688218-1793670218
 
 #EXTINF:-1 tvg-name="ESPN Chile PREMIUM" group-title="Nacionales",ESPN Chile PREMIUM
-https://10.ftlly.com/espnpremium/mono.m3u8?token=754be23c5215eee3776896878906dec93a475514-bf-1793686484-1793668484
+https://4.ftlly.com/espnpremium/mono.m3u8?token=8c40561f67a6a6ad5868efcdafe42a75661076f6-e6-1793688241-1793670241
 
 #EXTINF:-1 tvg-name="ESPN 3" group-title="Nacionales",ESPN 3
-https://2.ftlly.com/espn3/mono.m3u8?token=08cb19ac41e73099868cc232d671a7514e2c2c58-25-1793621006-1793603006
+https://9.ftlly.com/espn3/mono.m3u8?token=235d918dfbfc538bf3d8f7f4096a78e6631c6f7b-78-1793688264-1793670264
