@@ -91,8 +91,7 @@ http://168.196.127.137:6001/play/a03n/index.m3u8
 https://mdstrm.com/live-stream-playlist/533adcc949386ce765657d7c.m3u8
 
 #EXTINF:-1 group-title="Nacionales", TNT Sport Chile
-https://yxdlc29tzq.fubo18.com/tntsportschile/index.m3u8?token=ebb51a695fe304bd64fd760cf9f56a8332b171ac-0-1794101883-1794083883
-
+https://7.ftlly.com/tntsportschile/mono.m3u8?token=e7a308f0e8799daff1dff3f6e9e78f470454d8c9-fc-1794111897-1794093897
 #EXTINF:-1 group-title="Nacionales",ESPN CHILE
 https://y2fzdgxl.fubo18.com/disney8/tracks-v1a1/mono.m3u8?token=74182ad78d6c3064e78415fa2cee2c9ba3068d8a-38-1794102165-1794084165
 
