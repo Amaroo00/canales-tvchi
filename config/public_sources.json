@@ -3,6 +3,7 @@
   "playlist": "canales.m3u",
   "timeout": 12,
   "max_urls_per_channel": 3,
+  "blocked_url_contains": ["15.204.246.24"],
   "lists": [
     {
       "name": "iptv-org Chile",

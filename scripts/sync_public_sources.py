@@ -338,6 +338,11 @@ def main():
     timeout = max(5, int(config.get("timeout", 12)))
     max_urls = max(1, int(config.get("max_urls_per_channel", 3)))
     aliases = config.get("aliases") or {}
+    blocked = [
+        str(item)
+        for item in (config.get("blocked_url_contains") or [])
+        if str(item).strip()
+    ]
 
     index, errors = download_lists(config, timeout, print)
     if not index:
@@ -352,14 +357,21 @@ def main():
     plan = []
     for start, end in iter_blocks(lines):
         name = channel_name(lines[start].strip())
-        existing = block_urls(lines, start, end)
+        original = block_urls(lines, start, end)
+        existing = original
         candidates = resolve_candidates(name, aliases, index)
+        if blocked:
+            filtered = [u for u in existing if not any(b in u for b in blocked)]
+            if filtered:
+                existing = filtered
+            candidates = [u for u in candidates if not any(b in u for b in blocked)]
         plan.append(
             {
                 "name": name,
                 "start": start,
                 "end": end,
                 "existing": existing,
+                "original": original,
                 "candidates": candidates,
             }
         )
@@ -402,7 +414,7 @@ def main():
             final = existing
             detail = "sin señal verificable (se conserva)"
 
-        if final != existing:
+        if final != item["original"]:
             edits.append((item, final))
             changed += 1
 
