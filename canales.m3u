@@ -102,8 +102,8 @@ https://mdstrm.com/live-stream-playlist/533adcc949386ce765657d7c.m3u8?PlaylistM3
 #EXTINF:-1 group-title="Nacionales", TNT Sport Chile
 http://209.45.101.130:8040/play/a03s/index.m3u8
 
-#EXTINF:-1 group-title="Nacionales",ESPN CHILE
-https://barinaslive1.boldmss.com/ESPN_3/ESPN_3.isml/ESPN_3.m3u8
+#EXTINF:-1 group-title="Nacionales",U DE CHILE
+https://99.envivosenhd.beer/global/max5/mono.m3u8?token=bb67076402f2ee1a2737546338bc8682a5c1e5e3-ee-1794179034-1794161034
 
 #EXTINF:-1 tvg-name="ESPN 3" group-title="Nacionales",ESPN 3
 https://barinaslive1.boldmss.com/ESPN_3/ESPN_3.isml/ESPN_3.m3u8
