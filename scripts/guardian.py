@@ -15,9 +15,10 @@ import urllib.request
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime
 
-M3U_FILE = "canales.m3u"
-STATUS_FILE = "STATUS.md"
-TIMEOUT = 7
+M3U_FILE = os.environ.get("M3U_FILE", "").strip() or "canales.m3u"
+STATUS_FILE = os.environ.get("STATUS_FILE", "").strip() or "STATUS.md"
+TIMEOUT = max(3, int(os.environ.get("GUARDIAN_TIMEOUT", "7") or 7))
+MAX_WORKERS = max(1, int(os.environ.get("GUARDIAN_WORKERS", "8") or 8))
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 
 # Contexto SSL seguro y tolerante
@@ -35,7 +36,12 @@ EMERGENCY_POOL = {
     "mega hd": [
         "https://unlimited2-cl-isp.dps.live/mega/mega.smil/playlist.m3u8?PlaylistM3UCL",
         "https://unlimited1-cl-isp.dps.live/mega/mega.smil/playlist.m3u8",
+        "http://tr.live.clarovtrcdn.vtrplay.com/megahdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_HD",
         "https://redirector.dps.live/hls/mega/playlist.m3u8"
+    ],
+    "la red": [
+        "https://live.getcirca.run/3969875408/ts:abr.m3u8?PlaylistM3UCL",
+        "https://tv-mgmt.gtd.cl/bpk-tv/LARED/default/index.m3u8"
     ],
     "mega 2": [
         "http://15.204.196.147:22880/MEGA2-MEGAMEDIA-EE.UU-PROVEEDOR/index.m3u8"
@@ -52,9 +58,27 @@ EMERGENCY_POOL = {
         "https://mdstrm.com/live-stream-playlist/689ba606ecfe7915e1f8f741.m3u8?PlaylistM3UCL",
         "https://iptv.bitred.cl/tvn/index.m3u8"
     ],
+    "t13": [
+        "https://redirector.dps.live/hls/t13/playlist.m3u8",
+        "https://redirector.rudo.video/hls-video/10b92cafdf3646cbc1e727f3dc76863621a327fd/t13/t13.smil/playlist.m3u8?PlaylistM3UCL"
+    ],
     "meganoticias ahora": [
         "http://15.204.196.147:22880/MEGANOTICIA-MEGAMEDIA-EE.UU-PROVEEDOR/video.m3u8",
         "https://redirector.rudo.video/hls-video/ey6283je82983je9823je8jowowiekldk9838274/921tv/921tv.smil/playlist.m3u8"
+    ],
+    "tnt sport": [
+        "http://209.45.101.130:8040/play/a03s/index.m3u8"
+    ],
+    "espn": [
+        "https://barinaslive1.boldmss.com/ESPN_3/ESPN_3.isml/ESPN_3.m3u8"
+    ],
+    "13 realities": [
+        "https://origin.dpsgo.com/ssai/event/g7_JOM0ORki9SR5RKHe-Kw/master.m3u8",
+        "https://redirector.dps.live/hls/13realities/playlist.m3u8?PlaylistM3UCL"
+    ],
+    "13 festival": [
+        "https://origin.dpsgo.com/ssai/event/Nftd0fM2SXasfDlRphvUsg/master.m3u8",
+        "https://redirector.dps.live/hls/13festival/playlist.m3u8?PlaylistM3UCL"
     ]
 }
 
@@ -199,12 +223,15 @@ def main():
     print(f"Se encontraron {len(channels)} canales en {M3U_FILE}. Verificando estado en paralelo...")
 
     results = []
-    with ThreadPoolExecutor(max_workers=8) as executor:
+    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
         futures = [executor.submit(check_channel, ch) for ch in channels]
         for f in futures:
             results.append(f.result())
 
     total = len(results)
+    if total == 0:
+        print(f"Error: {M3U_FILE} no tiene canales válidos.")
+        sys.exit(1)
     online_count = sum(1 for r in results if r["online"])
     failover_count = sum(1 for r in results if r["used_backup"])
     offline_count = total - online_count

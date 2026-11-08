@@ -1,10 +1,13 @@
-# Actualización automática de la lista
+# Actualización desde una lista privada (opcional)
 
-El workflow `Guardián 24/7 - IPTV Chile` ahora hace dos cosas en cada ejecución:
+> **Nota:** el workflow actual usa por defecto las listas públicas
+> (`scripts/sync_public_sources.py`). Esta guía es solo para cuando tengas una
+> lista privada propia y quieras descargarla desde un secret de GitHub.
 
-1. Descarga la última lista M3U desde la URL privada que configures.
-2. Ejecuta el guardián de siempre para verificar canales, conmutar respaldos y
-   generar `STATUS.md`.
+El script `scripts/update_playlist.py` puede hacer dos cosas en cada ejecución:
+
+1. Descargar la última lista M3U desde la URL privada que configures.
+2. Fusionarla con `canales.m3u` (modo `merge`), conservando tus canales.
 
 La URL no se guarda en el repositorio: se lee desde un **secret** de GitHub.
 
