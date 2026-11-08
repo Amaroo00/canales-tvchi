@@ -47,8 +47,7 @@ EMERGENCY_POOL = {
         "http://15.204.196.147:22880/MEGA2-MEGAMEDIA-EE.UU-PROVEEDOR/index.m3u8"
     ],
     "chilevisión": [
-        "https://redirector.rudo.video/hls-video/10b92cafdf3646cbc1e727f3dc76863621a327fd/chv/chv.smil/playlist.m3u8?PlaylistM3UCL",
-        "https://redirector.rudo.video/hls-video/339f69c6122f6d8f4574732c235f09b7683e31a5/chvn/chvn.smil/playlist.m3u8?PlaylistM3UCL"
+        "https://redirector.rudo.video/hls-video/10b92cafdf3646cbc1e727f3dc76863621a327fd/chv/chv.smil/playlist.m3u8?PlaylistM3UCL"
     ],
     "tvn hd": [
         "https://iptv.bitred.cl/tvn/index.m3u8",
@@ -114,7 +113,7 @@ def test_stream(url, timeout=TIMEOUT):
         if "HTTP Error" in err_msg:
             err_msg = err_msg.replace("HTTP Error ", "Error ")
         # Tolerancia a Geobloqueo en GitHub Actions (403 Forbidden para CDNs que operan en Chile):
-        if "403" in err_msg and any(d in url for d in ["gtd.cl", "rudo.video", "dps.live", "dpsgo.com"]):
+        if "403" in err_msg and any(d in url for d in ["gtd.cl", "rudo.video", "dps.live", "dpsgo.com", "mdstrm.com"]):
             return True, "OK (Geo-CL 403)", int((time.time() - t0) * 1000)
         return False, err_msg[:30], 0
 

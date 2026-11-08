@@ -12,16 +12,14 @@ http://tr.live.clarovtrcdn.vtrplay.com/megahdchi/vxfmt=dp/playlist.m3u8?device_p
 
 #EXTINF:-1 tvg-logo="https://cdn.m3u.cl/logo/1569_CHV.png" group-title="Nacionales", Chilevisión (CHV)
 https://redirector.rudo.video/hls-video/10b92cafdf3646cbc1e727f3dc76863621a327fd/chv/chv.smil/playlist.m3u8?PlaylistM3UCL
-http://15.204.246.24:8080/CHVHD/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.m3u.cl/logo/458_TV_.png" group-title="Nacionales", TV+ (TV Más)
 https://redirector.rudo.video/hls-video/ey6283je82983je9823je8jowowiekldk9838274/tvmas/tvmas.smil/playlist.m3u8?PlaylistM3UCL
 https://jireh-8-hls-video-us-isp.dps.live/hls-video/ey6283je82983je9823je8jowowiekldk9838274/tvmas/tvmas.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/3FKZHL4.png" group-title="Nacionales", TVN HD
-https://cl-a8-i-e-rv11.cdn.mdstrm.com/live-stream-gdai/57a498c4d7b86d600e5461cb/linear/hls/pa/event/-4KOuBUDTUaXhzNVqMNjsQ/stream/55735f29-4f7b-460f-a39b-f881b650c968:SCL2/master.m3u8?aid=51c2f628b440bd797900051f&dnt=true&dual_render=1&access_token=ASJN6MlqIwCLwB5C9BiU9I3FlaoUnBrdQn9K7wQNCTgxg6w838tWB04Xhks5txdBNXgdXzK5rbK&uid=P3n5RHRjHEUm4FU3BuAJg9BQCYLuHGAT&sid=h3hnDIHPUljkq10ICBUrsSVbd14BouqW&pid=1CRMeqvIeaRQgPWk5v5uJNcPTtGCzdbn&ref=mdstrm.com&ext_pb=0&adInsertionGoogleStreamId=55735f29-4f7b-460f-a39b-f881b650c968%3ASCL2&CMCD=cid%3D%2257a498c4d7b86d600e5461cb%22%2Cmtp%3D500%2Cot%3Dm%2Csf%3Dh%2Csid%3D%221CRMeqvIeaRQgPWk5v5uJNcPTtGCzdbn%22%2Csu&es=cl-a8-i-e-rv11.cdn.mdstrm.com&ote=1794168035203&ot=aKT5qFlV9_tIh4LAG-e66w&proto=https&pz=cl
 https://mdstrm.com/live-stream-playlist/57a498c4d7b86d600e5461cb.m3u8?access_token=SvkApIaHDM37Cy955WHhbdOIGdXjg3y22fgqsNKyiKXUTGcxeoBobPeYKJyISrKql4kpVPj9nyu
-http://15.204.246.24:8080/TVNHD/index.m3u8
+https://cl-a8-i-e-rv11.cdn.mdstrm.com/live-stream-gdai/57a498c4d7b86d600e5461cb/linear/hls/pa/event/-4KOuBUDTUaXhzNVqMNjsQ/stream/55735f29-4f7b-460f-a39b-f881b650c968:SCL2/master.m3u8?aid=51c2f628b440bd797900051f&dnt=true&dual_render=1&access_token=ASJN6MlqIwCLwB5C9BiU9I3FlaoUnBrdQn9K7wQNCTgxg6w838tWB04Xhks5txdBNXgdXzK5rbK&uid=P3n5RHRjHEUm4FU3BuAJg9BQCYLuHGAT&sid=h3hnDIHPUljkq10ICBUrsSVbd14BouqW&pid=1CRMeqvIeaRQgPWk5v5uJNcPTtGCzdbn&ref=mdstrm.com&ext_pb=0&adInsertionGoogleStreamId=55735f29-4f7b-460f-a39b-f881b650c968%3ASCL2&CMCD=cid%3D%2257a498c4d7b86d600e5461cb%22%2Cmtp%3D500%2Cot%3Dm%2Csf%3Dh%2Csid%3D%221CRMeqvIeaRQgPWk5v5uJNcPTtGCzdbn%22%2Csu&es=cl-a8-i-e-rv11.cdn.mdstrm.com&ote=1794168035203&ot=aKT5qFlV9_tIh4LAG-e66w&proto=https&pz=cl
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/nJOVM6e.png" group-title="Nacionales", La Red
 https://live.getcirca.run/3969875408/ts:abr.m3u8?PlaylistM3UCL
@@ -50,7 +48,6 @@ https://redirector.rudo.video/hls-video/10b92cafdf3646cbc1e727f3dc76863621a327fd
 https://redirector.rudo.video/hls-video/10b92cafdf3646cbc1e727f3dc76863621a327fd/chvdeportes/chvdeportes.smil/playlist.m3u8?PlaylistM3UCL
 
 #EXTINF:-1 tvg-logo="https://cdn.m3u.cl/logo/45_NTV.png" group-title="Cultura", NTV (TVN Infantil/Cultural)
-https://mdstrm.com/live-stream-playlist/5653641561b4eba30a7e4929.m3u8?PlaylistM3UCL
 https://mdstrm.com/live-stream-playlist/5aaabe9e2c56420918184c6d.m3u8?PlaylistM3UCL
 
 #EXTINF:-1 tvg-logo="https://cdn.m3u.cl/logo/1437_TVN3.png" group-title="Retro", TVN3 Recuerdos
