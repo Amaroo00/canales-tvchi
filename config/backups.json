@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-11T01:26:26.411258+00:00",
+  "updated_at": "2026-11-11T01:28:40.578702+00:00",
   "source_warnings": [],
   "channels": {
     "Canal13.cl": [
@@ -48,7 +48,7 @@
     "LaRed.cl": [
       {
         "url": "https://ddycmnicl95kp.cloudfront.net/live/xmw27slnrnv8/master.m3u8",
-        "source": "Página pública de la emisora"
+        "source": "Catálogo aprobado"
       }
     ],
     "TVR.cl": [
