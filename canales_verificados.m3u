@@ -45,6 +45,11 @@ https://redirector.rudo.video/hls-video/339f69c6122f6d8f4574732c235f09b7683e31a5
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 https://redirector.rudo.video/hls-video/931b584451fa6dd1313ee66efbfd5802e3f3bcea/adntv/adntv.smil/playlist.m3u8
 
+#EXTINF:-1 tvg-id="Cooperativa.cl" tvg-name="Cooperativa TV" group-title="Radio con imagen",Cooperativa TV
+#EXTVLCOPT:http-referrer=https://www.cooperativa.cl/radioenvivo/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+https://unlimited1-cl-isp.dps.live/coopetv/coopetv.smil/playlist.m3u8
+
 #EXTINF:-1 tvg-id="AgriculturaTV.cl" tvg-name="Agricultura TV" group-title="Radio con imagen",Agricultura TV
 #EXTVLCOPT:http-referrer=https://www.radioagricultura.cl/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
@@ -124,11 +129,6 @@ https://origin.skarnetchile.com:8081/iquiquetv-hd/index.m3u8
 #EXTVLCOPT:http-referrer=https://www.itvpatagonia.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 https://redirector.dps.live/hls/itv/playlist.m3u8
-
-#EXTINF:-1 tvg-id="ElPinguinoTV.cl" tvg-name="El Pingüino TV" group-title="Regionales",El Pingüino TV
-#EXTVLCOPT:http-referrer=https://elpinguino.com/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-https://redirector.dps.live/hls/pinguinotv/playlist.m3u8
 
 #EXTINF:-1 tvg-id="UMAGTV.cl" tvg-name="UMAG TV" group-title="Regionales",UMAG TV
 #EXTVLCOPT:http-referrer=https://www.umagtv.cl/
