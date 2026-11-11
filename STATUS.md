@@ -1,6 +1,6 @@
 # 📡 Estado de canales — Guardián IPTV Chile
 
-> Última comprobación: **2026-11-11 01:34:47** (UTC).
+> Última comprobación: **2026-11-11 09:32:32** (UTC).
 > **28/42 señales verificadas con vídeo y audio**; 9 sin verificar, 4 con fallo, 0 restringidas y 1 sin fuente.
 
 Un 401/403 no se considera operativo ni demuestra geobloqueo. Las pruebas reflejan la IP del runner de GitHub, no una TV en Chile.
@@ -13,46 +13,46 @@ Un 401/403 no se considera operativo ni demuestra geobloqueo. Las pruebas reflej
 | Canal | Grupo | Estado | Audio / vídeo de la muestra | Respaldos verificados | Detalle |
 | :--- | :--- | :--- | :--- | ---: | :--- |
 | Canal 13 HD | Nacionales | ⚪ Sin verificar | No comprobado | 0 | HTTP 403: acceso restringido; no prueba geobloqueo |
-| Mega HD | Nacionales | 🟢 Operativo | aac 2ch, -22.8 dBFS / h264 1920×1080 | 1 | HLS, segmentos, vídeo y audio comprobados |
+| Mega HD | Nacionales | 🟢 Operativo | aac 2ch, -25.9 dBFS / h264 1920×1080 | 1 | HLS, segmentos, vídeo y audio comprobados |
 | Chilevisión (CHV) | Nacionales | ⚪ Sin verificar | No comprobado | 0 | HTTP 403: acceso restringido; no prueba geobloqueo |
-| TV+ (TV Más) | Nacionales | 🟢 Operativo | aac 2ch, -20.6 dBFS / h264 1280×720 | 1 | HLS, segmentos, vídeo y audio comprobados |
+| TV+ (TV Más) | Nacionales | 🟢 Operativo | aac 2ch, -22.2 dBFS / h264 1280×720 | 1 | HLS, segmentos, vídeo y audio comprobados |
 | TVN HD | Nacionales | ⚪ Sin verificar | No comprobado | 0 | HTTP 403: acceso restringido; no prueba geobloqueo |
-| La Red | Nacionales | 🟢 Operativo | aac 2ch, -31.4 dBFS / h264 1280×720 | 0 | HLS, segmentos, vídeo y audio comprobados |
-| TVR | Nacionales | 🟢 Operativo | aac 2ch, -25.5 dBFS / h264 1920×1080 | 1 | HLS, segmentos, vídeo y audio comprobados; puede no emitir las 24 h |
-| Wapp TV | Nacionales | 🟢 Operativo | aac 2ch, -25.0 dBFS / h264 1920×1080 | 0 | HLS, segmentos, vídeo y audio comprobados |
+| La Red | Nacionales | 🟡 Con aviso | aac 2ch, -180.0 dBFS / h264 1280×720 | 0 | Muestra casi silenciosa; puede ser una pausa de programación |
+| TVR | Nacionales | 🟢 Operativo | aac 2ch, -25.4 dBFS / h264 1920×1080 | 1 | HLS, segmentos, vídeo y audio comprobados; puede no emitir las 24 h |
+| Wapp TV | Nacionales | 🟢 Operativo | aac 2ch, -24.1 dBFS / h264 1920×1080 | 0 | HLS, segmentos, vídeo y audio comprobados |
 | TVN 24 Horas | Noticias | ⚪ Sin verificar | No comprobado | 0 | HTTP 403: acceso restringido; no prueba geobloqueo |
-| T13 En Vivo | Noticias | 🟢 Operativo | aac 2ch, -16.2 dBFS / h264 1280×720 | 1 | HLS, segmentos, vídeo y audio comprobados |
+| T13 En Vivo | Noticias | 🟢 Operativo | aac 2ch, -15.0 dBFS / h264 1280×720 | 1 | HLS, segmentos, vídeo y audio comprobados |
 | CHV Noticias | Noticias | 🟡 Con aviso | aac 2ch, -180.0 dBFS / h264 1280×720 | 0 | Muestra casi silenciosa; puede ser una pausa de programación |
-| BioBio TV | Noticias | 🟢 Operativo | aac 2ch, -16.2 dBFS / h264 1280×720 | 1 | HLS, segmentos, vídeo y audio comprobados |
+| BioBio TV | Noticias | 🟢 Operativo | aac 2ch, -15.4 dBFS / h264 1280×720 | 1 | HLS, segmentos, vídeo y audio comprobados |
 | Meganoticias Ahora | Noticias | ⚪ Sin verificar | No comprobado | 0 | HTTP 403: acceso restringido; no prueba geobloqueo |
-| ADN TV | Radio con imagen | 🟢 Operativo | aac 2ch, -20.0 dBFS / h264 1920×1080 | 0 | HLS, segmentos, vídeo y audio comprobados |
+| ADN TV | Radio con imagen | 🟢 Operativo | aac 2ch, -20.1 dBFS / h264 1920×1080 | 0 | HLS, segmentos, vídeo y audio comprobados |
 | Cooperativa TV | Radio con imagen | 🔴 Fallo observado | No comprobado | 0 | HTTP 404 |
-| Agricultura TV | Radio con imagen | 🟢 Operativo | aac 2ch, -25.1 dBFS / h264 854×480 | 0 | HLS, segmentos, vídeo y audio comprobados |
-| Pauta | Radio con imagen | 🟢 Operativo | aac 2ch, -26.8 dBFS / h264 1280×720 | 0 | HLS, segmentos, vídeo y audio comprobados |
+| Agricultura TV | Radio con imagen | 🟢 Operativo | aac 2ch, -12.7 dBFS / h264 1280×720 | 0 | HLS, segmentos, vídeo y audio comprobados |
+| Pauta | Radio con imagen | 🟢 Operativo | aac 2ch, -28.7 dBFS / h264 1920×1080 | 0 | HLS, segmentos, vídeo y audio comprobados |
 | CHV Deportes | Deportes | ⚪ Sin verificar | No comprobado | 0 | HTTP 403: acceso restringido; no prueba geobloqueo; puede no emitir las 24 h |
 | NTV (TVN Infantil/Cultural) | Infantil | ⚪ Sin verificar | No comprobado | 0 | HTTP 403: acceso restringido; no prueba geobloqueo |
-| TVN3 Recuerdos | Retro | 🟢 Operativo | aac 2ch, -25.7 dBFS / h264 1280×720 | 0 | HLS, segmentos, vídeo y audio comprobados |
-| TV Senado | Cultura | 🟢 Operativo | aac 2ch, -25.7 dBFS / h264 640×360 | 0 | HLS, segmentos, vídeo y audio comprobados; puede no emitir las 24 h |
+| TVN3 Recuerdos | Retro | 🟢 Operativo | aac 2ch, -21.8 dBFS / h264 1280×720 | 0 | HLS, segmentos, vídeo y audio comprobados |
+| TV Senado | Cultura | 🟡 Con aviso | aac 2ch, -180.0 dBFS / h264 640×360 | 0 | Muestra casi silenciosa; puede ser una pausa de programación; puede no emitir las 24 h |
 | UChile TV | Cultura | ⚪ Sin verificar | No comprobado | 0 | HTTP 403: acceso restringido; no prueba geobloqueo |
-| TVU | Cultura | 🟢 Operativo | aac 2ch, -23.3 dBFS / h264 1280×720 | 1 | HLS, segmentos, vídeo y audio comprobados |
-| UCV TV | Cultura | 🟢 Operativo | aac 2ch, -31.2 dBFS / h264 1280×720 | 0 | HLS, segmentos, vídeo y audio comprobados |
-| TV Usach | Cultura | 🟢 Operativo | aac 2ch, -14.6 dBFS / h264 640×360 | 1 | HLS, segmentos, vídeo y audio comprobados |
-| 13C Cultura | Cultura | 🟢 Operativo | aac 2ch, -25.0 dBFS / h264 1280×720 | 0 | HLS, segmentos, vídeo y audio comprobados |
-| 13 Realities | Entretenimiento | 🟢 Operativo | aac 2ch, -21.8 dBFS / h264 854×480 | 1 | HLS, segmentos, vídeo y audio comprobados |
+| TVU | Cultura | 🟢 Operativo | aac 2ch, -44.9 dBFS / h264 1280×720 | 1 | HLS, segmentos, vídeo y audio comprobados |
+| UCV TV | Cultura | 🟢 Operativo | aac 2ch, -23.7 dBFS / h264 1280×720 | 0 | HLS, segmentos, vídeo y audio comprobados |
+| TV Usach | Cultura | 🟢 Operativo | aac 2ch, -17.4 dBFS / h264 640×360 | 1 | HLS, segmentos, vídeo y audio comprobados |
+| 13C Cultura | Cultura | 🟢 Operativo | aac 2ch, -30.5 dBFS / h264 1280×720 | 0 | HLS, segmentos, vídeo y audio comprobados |
+| 13 Realities | Entretenimiento | 🟢 Operativo | aac 2ch, -33.1 dBFS / h264 1280×720 | 1 | HLS, segmentos, vídeo y audio comprobados |
 | Mega 2 | Entretenimiento | ⏳ Sin fuente | No comprobado | 0 | Pendiente: no se encontró una URL pública autorizada; no se usan retransmisores por IP. |
-| 13 Festival | Música | 🟢 Operativo | aac 2ch, -27.7 dBFS / h264 854×480 | 1 | HLS, segmentos, vídeo y audio comprobados |
-| 13 Humor | Entretenimiento | 🟢 Operativo | aac 2ch, -29.5 dBFS / h264 1280×720 | 0 | HLS, segmentos, vídeo y audio comprobados |
+| 13 Festival | Música | 🟢 Operativo | aac 2ch, -21.7 dBFS / h264 854×480 | 1 | HLS, segmentos, vídeo y audio comprobados |
+| 13 Humor | Entretenimiento | 🟢 Operativo | aac 2ch, -17.9 dBFS / h264 854×480 | 0 | HLS, segmentos, vídeo y audio comprobados |
 | 13 Kids | Infantil | 🔴 Fallo observado | No comprobado | 0 | Faltan paquetes de vídeo o una pista de audio |
 | 13 Entretención | Entretenimiento | 🔴 Fallo observado | No comprobado | 0 | HTTP 404 |
-| 13 Teleseries | Entretenimiento | 🟢 Operativo | aac 2ch, -28.8 dBFS / h264 854×480 | 0 | HLS, segmentos, vídeo y audio comprobados |
+| 13 Teleseries | Entretenimiento | 🟢 Operativo | aac 2ch, -24.5 dBFS / h264 1280×720 | 0 | HLS, segmentos, vídeo y audio comprobados |
 | 13 Prime | Entretenimiento | 🔴 Fallo observado | No comprobado | 0 | HTTP 404 |
-| Canal 9 Bío Bío | Regionales | 🟢 Operativo | aac 2ch, -20.9 dBFS / h264 1920×1080 | 0 | HLS, segmentos, vídeo y audio comprobados; puede no emitir las 24 h |
-| Antofagasta TV | Regionales | 🟢 Operativo | aac 2ch, -20.8 dBFS / h264 1920×1080 | 1 | HLS, segmentos, vídeo y audio comprobados |
-| Iquique TV | Regionales | 🟢 Operativo | aac 2ch, -24.4 dBFS / h264 1920×1080 | 0 | HLS, segmentos, vídeo y audio comprobados |
-| ITV Patagonia | Regionales | 🟢 Operativo | aac 2ch, -27.7 dBFS / h264 1280×720 | 2 | HLS, segmentos, vídeo y audio comprobados; puede no emitir las 24 h |
-| El Pingüino TV | Regionales | 🟢 Operativo | aac 2ch, -36.7 dBFS / h264 1280×720 | 0 | HLS, segmentos, vídeo y audio comprobados |
-| UMAG TV | Regionales | 🟢 Operativo | aac 2ch, -39.1 dBFS / h264 640×360 | 0 | HLS, segmentos, vídeo y audio comprobados |
-| DW Español | Internacional | 🟢 Operativo | aac 2ch, -27.0 dBFS / h264 960×540 | 0 | HLS, segmentos, vídeo y audio comprobados |
+| Canal 9 Bío Bío | Regionales | 🟢 Operativo | aac 2ch, -20.4 dBFS / h264 1280×720 | 0 | HLS, segmentos, vídeo y audio comprobados; puede no emitir las 24 h |
+| Antofagasta TV | Regionales | 🟢 Operativo | aac 2ch, -20.9 dBFS / h264 1920×1080 | 1 | HLS, segmentos, vídeo y audio comprobados |
+| Iquique TV | Regionales | 🟢 Operativo | aac 2ch, -14.1 dBFS / h264 1920×1080 | 0 | HLS, segmentos, vídeo y audio comprobados |
+| ITV Patagonia | Regionales | 🟢 Operativo | aac 2ch, -30.0 dBFS / h264 1280×720 | 2 | HLS, segmentos, vídeo y audio comprobados; puede no emitir las 24 h |
+| El Pingüino TV | Regionales | 🟢 Operativo | aac 2ch, -21.7 dBFS / h264 1280×720 | 0 | HLS, segmentos, vídeo y audio comprobados |
+| UMAG TV | Regionales | 🟢 Operativo | aac 2ch, -38.7 dBFS / h264 640×360 | 0 | HLS, segmentos, vídeo y audio comprobados |
+| DW Español | Internacional | 🟢 Operativo | aac 2ch, -26.2 dBFS / h264 960×540 | 0 | HLS, segmentos, vídeo y audio comprobados |
 | TV Chile | Internacional | ⚪ Sin verificar | No comprobado | 0 | HTTP 403: acceso restringido; no prueba geobloqueo |
 
 ## Avisos de actualización
