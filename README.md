@@ -95,7 +95,7 @@ selección final de idioma y códec depende también del reproductor.
 | `scripts/sync_public_sources.py` | Descubrimiento restringido al catálogo. |
 | `scripts/refresh_tokens.py` | Resolución del reproductor público de TVN, integrada en el guardián. |
 | `.github/workflows/guardian.yml` | Ejecución horaria, pruebas y publicación en `main`. |
-| `.github/workflows/tests.yml` | Pruebas en Python 3.9, 3.11 y 3.12; también en pull requests. |
+| `.github/workflows/tests.yml` | Pruebas en Python 3.11, 3.12 y 3.13; también en pull requests. |
 | `tests/test_iptv.py` | Pruebas deterministas sin depender de emisiones reales. |
 
 Para agregar un canal, edita `config/channels.json`, no el M3U generado.
@@ -120,7 +120,7 @@ a ejecutar el workflow con la configuración nueva.
 
 ## Pruebas locales opcionales
 
-No son necesarias para que el bot funcione en GitHub. Python 3.9+:
+No son necesarias para que el bot funcione en GitHub. Python 3.11+:
 
 ```powershell
 python -m unittest discover -s tests -v
