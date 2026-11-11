@@ -1,71 +1,36 @@
-# Renovación de tokens (canales públicos)
+# TVN y URLs temporales del reproductor público
 
-`scripts/refresh_tokens.py` renueva el token de TVN HD antes de que caduque.
-Se ejecuta en el workflow **antes** del guardián, para que este último siempre
-vea la señal más fresca.
+La renovación está **integrada en `scripts/guardian.py`** y se ejecuta cada hora
+en GitHub Actions. No requiere tu PC, cuentas personales ni cookies privadas.
+`scripts/refresh_tokens.py` expone el resolver; ejecutarlo solo no modifica el M3U.
 
-## Qué hace
+## Funcionamiento
 
-1. Lee `canales.m3u` y ubica el bloque de **TVN HD**.
-2. Entra a `https://live.tvn.cl/?tvn_subseccion=senal-tvn` (con `Referer` y
-   `Origin` de `tvn.cl`) y extrae el `id` y el `access_token` vigentes.
-3. Arma la URL `https://mdstrm.com/live-stream-playlist/<id>.m3u8?access_token=...`.
-4. **Valida** esa URL: debe responder `200` y entregar un `#EXTM3U` real.
-5. Solo entonces reemplaza la línea del token en `canales.m3u`.
-6. Escribe con `tmp` + `os.replace` (atómico).
+1. Consulta `https://live.tvn.cl/?tvn_subseccion=senal-tvn` por HTTPS con
+   verificación de certificado, respetando cualquier restricción de acceso.
+2. Solo acepta el ID conocido de TVN y un token que publique esa página.
+3. Construye una candidata de Mediastream y pasa por las mismas comprobaciones
+   de HLS, segmentos, paquetes de vídeo y decodificación de audio que el resto.
+4. Solo la selecciona si funciona mejor que las demás fuentes verificadas.
+5. No guarda el token en logs, diagnóstico ni `config/backups.json`. Si se
+   selecciona, la URL de reproducción pública puede contener ese token temporal.
 
-## Por qué no se cae
+Un 401/403 no significa éxito ni prueba que el canal esté geobloqueado.
+Si falla la página o el candidato, se conserva la fuente anterior aprobada,
+se prueban los demás candidatos y se informa el problema. **No se garantiza
+que una URL temporal dure hasta la siguiente ejecución.**
 
-- Si la página de TVN falla (por ejemplo, un `403` de Cloudflare desde los
-  runners de GitHub), no cambia nada: queda la URL anterior y el guardián
-  conmuta a `iptv.bitred.cl` o a la IP de respaldo.
-- Si el token nuevo no valida, tampoco cambia nada.
-- No borra canales, no reordena URLs y no toca otras líneas del archivo.
-- Solo modifica la línea de `mdstrm.com` dentro del bloque de TVN HD.
+No se recurre a retransmisores por IP ni se intercambia TVN por 24 Horas.
+No se eluden DRM, paywalls, captchas, geobloqueos ni controles de acceso.
 
-> Como el token rota en cada ejecución, es normal que el workflow haga un
-> commit nuevo cada 6 horas. El commit lleva `[skip ci]`, así que no dispara
-> una ejecución extra.
+## Diagnóstico
 
-## Ejecutarlo a mano
+En GitHub: **Actions → Guardián 24/7 - IPTV Chile → Run workflow**.
+Consulta el aviso de renovación en `STATUS.md` y el diagnóstico por fuente en
+`data/health.json`. Para una simulación local opcional:
 
-```sh
-cd canales-tvchi-nuevo
-
-# Ver qué haría, sin escribir
-DRY_RUN=1 python3 scripts/refresh_tokens.py
-
-# Aplicar
-python3 scripts/refresh_tokens.py
+```powershell
+python scripts/guardian.py --dry-run
 ```
 
-Variables opcionales: `M3U_FILE`, `TIMEOUT`, `RETRIES`, `USER_AGENT`,
-`STRICT=1` (devuelve error si no pudo renovar).
-
-## Agregar otro canal público
-
-Agrega un resolver en `scripts/refresh_tokens.py`, por ejemplo:
-
-```python
-def resolve_mi_canal(timeout, retries):
-    status, html, error = fetch(
-        "https://sitio-oficial.cl/envivo",
-        build_headers({"Referer": "https://sitio-oficial.cl/"}),
-        timeout,
-        retries,
-    )
-    if status != 200:
-        return None, f"HTTP {status}"
-
-    match = re.search(r"access_token\s*=\s*['\"]([^'\"]+)", html)
-    if not match:
-        return None, "no se encontró el token"
-
-    return f"https://cdn-oficial.cl/canal.m3u8?token={match.group(1)}", "ok"
-```
-
-Después agrégalo al bloque de `main()` junto a TVN, con su propia función
-`is_mi_canal(name)` y su validación previa.
-
-> Este script es solo para canales públicos/abiertos cuya señal oficial esté
-> disponible libremente. No salta DRM, paywalls ni tokens de canales premium.
+Guía vigente: [CONFIGURAR_BOT.md](CONFIGURAR_BOT.md).

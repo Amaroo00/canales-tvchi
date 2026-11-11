@@ -2,52 +2,81 @@ name: Guardián 24/7 - IPTV Chile
 
 on:
   schedule:
-    # Cada 3 horas (00:00, 03:00, 06:00, 09:00, 12:00, 15:00, 18:00, 21:00 UTC)
-    - cron: '0 */3 * * *'
-  workflow_dispatch: # Permite ejecutarlo manualmente desde GitHub
+    # Una vez por hora; minuto no redondo para reducir demoras de GitHub.
+    - cron: '17 * * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'config/channels.json'
+      - 'config/public_sources.json'
+      - 'config/logos.json'
+      - 'scripts/**'
+      - 'tests/**'
+      - '.github/workflows/guardian.yml'
 
 permissions:
-  contents: write # Necesario para actualizar canales.m3u y STATUS.md
+  contents: read
 
 concurrency:
-  group: guardian-iptv
+  group: guardian-iptv-main
   cancel-in-progress: false
 
 jobs:
   check-and-update:
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
-    timeout-minutes: 20
-
+    timeout-minutes: 35
+    permissions:
+      contents: write
+    env:
+      PYTHONUTF8: '1'
+      GUARDIAN_WORKERS: '6'
     steps:
       - name: Descargar repositorio
         uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
 
       - name: Configurar Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      - name: Sincronizar canales desde listas públicas
-        # Si una lista falla, el guardián igual corre con lo que ya hay.
-        continue-on-error: true
-        run: python scripts/sync_public_sources.py
-
-      - name: Renovar tokens de canales públicos (TVN)
-        continue-on-error: true
-        run: python scripts/refresh_tokens.py
-
-      - name: Ejecutar Guardián de Canales
-        run: python scripts/guardian.py
-
-      - name: Guardar cambios si hubo actualización
+      - name: Instalar herramientas de comprobación multimedia
         run: |
-          git config --global user.name "Guardian-IPTV[bot]"
-          git config --global user.email "guardian-bot@users.noreply.github.com"
-          git add canales.m3u STATUS.md
-          if git diff --staged --quiet; then
-            echo "Sin cambios: todos los canales siguen igual."
-          else
-            git commit -m "🤖 Guardián 24/7: lista actualizada y verificada [skip ci]"
-            git pull --rebase --autostash
-            git push
+          if ! command -v ffmpeg >/dev/null || ! command -v ffprobe >/dev/null; then
+            sudo apt-get update
+            sudo apt-get install --yes --no-install-recommends ffmpeg
+          fi
+          ffmpeg -version
+          ffprobe -version
+
+      - name: Ejecutar pruebas sin depender de señales externas
+        run: python -m unittest discover -s tests -v
+
+      - name: Descubrir fuentes y verificar HLS, vídeo y audio
+        run: python scripts/guardian.py --require-media-tools
+
+      - name: Guardar diagnóstico de la ejecución
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: diagnostico-canales-${{ github.run_id }}
+          path: |
+            STATUS.md
+            data/health.json
+          retention-days: 7
+
+      - name: Publicar lista y respaldos
+        run: |
+          git config user.name 'Guardian-IPTV[bot]'
+          git config user.email 'guardian-bot@users.noreply.github.com'
+          git add canales.m3u canales_verificados.m3u config/backups.json data/health.json STATUS.md
+          if ! git diff --staged --quiet; then
+            git commit -m '🤖 Señales y audio comprobados; respaldos actualizados [skip ci]'
+            # No mezclar snapshots calculados contra una configuración anterior.
+            # Si main cambió durante la prueba, el push falla sin forzar ni pisar cambios.
+            git push origin HEAD:main
           fi

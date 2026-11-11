@@ -1,5 +1,11 @@
 # Renovar tokens m3u8 desde tus propias fuentes
 
+> **Guía heredada/opcional.** El bot público actual renueva TVN dentro de
+> `scripts/guardian.py` y corre en GitHub Actions sin PC ni servidor propio.
+> Consulta [CONFIGURAR_BOT.md](CONFIGURAR_BOT.md). El M3U se regenera desde
+> `config/channels.json`; no conectes este motor genérico a la publicación pública
+> de credenciales privadas ni uses los pasos de systemd/cron como requisito.
+
 `scripts/refresh_from_sources.py` es el motor genérico. Tú le dices, en un JSON,
 de qué página o API sacar la URL de cada canal; el script la descarga, extrae las
 candidatas, las valida y solo entonces actualiza `canales.m3u`.

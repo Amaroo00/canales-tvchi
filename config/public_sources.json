@@ -1,13 +1,11 @@
 {
-  "_ayuda": "Fuentes públicas que mantienen canales.m3u actualizado. Edita 'lists' para agregar/quitar listas y 'aliases' para mapear el nombre de tu canal al nombre que usa la lista.",
-  "playlist": "canales.m3u",
-  "timeout": 12,
+  "_ayuda": "Descubrimiento limitado a config/channels.json. Los nombres, hosts y rutas deben coincidir. Nunca importa todo un catálogo externo ni acepta 401/403 como éxito.",
+  "timeout": 8,
   "max_urls_per_channel": 3,
-  "blocked_url_contains": ["15.204.246.24"],
   "lists": [
     {
       "name": "iptv-org Chile",
-      "url": "https://iptv-org.github.io/iptv/countries/cl.m3u",
+      "url": "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cl.m3u",
       "enabled": true
     },
     {
@@ -15,36 +13,5 @@
       "url": "https://cdn.m3u.cl/lista/CL.m3u",
       "enabled": true
     }
-  ],
-  "aliases": {
-    "Canal 13 HD": ["Canal 13", "Canal 13 (Chile)", "13"],
-    "Mega HD": ["Mega", "Mega (Chile)"],
-    "Chilevisión (CHV)": ["CHV", "ChileVision"],
-    "TV+ (TV Más)": ["TV+", "TV Más", "TVMAS"],
-    "TVN HD": ["TVN", "TVN (Chile)"],
-    "La Red": ["La Red"],
-    "TVN 24 Horas": ["TVN 24 Horas", "24 Horas"],
-    "T13 En Vivo": ["T13", "T13 En Vivo"],
-    "CHV Noticias": ["CHV Noticias"],
-    "BioBio TV": ["BioBio TV", "BioBio"],
-    "Meganoticias Ahora": ["Meganoticias Ahora", "Meganoticias"],
-    "CHV Deportes": ["CHV Deportes"],
-    "NTV (TVN Infantil/Cultural)": ["NTV"],
-    "TVN3 Recuerdos": ["TVN3", "TVN 3"],
-    "TV Senado": ["TV Senado"],
-    "UChile TV": ["UChile TV", "UChile"],
-    "TVU": ["TVU"],
-    "UCV TV": ["UCV", "UCV TV"],
-    "13C Cultura": ["13C", "13C Cultura"],
-    "13 Realities": ["13 Realities"],
-    "Mega 2": ["Mega 2"],
-    "13 Festival": ["13 Festival"],
-    "13 Humor": ["13 Humor"],
-    "13 Kids": ["13 Kids"],
-    "DW Español": ["DW Español", "DW (Español)", "DW"],
-    "TV Chile": ["TV Chile"],
-    "TNT Sport Chile": ["TNT Sports (Chile)", "TNT Sports", "TNT Sport Chile"],
-    "ESPN CHILE": ["ESPN 3 Latin America", "ESPN 3"],
-    "ESPN 3": ["ESPN 3 Latin America", "ESPN 3"]
-  }
+  ]
 }

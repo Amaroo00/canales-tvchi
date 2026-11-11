@@ -1,0 +1,916 @@
+{
+  "version": 1,
+  "checked_at": "2026-11-11 01:26:51 UTC",
+  "vantage": "local",
+  "warnings": [],
+  "channels": [
+    {
+      "id": "Canal13.cl",
+      "name": "Canal 13 HD",
+      "group": "Nacionales",
+      "state": "unverified",
+      "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+      "verified_backups": 0,
+      "candidate_count": 2,
+      "attempts": [
+        {
+          "host": "redirector.dps.live",
+          "source": "Catálogo aprobado",
+          "state": "unverified",
+          "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+          "latency_ms": 1219
+        },
+        {
+          "host": "redirector.dps.live",
+          "source": "Catálogo aprobado",
+          "state": "unverified",
+          "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+          "latency_ms": 1061
+        }
+      ],
+      "latency_ms": 1219
+    },
+    {
+      "id": "Mega.cl",
+      "name": "Mega HD",
+      "group": "Nacionales",
+      "state": "unverified",
+      "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+      "verified_backups": 0,
+      "candidate_count": 2,
+      "attempts": [
+        {
+          "host": "unlimited2-cl-isp.dps.live",
+          "source": "Catálogo aprobado",
+          "state": "unverified",
+          "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+          "latency_ms": 500
+        },
+        {
+          "host": "pantera1-100gb-cl-movistar.dps.live",
+          "source": "Catálogo aprobado",
+          "state": "unverified",
+          "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+          "latency_ms": 485
+        }
+      ],
+      "latency_ms": 500
+    },
+    {
+      "id": "ChileVision.cl",
+      "name": "Chilevisión (CHV)",
+      "group": "Nacionales",
+      "state": "unverified",
+      "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+      "verified_backups": 0,
+      "candidate_count": 1,
+      "attempts": [
+        {
+          "host": "redirector.rudo.video",
+          "source": "Catálogo aprobado",
+          "state": "unverified",
+          "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+          "latency_ms": 1953
+        }
+      ],
+      "latency_ms": 1953
+    },
+    {
+      "id": "TVPlus.cl",
+      "name": "TV+ (TV Más)",
+      "group": "Nacionales",
+      "state": "unverified",
+      "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+      "verified_backups": 0,
+      "candidate_count": 2,
+      "attempts": [
+        {
+          "host": "redirector.rudo.video",
+          "source": "Catálogo aprobado",
+          "state": "unverified",
+          "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+          "latency_ms": 1938
+        },
+        {
+          "host": "jireh-8-hls-video-us-isp.dps.live",
+          "source": "iptv-org Chile",
+          "state": "unverified",
+          "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+          "latency_ms": 4515
+        }
+      ],
+      "latency_ms": 1938
+    },
+    {
+      "id": "TVN.cl",
+      "name": "TVN HD",
+      "group": "Nacionales",
+      "state": "unverified",
+      "detail": "HTTP 401: acceso restringido; no prueba geobloqueo",
+      "verified_backups": 0,
+      "candidate_count": 2,
+      "attempts": [
+        {
+          "host": "mdstrm.com",
+          "source": "Catálogo aprobado",
+          "state": "unverified",
+          "detail": "HTTP 401: acceso restringido; no prueba geobloqueo",
+          "latency_ms": 265
+        },
+        {
+          "host": "mdstrm.com",
+          "source": "Reproductor público de TVN",
+          "state": "unverified",
+          "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+          "latency_ms": 2609
+        }
+      ],
+      "latency_ms": 265
+    },
+    {
+      "id": "LaRed.cl",
+      "name": "La Red",
+      "group": "Nacionales",
+      "state": "unverified",
+      "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+      "verified_backups": 0,
+      "candidate_count": 1,
+      "attempts": [
+        {
+          "host": "ddycmnicl95kp.cloudfront.net",
+          "source": "Página pública de la emisora",
+          "state": "unverified",
+          "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+          "latency_ms": 6703
+        }
+      ],
+      "latency_ms": 6703
+    },
+    {
+      "id": "TVR.cl",
+      "name": "TVR",
+      "group": "Nacionales",
+      "state": "unverified",
+      "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+      "verified_backups": 0,
+      "candidate_count": 2,
+      "attempts": [
+        {
+          "host": "unlimited1-us.dps.live",
+          "source": "Catálogo aprobado",
+          "state": "unverified",
+          "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+          "latency_ms": 3875
+        },
+        {
+          "host": "unlimited1-cl-isp.dps.live",
+          "source": "m3u.cl Chile",
+          "state": "unverified",
+          "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+          "latency_ms": 452
+        }
+      ],
+      "latency_ms": 3875
+    },
+    {
+      "id": "Wapp.cl",
+      "name": "Wapp TV",
+      "group": "Nacionales",
+      "state": "unverified",
+      "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+      "verified_backups": 0,
+      "candidate_count": 1,
+      "attempts": [
+        {
+          "host": "stream.wapptv.cl",
+          "source": "Catálogo aprobado",
+          "state": "unverified",
+          "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+          "latency_ms": 1671
+        }
+      ],
+      "latency_ms": 1671
+    },
+    {
+      "id": "24Horas.cl",
+      "name": "TVN 24 Horas",
+      "group": "Noticias",
+      "state": "unverified",
+      "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+      "verified_backups": 0,
+      "candidate_count": 1,
+      "attempts": [
+        {
+          "host": "mdstrm.com",
+          "source": "Catálogo aprobado",
+          "state": "unverified",
+          "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+          "latency_ms": 500
+        }
+      ],
+      "latency_ms": 500
+    },
+    {
+      "id": "T13EnVivo.cl",
+      "name": "T13 En Vivo",
+      "group": "Noticias",
+      "state": "unverified",
+      "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+      "verified_backups": 0,
+      "candidate_count": 3,
+      "attempts": [
+        {
+          "host": "redirector.dps.live",
+          "source": "Catálogo aprobado",
+          "state": "unverified",
+          "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+          "latency_ms": 1468
+        },
+        {
+          "host": "redirector.rudo.video",
+          "source": "Catálogo aprobado",
+          "state": "unverified",
+          "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+          "latency_ms": 860
+        },
+        {
+          "host": "jireh-2-hls-video-us-isp.dps.live",
+          "source": "iptv-org Chile",
+          "state": "offline",
+          "detail": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1010)>",
+          "latency_ms": 1327
+        }
+      ],
+      "latency_ms": 1468
+    },
+    {
+      "id": "CHVNoticias.cl",
+      "name": "CHV Noticias",
+      "group": "Noticias",
+      "state": "unverified",
+      "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+      "verified_backups": 0,
+      "candidate_count": 1,
+      "attempts": [
+        {
+          "host": "redirector.rudo.video",
+          "source": "Catálogo aprobado",
+          "state": "unverified",
+          "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+          "latency_ms": 828
+        }
+      ],
+      "latency_ms": 828
+    },
+    {
+      "id": "BioBioTV.cl",
+      "name": "BioBio TV",
+      "group": "Noticias",
+      "state": "unverified",
+      "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+      "verified_backups": 0,
+      "candidate_count": 2,
+      "attempts": [
+        {
+          "host": "redirector.rudo.video",
+          "source": "Catálogo aprobado",
+          "state": "unverified",
+          "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+          "latency_ms": 813
+        },
+        {
+          "host": "jireh-7-hls-video-us-isp.dps.live",
+          "source": "iptv-org Chile",
+          "state": "unverified",
+          "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+          "latency_ms": 1672
+        }
+      ],
+      "latency_ms": 813
+    },
+    {
+      "id": "MeganoticiasAhora.cl",
+      "name": "Meganoticias Ahora",
+      "group": "Noticias",
+      "state": "unverified",
+      "detail": "HTTP 403: acceso restringido; no prueba geobloqueo",
+      "verified_backups": 0,
+      "candidate_count": 1,
+      "attempts": [
+        {
+          "host": "mdstrm.com",
+          "source": "Catálogo aprobado",
+          "state": "unverified",
+          "detail": "HTTP 403: acceso restringido; no prueba geobloqueo",
+          "latency_ms": 218
+        }
+      ],
+      "latency_ms": 218
+    },
+    {
+      "id": "ADNTV.cl",
+      "name": "ADN TV",
+      "group": "Radio con imagen",
+      "state": "unverified",
+      "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+      "verified_backups": 0,
+      "candidate_count": 1,
+      "attempts": [
+        {
+          "host": "redirector.rudo.video",
+          "source": "Catálogo aprobado",
+          "state": "unverified",
+          "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+          "latency_ms": 1061
+        }
+      ],
+      "latency_ms": 1061
+    },
+    {
+      "id": "Cooperativa.cl",
+      "name": "Cooperativa TV",
+      "group": "Radio con imagen",
+      "state": "offline",
+      "detail": "HTTP 404",
+      "verified_backups": 0,
+      "candidate_count": 2,
+      "attempts": [
+        {
+          "host": "unlimited1-cl-isp.dps.live",
+          "source": "Catálogo aprobado",
+          "state": "offline",
+          "detail": "HTTP 404",
+          "latency_ms": 109
+        },
+        {
+          "host": "redirector.dps.live",
+          "source": "Página pública de la emisora",
+          "state": "offline",
+          "detail": "HTTP 404",
+          "latency_ms": 688
+        }
+      ],
+      "latency_ms": 109
+    },
+    {
+      "id": "AgriculturaTV.cl",
+      "name": "Agricultura TV",
+      "group": "Radio con imagen",
+      "state": "unverified",
+      "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+      "verified_backups": 0,
+      "candidate_count": 1,
+      "attempts": [
+        {
+          "host": "redirector.rudo.video",
+          "source": "Catálogo aprobado",
+          "state": "unverified",
+          "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+          "latency_ms": 859
+        }
+      ],
+      "latency_ms": 859
+    },
+    {
+      "id": "Pauta.cl",
+      "name": "Pauta",
+      "group": "Radio con imagen",
+      "state": "unverified",
+      "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+      "verified_backups": 0,
+      "candidate_count": 1,
+      "attempts": [
+        {
+          "host": "redirector.rudo.video",
+          "source": "Catálogo aprobado",
+          "state": "unverified",
+          "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+          "latency_ms": 905
+        }
+      ],
+      "latency_ms": 905
+    },
+    {
+      "id": "CHVDeportes.cl",
+      "name": "CHV Deportes",
+      "group": "Deportes",
+      "state": "unverified",
+      "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+      "verified_backups": 0,
+      "candidate_count": 1,
+      "attempts": [
+        {
+          "host": "redirector.rudo.video",
+          "source": "Catálogo aprobado",
+          "state": "unverified",
+          "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+          "latency_ms": 906
+        }
+      ],
+      "latency_ms": 906
+    },
+    {
+      "id": "NTV.cl",
+      "name": "NTV (TVN Infantil/Cultural)",
+      "group": "Infantil",
+      "state": "unverified",
+      "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+      "verified_backups": 0,
+      "candidate_count": 1,
+      "attempts": [
+        {
+          "host": "mdstrm.com",
+          "source": "Catálogo aprobado",
+          "state": "unverified",
+          "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+          "latency_ms": 625
+        }
+      ],
+      "latency_ms": 625
+    },
+    {
+      "id": "TVN3.cl",
+      "name": "TVN3 Recuerdos",
+      "group": "Retro",
+      "state": "unverified",
+      "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+      "verified_backups": 0,
+      "candidate_count": 1,
+      "attempts": [
+        {
+          "host": "mdstrm.com",
+          "source": "Catálogo aprobado",
+          "state": "unverified",
+          "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+          "latency_ms": 843
+        }
+      ],
+      "latency_ms": 843
+    },
+    {
+      "id": "TVSenado.cl",
+      "name": "TV Senado",
+      "group": "Cultura",
+      "state": "unverified",
+      "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+      "verified_backups": 0,
+      "candidate_count": 1,
+      "attempts": [
+        {
+          "host": "janus-tv-ply.senado.cl",
+          "source": "Catálogo aprobado",
+          "state": "unverified",
+          "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+          "latency_ms": 936
+        }
+      ],
+      "latency_ms": 936
+    },
+    {
+      "id": "UChileTV.cl",
+      "name": "UChile TV",
+      "group": "Cultura",
+      "state": "unverified",
+      "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+      "verified_backups": 0,
+      "candidate_count": 2,
+      "attempts": [
+        {
+          "host": "unlimited2-cl-isp.dps.live",
+          "source": "Catálogo aprobado",
+          "state": "unverified",
+          "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+          "latency_ms": 813
+        },
+        {
+          "host": "pantera1-100gb-cl-movistar.dps.live",
+          "source": "Catálogo aprobado",
+          "state": "unverified",
+          "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+          "latency_ms": 3500
+        }
+      ],
+      "latency_ms": 813
+    },
+    {
+      "id": "TVU.cl",
+      "name": "TVU",
+      "group": "Cultura",
+      "state": "unverified",
+      "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+      "verified_backups": 0,
+      "candidate_count": 2,
+      "attempts": [
+        {
+          "host": "unlimited1-cl-isp.dps.live",
+          "source": "Catálogo aprobado",
+          "state": "unverified",
+          "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+          "latency_ms": 764
+        },
+        {
+          "host": "unlimited6-cl.dps.live",
+          "source": "Catálogo aprobado",
+          "state": "unverified",
+          "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+          "latency_ms": 7750
+        }
+      ],
+      "latency_ms": 764
+    },
+    {
+      "id": "UCVTV.cl",
+      "name": "UCV TV",
+      "group": "Cultura",
+      "state": "unverified",
+      "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+      "verified_backups": 0,
+      "candidate_count": 1,
+      "attempts": [
+        {
+          "host": "unlimited2-cl-isp.dps.live",
+          "source": "Catálogo aprobado",
+          "state": "unverified",
+          "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+          "latency_ms": 734
+        }
+      ],
+      "latency_ms": 734
+    },
+    {
+      "id": "TVUsach.cl",
+      "name": "TV Usach",
+      "group": "Cultura",
+      "state": "unverified",
+      "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+      "verified_backups": 0,
+      "candidate_count": 2,
+      "attempts": [
+        {
+          "host": "stv4.janus.cl",
+          "source": "Catálogo aprobado",
+          "state": "unverified",
+          "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+          "latency_ms": 702
+        },
+        {
+          "host": "stv4.janus.cl",
+          "source": "m3u.cl Chile",
+          "state": "unverified",
+          "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+          "latency_ms": 375
+        }
+      ],
+      "latency_ms": 702
+    },
+    {
+      "id": "13C.cl",
+      "name": "13C Cultura",
+      "group": "Cultura",
+      "state": "unverified",
+      "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+      "verified_backups": 0,
+      "candidate_count": 1,
+      "attempts": [
+        {
+          "host": "origin.dpsgo.com",
+          "source": "Catálogo aprobado",
+          "state": "unverified",
+          "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+          "latency_ms": 750
+        }
+      ],
+      "latency_ms": 750
+    },
+    {
+      "id": "13Realities.cl",
+      "name": "13 Realities",
+      "group": "Entretenimiento",
+      "state": "unverified",
+      "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+      "verified_backups": 0,
+      "candidate_count": 2,
+      "attempts": [
+        {
+          "host": "origin.dpsgo.com",
+          "source": "Catálogo aprobado",
+          "state": "unverified",
+          "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+          "latency_ms": 719
+        },
+        {
+          "host": "redirector.dps.live",
+          "source": "Catálogo aprobado",
+          "state": "unverified",
+          "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+          "latency_ms": 1639
+        }
+      ],
+      "latency_ms": 719
+    },
+    {
+      "id": "Mega2.cl",
+      "name": "Mega 2",
+      "group": "Entretenimiento",
+      "state": "pending",
+      "detail": "Pendiente: no se encontró una URL pública autorizada; no se usan retransmisores por IP.",
+      "verified_backups": 0,
+      "candidate_count": 0,
+      "attempts": []
+    },
+    {
+      "id": "13Festival.cl",
+      "name": "13 Festival",
+      "group": "Música",
+      "state": "unverified",
+      "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+      "verified_backups": 0,
+      "candidate_count": 2,
+      "attempts": [
+        {
+          "host": "origin.dpsgo.com",
+          "source": "Catálogo aprobado",
+          "state": "unverified",
+          "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+          "latency_ms": 718
+        },
+        {
+          "host": "redirector.dps.live",
+          "source": "Catálogo aprobado",
+          "state": "unverified",
+          "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+          "latency_ms": 1125
+        }
+      ],
+      "latency_ms": 718
+    },
+    {
+      "id": "13Humor.cl",
+      "name": "13 Humor",
+      "group": "Entretenimiento",
+      "state": "unverified",
+      "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+      "verified_backups": 0,
+      "candidate_count": 1,
+      "attempts": [
+        {
+          "host": "origin.dpsgo.com",
+          "source": "Catálogo aprobado",
+          "state": "unverified",
+          "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+          "latency_ms": 1531
+        }
+      ],
+      "latency_ms": 1531
+    },
+    {
+      "id": "13Kids.cl",
+      "name": "13 Kids",
+      "group": "Infantil",
+      "state": "unverified",
+      "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+      "verified_backups": 0,
+      "candidate_count": 1,
+      "attempts": [
+        {
+          "host": "origin.dpsgo.com",
+          "source": "Catálogo aprobado",
+          "state": "unverified",
+          "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+          "latency_ms": 686
+        }
+      ],
+      "latency_ms": 686
+    },
+    {
+      "id": "13E.cl",
+      "name": "13 Entretención",
+      "group": "Entretenimiento",
+      "state": "offline",
+      "detail": "HTTP 404",
+      "verified_backups": 0,
+      "candidate_count": 1,
+      "attempts": [
+        {
+          "host": "origin.dpsgo.com",
+          "source": "Catálogo aprobado",
+          "state": "offline",
+          "detail": "HTTP 404",
+          "latency_ms": 531
+        }
+      ],
+      "latency_ms": 531
+    },
+    {
+      "id": "13T.cl",
+      "name": "13 Teleseries",
+      "group": "Entretenimiento",
+      "state": "unverified",
+      "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+      "verified_backups": 0,
+      "candidate_count": 1,
+      "attempts": [
+        {
+          "host": "origin.dpsgo.com",
+          "source": "Catálogo aprobado",
+          "state": "unverified",
+          "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+          "latency_ms": 875
+        }
+      ],
+      "latency_ms": 875
+    },
+    {
+      "id": "13P.cl",
+      "name": "13 Prime",
+      "group": "Entretenimiento",
+      "state": "offline",
+      "detail": "HTTP 404",
+      "verified_backups": 0,
+      "candidate_count": 1,
+      "attempts": [
+        {
+          "host": "origin.dpsgo.com",
+          "source": "Catálogo aprobado",
+          "state": "offline",
+          "detail": "HTTP 404",
+          "latency_ms": 656
+        }
+      ],
+      "latency_ms": 656
+    },
+    {
+      "id": "Canal9BioBioTelevision.cl",
+      "name": "Canal 9 Bío Bío",
+      "group": "Regionales",
+      "state": "unverified",
+      "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+      "verified_backups": 0,
+      "candidate_count": 1,
+      "attempts": [
+        {
+          "host": "unlimited6-cl.dps.live",
+          "source": "Catálogo aprobado",
+          "state": "unverified",
+          "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+          "latency_ms": 5686
+        }
+      ],
+      "latency_ms": 5686
+    },
+    {
+      "id": "AntofagastaTV.cl",
+      "name": "Antofagasta TV",
+      "group": "Regionales",
+      "state": "unverified",
+      "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+      "verified_backups": 0,
+      "candidate_count": 2,
+      "attempts": [
+        {
+          "host": "unlimited6-cl.dps.live",
+          "source": "Catálogo aprobado",
+          "state": "unverified",
+          "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+          "latency_ms": 5453
+        },
+        {
+          "host": "unlimited1-cl-isp.dps.live",
+          "source": "m3u.cl Chile",
+          "state": "unverified",
+          "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+          "latency_ms": 468
+        }
+      ],
+      "latency_ms": 5453
+    },
+    {
+      "id": "IquiqueTV.cl",
+      "name": "Iquique TV",
+      "group": "Regionales",
+      "state": "unverified",
+      "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+      "verified_backups": 0,
+      "candidate_count": 1,
+      "attempts": [
+        {
+          "host": "origin.skarnetchile.com",
+          "source": "Catálogo aprobado",
+          "state": "unverified",
+          "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+          "latency_ms": 3063
+        }
+      ],
+      "latency_ms": 3063
+    },
+    {
+      "id": "ITVPatagonia.cl",
+      "name": "ITV Patagonia",
+      "group": "Regionales",
+      "state": "unverified",
+      "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+      "verified_backups": 0,
+      "candidate_count": 3,
+      "attempts": [
+        {
+          "host": "redirector.dps.live",
+          "source": "Catálogo aprobado",
+          "state": "unverified",
+          "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+          "latency_ms": 1093
+        },
+        {
+          "host": "unlimited1-us.dps.live",
+          "source": "Catálogo aprobado",
+          "state": "unverified",
+          "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+          "latency_ms": 3672
+        },
+        {
+          "host": "unlimited1-cl-isp.dps.live",
+          "source": "m3u.cl Chile",
+          "state": "unverified",
+          "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+          "latency_ms": 468
+        }
+      ],
+      "latency_ms": 1093
+    },
+    {
+      "id": "ElPinguinoTV.cl",
+      "name": "El Pingüino TV",
+      "group": "Regionales",
+      "state": "unverified",
+      "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+      "verified_backups": 0,
+      "candidate_count": 1,
+      "attempts": [
+        {
+          "host": "redirector.dps.live",
+          "source": "Catálogo aprobado",
+          "state": "unverified",
+          "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+          "latency_ms": 10311
+        }
+      ],
+      "latency_ms": 10311
+    },
+    {
+      "id": "UMAGTV.cl",
+      "name": "UMAG TV",
+      "group": "Regionales",
+      "state": "unverified",
+      "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+      "verified_backups": 0,
+      "candidate_count": 1,
+      "attempts": [
+        {
+          "host": "tls-cl.cdnz.cl",
+          "source": "Catálogo aprobado",
+          "state": "unverified",
+          "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+          "latency_ms": 1422
+        }
+      ],
+      "latency_ms": 1422
+    },
+    {
+      "id": "DW.es",
+      "name": "DW Español",
+      "group": "Internacional",
+      "state": "unverified",
+      "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+      "verified_backups": 0,
+      "candidate_count": 1,
+      "attempts": [
+        {
+          "host": "dwamdstream104.akamaized.net",
+          "source": "Catálogo aprobado",
+          "state": "unverified",
+          "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+          "latency_ms": 452
+        }
+      ],
+      "latency_ms": 452
+    },
+    {
+      "id": "TVChile.cl",
+      "name": "TV Chile",
+      "group": "Internacional",
+      "state": "unverified",
+      "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+      "verified_backups": 0,
+      "candidate_count": 1,
+      "attempts": [
+        {
+          "host": "mdstrm.com",
+          "source": "Catálogo aprobado",
+          "state": "unverified",
+          "detail": "HLS y segmentos accesibles; falta verificar vídeo/audio con FFmpeg",
+          "latency_ms": 561
+        }
+      ],
+      "latency_ms": 561
+    }
+  ]
+}

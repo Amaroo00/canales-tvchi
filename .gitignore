@@ -3,3 +3,23 @@ __pycache__/
 *.tmp
 *.log
 config/sources.local.json
+
+# Credenciales de emparejamiento y control de la TV: nunca publicar.
+adbkey
+adbkey.*
+androidtv_key.pem
+androidtv_cert.pem
+tv_pair_code.txt
+*.p12
+*.pfx
+.env
+.env.*
+
+# Herramientas y capturas locales ajenas al bot de GitHub.
+adb_*.py
+androidtv_*.py
+control-tv.ps1
+*.apk
+fondo.jpg
+home_final.png
+pantalla.png

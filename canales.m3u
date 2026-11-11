@@ -1,104 +1,207 @@
 #EXTM3U
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/iptv-org/epg/master/sites/13.cl/13.cl.png" group-title="Nacionales", Canal 13 HD
+#EXTINF:-1 tvg-id="Canal13.cl" tvg-name="Canal 13 HD" tvg-logo="https://raw.githubusercontent.com/iptv-org/epg/master/sites/13.cl/13.cl.png" group-title="Nacionales",Canal 13 HD
+#EXTVLCOPT:http-referrer=https://www.13.cl/en-vivo
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 https://redirector.dps.live/hls/13cl/playlist.m3u8
-https://redirector.dps.live/hls/13cl/13cl.smil/playlist.m3u8
-https://redirector.dps.live/hls/13cl/playlist.m3u8?PlaylistM3UCL
 
-#EXTINF:-1 tvg-logo="https://cdn.m3u.cl/logo/455_Mega.png" group-title="Nacionales", Mega HD
-https://unlimited2-cl-isp.dps.live/mega/mega.smil/playlist.m3u8?PlaylistM3UCL
-https://unlimited1-cl-isp.dps.live/mega/mega.smil/playlist.m3u8
-http://tr.live.clarovtrcdn.vtrplay.com/megahdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_HD
+#EXTINF:-1 tvg-id="Mega.cl" tvg-name="Mega HD" tvg-logo="https://cdn.m3u.cl/logo/455_Mega.png" group-title="Nacionales",Mega HD
+#EXTVLCOPT:http-referrer=https://www.mega.cl/senal-en-vivo/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+https://unlimited2-cl-isp.dps.live/mega/mega.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://cdn.m3u.cl/logo/1569_CHV.png" group-title="Nacionales", Chilevisión (CHV)
-https://redirector.rudo.video/hls-video/10b92cafdf3646cbc1e727f3dc76863621a327fd/chv/chv.smil/playlist.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-id="ChileVision.cl" tvg-name="Chilevisión (CHV)" tvg-logo="https://cdn.m3u.cl/logo/1569_CHV.png" group-title="Nacionales",Chilevisión (CHV)
+#EXTVLCOPT:http-referrer=https://www.chilevision.cl/senal-online
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+https://redirector.rudo.video/hls-video/10b92cafdf3646cbc1e727f3dc76863621a327fd/chv/chv.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://cdn.m3u.cl/logo/458_TV_.png" group-title="Nacionales", TV+ (TV Más)
-https://redirector.rudo.video/hls-video/ey6283je82983je9823je8jowowiekldk9838274/tvmas/tvmas.smil/playlist.m3u8?PlaylistM3UCL
-https://jireh-8-hls-video-us-isp.dps.live/hls-video/ey6283je82983je9823je8jowowiekldk9838274/tvmas/tvmas.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="TVPlus.cl" tvg-name="TV+ (TV Más)" tvg-logo="https://cdn.m3u.cl/logo/458_TV_.png" group-title="Nacionales",TV+ (TV Más)
+#EXTVLCOPT:http-referrer=https://www.tvmas.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+https://redirector.rudo.video/hls-video/ey6283je82983je9823je8jowowiekldk9838274/tvmas/tvmas.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/3FKZHL4.png" group-title="Nacionales", TVN HD
-https://mdstrm.com/live-stream-playlist/57a498c4d7b86d600e5461cb.m3u8?access_token=pUuqCsaNY4agd3H1WsU6ifPU92mtMithRieSmJzwGwL3K9gWzj9QrFkRrTBHpa7l6pca0NSD9ny
+#EXTINF:-1 tvg-id="TVN.cl" tvg-name="TVN HD" tvg-logo="https://i.imgur.com/3FKZHL4.png" group-title="Nacionales",TVN HD
+#EXTVLCOPT:http-referrer=https://live.tvn.cl/?tvn_subseccion=senal-tvn
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+https://mdstrm.com/live-stream-playlist/57a498c4d7b86d600e5461cb.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/nJOVM6e.png" group-title="Nacionales", La Red
-https://live.getcirca.run/3969875408/ts:abr.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-id="LaRed.cl" tvg-name="La Red" tvg-logo="https://i.imgur.com/nJOVM6e.png" group-title="Nacionales",La Red
+#EXTVLCOPT:http-referrer=https://www.lared.cl/senal-online/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+https://ddycmnicl95kp.cloudfront.net/live/xmw27slnrnv8/master.m3u8
 
-#EXTINF:-1 tvg-logo="https://cdn.m3u.cl/logo/448_TVN_24_Horas.png" group-title="Noticias", TVN 24 Horas
-https://iptv.bitred.cl/tvn/index.m3u8
-https://mdstrm.com/live-stream-playlist/689ba606ecfe7915e1f8f741.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-id="TVR.cl" tvg-name="TVR" group-title="Nacionales",TVR
+#EXTVLCOPT:http-referrer=https://www.tvr.cl/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+https://unlimited1-us.dps.live/tvr/tvr.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://cdn.m3u.cl/logo/1054_T13.png" group-title="Noticias", T13 En Vivo
+#EXTINF:-1 tvg-id="Wapp.cl" tvg-name="Wapp TV" group-title="Nacionales",Wapp TV
+#EXTVLCOPT:http-referrer=https://www.wapptv.cl/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+https://stream.wapptv.cl/video/index.m3u8
+
+#EXTINF:-1 tvg-id="24Horas.cl" tvg-name="TVN 24 Horas" tvg-logo="https://cdn.m3u.cl/logo/448_TVN_24_Horas.png" group-title="Noticias",TVN 24 Horas
+#EXTVLCOPT:http-referrer=https://www.24horas.cl/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+https://mdstrm.com/live-stream-playlist/689ba606ecfe7915e1f8f741.m3u8
+
+#EXTINF:-1 tvg-id="T13EnVivo.cl" tvg-name="T13 En Vivo" tvg-logo="https://cdn.m3u.cl/logo/1054_T13.png" group-title="Noticias",T13 En Vivo
+#EXTVLCOPT:http-referrer=https://www.t13.cl/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 https://redirector.dps.live/hls/t13/playlist.m3u8
-https://redirector.rudo.video/hls-video/10b92cafdf3646cbc1e727f3dc76863621a327fd/t13/t13.smil/playlist.m3u8?PlaylistM3UCL
 
-#EXTINF:-1 tvg-logo="https://cdn.m3u.cl/logo/1153_CHV_Noticias.png" group-title="Noticias", CHV Noticias
-https://redirector.rudo.video/hls-video/339f69c6122f6d8f4574732c235f09b7683e31a5/chvn/chvn.smil/playlist.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-id="CHVNoticias.cl" tvg-name="CHV Noticias" tvg-logo="https://cdn.m3u.cl/logo/1153_CHV_Noticias.png" group-title="Noticias",CHV Noticias
+#EXTVLCOPT:http-referrer=https://www.chilevision.cl/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+https://redirector.rudo.video/hls-video/339f69c6122f6d8f4574732c235f09b7683e31a5/chvn/chvn.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/lhglEUP.png" group-title="Noticias", BioBio TV
+#EXTINF:-1 tvg-id="BioBioTV.cl" tvg-name="BioBio TV" tvg-logo="https://i.imgur.com/lhglEUP.png" group-title="Noticias",BioBio TV
+#EXTVLCOPT:http-referrer=https://www.biobiochile.cl/biobiotv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 https://redirector.rudo.video/hls-video/339f69c6122f6d8f4574732c235f09b7683e31a5/bbtv/bbtv.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://cdn.m3u.cl/logo/JCVEqTc.png" group-title="Noticias", Meganoticias Ahora
-http://15.204.196.147:22880/MEGANOTICIA-MEGAMEDIA-EE.UU-PROVEEDOR/video.m3u8
+#EXTINF:-1 tvg-id="MeganoticiasAhora.cl" tvg-name="Meganoticias Ahora" tvg-logo="https://cdn.m3u.cl/logo/JCVEqTc.png" group-title="Noticias",Meganoticias Ahora
+#EXTVLCOPT:http-referrer=https://www.meganoticias.cl/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+https://mdstrm.com/live-stream-playlist/561430ae330428c223687e1e.m3u8
+
+#EXTINF:-1 tvg-id="ADNTV.cl" tvg-name="ADN TV" group-title="Radio con imagen",ADN TV
+#EXTVLCOPT:http-referrer=https://www.adnradio.cl/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+https://redirector.rudo.video/hls-video/931b584451fa6dd1313ee66efbfd5802e3f3bcea/adntv/adntv.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Cooperativa.cl" tvg-name="Cooperativa TV" group-title="Radio con imagen",Cooperativa TV
+#EXTVLCOPT:http-referrer=https://www.cooperativa.cl/radioenvivo/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+https://unlimited1-cl-isp.dps.live/coopetv/coopetv.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-id="AgriculturaTV.cl" tvg-name="Agricultura TV" group-title="Radio con imagen",Agricultura TV
+#EXTVLCOPT:http-referrer=https://www.radioagricultura.cl/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 https://redirector.rudo.video/hls-video/ey6283je82983je9823je8jowowiekldk9838274/921tv/921tv.smil/playlist.m3u8
-https://mdstrm.com/live-stream-playlist/561430ae330428c223687e1e.m3u8?PlaylistM3UCL
 
-#EXTINF:-1 tvg-logo="https://cdn.m3u.cl/logo/1763_CHV_Deportes.png" group-title="Deportes", CHV Deportes
+#EXTINF:-1 tvg-id="Pauta.cl" tvg-name="Pauta" group-title="Radio con imagen",Pauta
+#EXTVLCOPT:http-referrer=https://www.pauta.cl/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+https://redirector.rudo.video/hls-video/ey6283je82983je9823je8jowowiekldk9838274/pautatv/pautatv.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-id="CHVDeportes.cl" tvg-name="CHV Deportes" tvg-logo="https://cdn.m3u.cl/logo/1763_CHV_Deportes.png" group-title="Deportes",CHV Deportes
+#EXTVLCOPT:http-referrer=https://www.chilevision.cl/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 https://redirector.rudo.video/hls-video/10b92cafdf3646cbc1e727f3dc76863621a327fd/chvdeportes/chvdeportes.smil/playlist.m3u8
-https://redirector.rudo.video/hls-video/10b92cafdf3646cbc1e727f3dc76863621a327fd/chvdeportes/chvdeportes.smil/playlist.m3u8?PlaylistM3UCL
 
-#EXTINF:-1 tvg-logo="https://cdn.m3u.cl/logo/45_NTV.png" group-title="Cultura", NTV (TVN Infantil/Cultural)
-https://mdstrm.com/live-stream-playlist/5aaabe9e2c56420918184c6d.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-id="NTV.cl" tvg-name="NTV (TVN Infantil/Cultural)" tvg-logo="https://cdn.m3u.cl/logo/45_NTV.png" group-title="Infantil",NTV (TVN Infantil/Cultural)
+#EXTVLCOPT:http-referrer=https://www.tvn.cl/ntv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+https://mdstrm.com/live-stream-playlist/5aaabe9e2c56420918184c6d.m3u8
 
-#EXTINF:-1 tvg-logo="https://cdn.m3u.cl/logo/1437_TVN3.png" group-title="Retro", TVN3 Recuerdos
-https://mdstrm.com/live-stream-playlist/5653641561b4eba30a7e4929.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-id="TVN3.cl" tvg-name="TVN3 Recuerdos" tvg-logo="https://cdn.m3u.cl/logo/1437_TVN3.png" group-title="Retro",TVN3 Recuerdos
+#EXTVLCOPT:http-referrer=https://www.tvn.cl/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 https://mdstrm.com/live-stream-playlist/5653641561b4eba30a7e4929.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/CNUZ6ig.png" group-title="Cultura", TV Senado
+#EXTINF:-1 tvg-id="TVSenado.cl" tvg-name="TV Senado" tvg-logo="https://i.imgur.com/CNUZ6ig.png" group-title="Cultura",TV Senado
+#EXTVLCOPT:http-referrer=https://tv.senado.cl/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 https://janus-tv-ply.senado.cl/playlist/playlist.m3u8
-https://janus-tv-ply.senado.cl/playlist/playlist.m3u8?PlaylistM3UCL
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e9/UChile_TV_logo_2020.png" group-title="Cultura", UChile TV
+#EXTINF:-1 tvg-id="UChileTV.cl" tvg-name="UChile TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e9/UChile_TV_logo_2020.png" group-title="Cultura",UChile TV
+#EXTVLCOPT:http-referrer=https://uchiletv.cl/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 https://unlimited2-cl-isp.dps.live/uchiletv/uchiletv.smil/playlist.m3u8
-https://pantera1-100gb-cl-movistar.dps.live/uchiletv/uchiletv.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/5vFMTxt/Logo-tvu.png" group-title="Cultura", TVU
+#EXTINF:-1 tvg-id="TVU.cl" tvg-name="TVU" tvg-logo="https://i.ibb.co/5vFMTxt/Logo-tvu.png" group-title="Cultura",TVU
+#EXTVLCOPT:http-referrer=https://www.tvu.cl/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 https://unlimited1-cl-isp.dps.live/tvu/tvu.smil/playlist.m3u8
-https://unlimited6-cl.dps.live/tvu/tvu.smil/playlist.m3u8
-https://pantera1-100gb-cl-movistar.dps.live/tvu/tvu.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/jjGpZf4T/UCV-Logo.png" group-title="Cultura", UCV TV
+#EXTINF:-1 tvg-id="UCVTV.cl" tvg-name="UCV TV" tvg-logo="https://i.postimg.cc/jjGpZf4T/UCV-Logo.png" group-title="Cultura",UCV TV
+#EXTVLCOPT:http-referrer=https://ucvtv.cl/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 https://unlimited2-cl-isp.dps.live/ucvtv2/ucvtv2.smil/playlist.m3u8
-https://pantera1-100gb-cl-movistar.dps.live/ucvtv2/ucvtv2.smil/playlist.m3u8
-https://unlimited2-cl-isp.dps.live/ucvtv2/ucvtv2.smil/playlist.m3u8?PlaylistM3UCL
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/Zfe2f5j.png" group-title="Cultura", 13C Cultura
+#EXTINF:-1 tvg-id="TVUsach.cl" tvg-name="TV Usach" group-title="Cultura",TV Usach
+#EXTVLCOPT:http-referrer=https://www.sdt.usach.cl/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+https://stv4.janus.cl/playlist/stream.m3u8
+
+#EXTINF:-1 tvg-id="13C.cl" tvg-name="13C Cultura" tvg-logo="https://i.imgur.com/Zfe2f5j.png" group-title="Cultura",13C Cultura
+#EXTVLCOPT:http-referrer=https://www.13.cl/13c
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 https://origin.dpsgo.com/ssai/event/GI-9cp_bT8KcerLpZwkuhw/master.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/m0SuwMU.png" group-title="Entretenimiento", 13 Realities
+#EXTINF:-1 tvg-id="13Realities.cl" tvg-name="13 Realities" tvg-logo="https://i.imgur.com/m0SuwMU.png" group-title="Entretenimiento",13 Realities
+#EXTVLCOPT:http-referrer=https://www.13.cl/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 https://origin.dpsgo.com/ssai/event/g7_JOM0ORki9SR5RKHe-Kw/master.m3u8
-https://redirector.dps.live/hls/13realities/playlist.m3u8?PlaylistM3UCL
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/c1ME00r.png" group-title="Entretenimiento", Mega 2
-http://15.204.196.147:22880/MEGA2-MEGAMEDIA-EE.UU-PROVEEDOR/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/Ymk6j5o.png" group-title="Música", 13 Festival
+#EXTINF:-1 tvg-id="13Festival.cl" tvg-name="13 Festival" tvg-logo="https://i.imgur.com/Ymk6j5o.png" group-title="Música",13 Festival
+#EXTVLCOPT:http-referrer=https://www.13.cl/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 https://origin.dpsgo.com/ssai/event/Nftd0fM2SXasfDlRphvUsg/master.m3u8
-https://redirector.dps.live/hls/13festival/playlist.m3u8?PlaylistM3UCL
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/KvMuTzN.png" group-title="Entretenimiento", 13 Humor
+#EXTINF:-1 tvg-id="13Humor.cl" tvg-name="13 Humor" tvg-logo="https://i.imgur.com/KvMuTzN.png" group-title="Entretenimiento",13 Humor
+#EXTVLCOPT:http-referrer=https://www.13.cl/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 https://origin.dpsgo.com/ssai/event/cKWySXKgSK-SzlJmESkOWw/master.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/8WJUbSD.png" group-title="Infantil", 13 Kids
+#EXTINF:-1 tvg-id="13Kids.cl" tvg-name="13 Kids" tvg-logo="https://i.imgur.com/8WJUbSD.png" group-title="Infantil",13 Kids
+#EXTVLCOPT:http-referrer=https://www.13.cl/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 https://origin.dpsgo.com/ssai/event/LhHrVtyeQkKZ-Ye_xEU75g/master.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/iptv-org/epg/master/sites/dw.com/dw.com_es.png" group-title="Internacional", DW Español
+#EXTINF:-1 tvg-id="13E.cl" tvg-name="13 Entretención" group-title="Entretenimiento",13 Entretención
+#EXTVLCOPT:http-referrer=https://www.13.cl/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+https://origin.dpsgo.com/ssai/event/BBp0VeP6QtOOlH8nu3bWTg/master.m3u8
+
+#EXTINF:-1 tvg-id="13T.cl" tvg-name="13 Teleseries" group-title="Entretenimiento",13 Teleseries
+#EXTVLCOPT:http-referrer=https://www.13.cl/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+https://origin.dpsgo.com/ssai/event/f4TrySe8SoiGF8Lu3EIq1g/master.m3u8
+
+#EXTINF:-1 tvg-id="13P.cl" tvg-name="13 Prime" group-title="Entretenimiento",13 Prime
+#EXTVLCOPT:http-referrer=https://www.13.cl/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+https://origin.dpsgo.com/ssai/event/p4mmBxEzSmKAxY1GusOHrw/master.m3u8
+
+#EXTINF:-1 tvg-id="Canal9BioBioTelevision.cl" tvg-name="Canal 9 Bío Bío" group-title="Regionales",Canal 9 Bío Bío
+#EXTVLCOPT:http-referrer=https://www.canal9.cl/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+https://unlimited6-cl.dps.live/c9/c9.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-id="AntofagastaTV.cl" tvg-name="Antofagasta TV" group-title="Regionales",Antofagasta TV
+#EXTVLCOPT:http-referrer=https://www.antofagasta.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+https://unlimited6-cl.dps.live/atv/atv.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-id="IquiqueTV.cl" tvg-name="Iquique TV" group-title="Regionales",Iquique TV
+#EXTVLCOPT:http-referrer=https://www.iquiquetv.cl/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+https://origin.skarnetchile.com:8081/iquiquetv-hd/index.m3u8
+
+#EXTINF:-1 tvg-id="ITVPatagonia.cl" tvg-name="ITV Patagonia" group-title="Regionales",ITV Patagonia
+#EXTVLCOPT:http-referrer=https://www.itvpatagonia.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+https://redirector.dps.live/hls/itv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="ElPinguinoTV.cl" tvg-name="El Pingüino TV" group-title="Regionales",El Pingüino TV
+#EXTVLCOPT:http-referrer=https://elpinguino.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+https://redirector.dps.live/hls/pinguinotv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="UMAGTV.cl" tvg-name="UMAG TV" group-title="Regionales",UMAG TV
+#EXTVLCOPT:http-referrer=https://www.umagtv.cl/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+https://tls-cl.cdnz.cl/umag1/ngrp:live_all/playlist.m3u8
+
+#EXTINF:-1 tvg-id="DW.es" tvg-name="DW Español" tvg-logo="https://raw.githubusercontent.com/iptv-org/epg/master/sites/dw.com/dw.com_es.png" group-title="Internacional",DW Español
+#EXTVLCOPT:http-referrer=https://www.dw.com/es/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/oYFto0V.png" group-title="Internacional", TV Chile
-http://168.196.127.137:6001/play/a03n/index.m3u8
+#EXTINF:-1 tvg-id="TVChile.cl" tvg-name="TV Chile" tvg-logo="https://i.imgur.com/oYFto0V.png" group-title="Internacional",TV Chile
+#EXTVLCOPT:http-referrer=https://www.tvn.cl/tvchile
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 https://mdstrm.com/live-stream-playlist/533adcc949386ce765657d7c.m3u8
-https://mdstrm.com/live-stream-playlist/533adcc949386ce765657d7c.m3u8?PlaylistM3UCL
-
-#EXTINF:-1 group-title="Nacionales", TNT Sport Chile
-http://209.45.101.130:8040/play/a03s/index.m3u8
 

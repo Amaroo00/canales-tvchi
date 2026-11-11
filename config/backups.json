@@ -1,0 +1,318 @@
+{
+  "version": 1,
+  "updated_at": "2026-11-11T01:26:26.411258+00:00",
+  "source_warnings": [],
+  "channels": {
+    "Canal13.cl": [
+      {
+        "url": "https://redirector.dps.live/hls/13cl/playlist.m3u8",
+        "source": "Catálogo aprobado"
+      },
+      {
+        "url": "https://redirector.dps.live/hls/13cl/13cl.smil/playlist.m3u8",
+        "source": "Catálogo aprobado"
+      }
+    ],
+    "Mega.cl": [
+      {
+        "url": "https://unlimited2-cl-isp.dps.live/mega/mega.smil/playlist.m3u8",
+        "source": "Catálogo aprobado"
+      },
+      {
+        "url": "https://pantera1-100gb-cl-movistar.dps.live/mega/mega.smil/playlist.m3u8",
+        "source": "Catálogo aprobado"
+      }
+    ],
+    "ChileVision.cl": [
+      {
+        "url": "https://redirector.rudo.video/hls-video/10b92cafdf3646cbc1e727f3dc76863621a327fd/chv/chv.smil/playlist.m3u8",
+        "source": "Catálogo aprobado"
+      }
+    ],
+    "TVPlus.cl": [
+      {
+        "url": "https://redirector.rudo.video/hls-video/ey6283je82983je9823je8jowowiekldk9838274/tvmas/tvmas.smil/playlist.m3u8",
+        "source": "Catálogo aprobado"
+      },
+      {
+        "url": "https://jireh-8-hls-video-us-isp.dps.live/hls-video/ey6283je82983je9823je8jowowiekldk9838274/tvmas/tvmas.smil/playlist.m3u8",
+        "source": "iptv-org Chile"
+      }
+    ],
+    "TVN.cl": [
+      {
+        "url": "https://mdstrm.com/live-stream-playlist/57a498c4d7b86d600e5461cb.m3u8",
+        "source": "Catálogo aprobado"
+      }
+    ],
+    "LaRed.cl": [
+      {
+        "url": "https://ddycmnicl95kp.cloudfront.net/live/xmw27slnrnv8/master.m3u8",
+        "source": "Página pública de la emisora"
+      }
+    ],
+    "TVR.cl": [
+      {
+        "url": "https://unlimited1-us.dps.live/tvr/tvr.smil/playlist.m3u8",
+        "source": "Catálogo aprobado"
+      },
+      {
+        "url": "https://unlimited1-cl-isp.dps.live/tvr/tvr.smil/playlist.m3u8",
+        "source": "m3u.cl Chile"
+      }
+    ],
+    "Wapp.cl": [
+      {
+        "url": "https://stream.wapptv.cl/video/index.m3u8",
+        "source": "Catálogo aprobado"
+      }
+    ],
+    "24Horas.cl": [
+      {
+        "url": "https://mdstrm.com/live-stream-playlist/689ba606ecfe7915e1f8f741.m3u8",
+        "source": "Catálogo aprobado"
+      }
+    ],
+    "T13EnVivo.cl": [
+      {
+        "url": "https://redirector.dps.live/hls/t13/playlist.m3u8",
+        "source": "Catálogo aprobado"
+      },
+      {
+        "url": "https://redirector.rudo.video/hls-video/10b92cafdf3646cbc1e727f3dc76863621a327fd/t13/t13.smil/playlist.m3u8",
+        "source": "Catálogo aprobado"
+      },
+      {
+        "url": "https://jireh-2-hls-video-us-isp.dps.live/hls-video/10b92cafdf3646cbc1e727f3dc76863621a327fd/t13/t13.smil/playlist.m3u8",
+        "source": "iptv-org Chile"
+      }
+    ],
+    "CHVNoticias.cl": [
+      {
+        "url": "https://redirector.rudo.video/hls-video/339f69c6122f6d8f4574732c235f09b7683e31a5/chvn/chvn.smil/playlist.m3u8",
+        "source": "Catálogo aprobado"
+      }
+    ],
+    "BioBioTV.cl": [
+      {
+        "url": "https://redirector.rudo.video/hls-video/339f69c6122f6d8f4574732c235f09b7683e31a5/bbtv/bbtv.smil/playlist.m3u8",
+        "source": "Catálogo aprobado"
+      },
+      {
+        "url": "https://jireh-7-hls-video-us-isp.dps.live/hls-video/339f69c6122f6d8f4574732c235f09b7683e31a5/bbtv/bbtv.smil/playlist.m3u8",
+        "source": "iptv-org Chile"
+      }
+    ],
+    "MeganoticiasAhora.cl": [
+      {
+        "url": "https://mdstrm.com/live-stream-playlist/561430ae330428c223687e1e.m3u8",
+        "source": "Catálogo aprobado"
+      }
+    ],
+    "ADNTV.cl": [
+      {
+        "url": "https://redirector.rudo.video/hls-video/931b584451fa6dd1313ee66efbfd5802e3f3bcea/adntv/adntv.smil/playlist.m3u8",
+        "source": "Catálogo aprobado"
+      }
+    ],
+    "Cooperativa.cl": [
+      {
+        "url": "https://redirector.dps.live/hls/coopetv/coopetv.smil/playlist.m3u8",
+        "source": "Página pública de la emisora"
+      },
+      {
+        "url": "https://unlimited1-cl-isp.dps.live/coopetv/coopetv.smil/playlist.m3u8",
+        "source": "Catálogo aprobado"
+      }
+    ],
+    "AgriculturaTV.cl": [
+      {
+        "url": "https://redirector.rudo.video/hls-video/ey6283je82983je9823je8jowowiekldk9838274/921tv/921tv.smil/playlist.m3u8",
+        "source": "Catálogo aprobado"
+      }
+    ],
+    "Pauta.cl": [
+      {
+        "url": "https://redirector.rudo.video/hls-video/ey6283je82983je9823je8jowowiekldk9838274/pautatv/pautatv.smil/playlist.m3u8",
+        "source": "Catálogo aprobado"
+      }
+    ],
+    "CHVDeportes.cl": [
+      {
+        "url": "https://redirector.rudo.video/hls-video/10b92cafdf3646cbc1e727f3dc76863621a327fd/chvdeportes/chvdeportes.smil/playlist.m3u8",
+        "source": "Catálogo aprobado"
+      }
+    ],
+    "NTV.cl": [
+      {
+        "url": "https://mdstrm.com/live-stream-playlist/5aaabe9e2c56420918184c6d.m3u8",
+        "source": "Catálogo aprobado"
+      }
+    ],
+    "TVN3.cl": [
+      {
+        "url": "https://mdstrm.com/live-stream-playlist/5653641561b4eba30a7e4929.m3u8",
+        "source": "Catálogo aprobado"
+      }
+    ],
+    "TVSenado.cl": [
+      {
+        "url": "https://janus-tv-ply.senado.cl/playlist/playlist.m3u8",
+        "source": "Catálogo aprobado"
+      }
+    ],
+    "UChileTV.cl": [
+      {
+        "url": "https://unlimited2-cl-isp.dps.live/uchiletv/uchiletv.smil/playlist.m3u8",
+        "source": "Catálogo aprobado"
+      },
+      {
+        "url": "https://pantera1-100gb-cl-movistar.dps.live/uchiletv/uchiletv.smil/playlist.m3u8",
+        "source": "Catálogo aprobado"
+      }
+    ],
+    "TVU.cl": [
+      {
+        "url": "https://unlimited1-cl-isp.dps.live/tvu/tvu.smil/playlist.m3u8",
+        "source": "Catálogo aprobado"
+      },
+      {
+        "url": "https://unlimited6-cl.dps.live/tvu/tvu.smil/playlist.m3u8",
+        "source": "Catálogo aprobado"
+      }
+    ],
+    "UCVTV.cl": [
+      {
+        "url": "https://unlimited2-cl-isp.dps.live/ucvtv2/ucvtv2.smil/playlist.m3u8",
+        "source": "Catálogo aprobado"
+      }
+    ],
+    "TVUsach.cl": [
+      {
+        "url": "https://stv4.janus.cl/playlist/stream.m3u8",
+        "source": "Catálogo aprobado"
+      },
+      {
+        "url": "https://stv4.janus.cl/playlist/stream.m3u8?s=lq&t=&id=luflljxo&q=&d=w",
+        "source": "m3u.cl Chile"
+      }
+    ],
+    "13C.cl": [
+      {
+        "url": "https://origin.dpsgo.com/ssai/event/GI-9cp_bT8KcerLpZwkuhw/master.m3u8",
+        "source": "Catálogo aprobado"
+      }
+    ],
+    "13Realities.cl": [
+      {
+        "url": "https://origin.dpsgo.com/ssai/event/g7_JOM0ORki9SR5RKHe-Kw/master.m3u8",
+        "source": "Catálogo aprobado"
+      },
+      {
+        "url": "https://redirector.dps.live/hls/13realities/playlist.m3u8",
+        "source": "Catálogo aprobado"
+      }
+    ],
+    "Mega2.cl": [],
+    "13Festival.cl": [
+      {
+        "url": "https://origin.dpsgo.com/ssai/event/Nftd0fM2SXasfDlRphvUsg/master.m3u8",
+        "source": "Catálogo aprobado"
+      },
+      {
+        "url": "https://redirector.dps.live/hls/13festival/playlist.m3u8",
+        "source": "Catálogo aprobado"
+      }
+    ],
+    "13Humor.cl": [
+      {
+        "url": "https://origin.dpsgo.com/ssai/event/cKWySXKgSK-SzlJmESkOWw/master.m3u8",
+        "source": "Catálogo aprobado"
+      }
+    ],
+    "13Kids.cl": [
+      {
+        "url": "https://origin.dpsgo.com/ssai/event/LhHrVtyeQkKZ-Ye_xEU75g/master.m3u8",
+        "source": "Catálogo aprobado"
+      }
+    ],
+    "13E.cl": [
+      {
+        "url": "https://origin.dpsgo.com/ssai/event/BBp0VeP6QtOOlH8nu3bWTg/master.m3u8",
+        "source": "Catálogo aprobado"
+      }
+    ],
+    "13T.cl": [
+      {
+        "url": "https://origin.dpsgo.com/ssai/event/f4TrySe8SoiGF8Lu3EIq1g/master.m3u8",
+        "source": "Catálogo aprobado"
+      }
+    ],
+    "13P.cl": [
+      {
+        "url": "https://origin.dpsgo.com/ssai/event/p4mmBxEzSmKAxY1GusOHrw/master.m3u8",
+        "source": "Catálogo aprobado"
+      }
+    ],
+    "Canal9BioBioTelevision.cl": [
+      {
+        "url": "https://unlimited6-cl.dps.live/c9/c9.smil/playlist.m3u8",
+        "source": "Catálogo aprobado"
+      }
+    ],
+    "AntofagastaTV.cl": [
+      {
+        "url": "https://unlimited6-cl.dps.live/atv/atv.smil/playlist.m3u8",
+        "source": "Catálogo aprobado"
+      },
+      {
+        "url": "https://unlimited1-cl-isp.dps.live/atv/atv.smil/playlist.m3u8",
+        "source": "m3u.cl Chile"
+      }
+    ],
+    "IquiqueTV.cl": [
+      {
+        "url": "https://origin.skarnetchile.com:8081/iquiquetv-hd/index.m3u8",
+        "source": "Catálogo aprobado"
+      }
+    ],
+    "ITVPatagonia.cl": [
+      {
+        "url": "https://redirector.dps.live/hls/itv/playlist.m3u8",
+        "source": "Catálogo aprobado"
+      },
+      {
+        "url": "https://unlimited1-us.dps.live/itv/itv.smil/playlist.m3u8",
+        "source": "Catálogo aprobado"
+      },
+      {
+        "url": "https://unlimited1-cl-isp.dps.live/itv/itv.smil/playlist.m3u8",
+        "source": "m3u.cl Chile"
+      }
+    ],
+    "ElPinguinoTV.cl": [
+      {
+        "url": "https://redirector.dps.live/hls/pinguinotv/playlist.m3u8",
+        "source": "Catálogo aprobado"
+      }
+    ],
+    "UMAGTV.cl": [
+      {
+        "url": "https://tls-cl.cdnz.cl/umag1/ngrp:live_all/playlist.m3u8",
+        "source": "Catálogo aprobado"
+      }
+    ],
+    "DW.es": [
+      {
+        "url": "https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8",
+        "source": "Catálogo aprobado"
+      }
+    ],
+    "TVChile.cl": [
+      {
+        "url": "https://mdstrm.com/live-stream-playlist/533adcc949386ce765657d7c.m3u8",
+        "source": "Catálogo aprobado"
+      }
+    ]
+  }
+}

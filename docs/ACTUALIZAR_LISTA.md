@@ -1,8 +1,11 @@
 # Actualización desde una lista privada (opcional)
 
-> **Nota:** el workflow actual usa por defecto las listas públicas
-> (`scripts/sync_public_sources.py`). Esta guía es solo para cuando tengas una
-> lista privada propia y quieras descargarla desde un secret de GitHub.
+> **Guía heredada/opcional.** El bot público actual se ejecuta en GitHub Actions
+> con `scripts/guardian.py` y genera la lista desde `config/channels.json`, sin PC
+> ni fuentes privadas. Consulta [CONFIGURAR_BOT.md](CONFIGURAR_BOT.md).
+> Este script no está conectado al workflow vigente. Nunca publiques credenciales,
+> cookies ni listas de pago en este repositorio público: un secret oculta la URL
+> de entrada, pero no convierte el M3U de salida en privado.
 
 El script `scripts/update_playlist.py` puede hacer dos cosas en cada ejecución:
 
@@ -19,7 +22,8 @@ La URL no se guarda en el repositorio: se lee desde un **secret** de GitHub.
 4. Valor: la URL completa de tu lista M3U.
 5. Guarda.
 
-Con eso, la próxima ejecución del workflow ya descarga la lista.
+Esto solo prepara el secret para una integración privada separada; el workflow
+público actual no lo consume.
 
 ### Headers opcionales
 
