@@ -128,7 +128,7 @@ https://origin.skarnetchile.com:8081/iquiquetv-hd/index.m3u8
 #EXTINF:-1 tvg-id="ITVPatagonia.cl" tvg-name="ITV Patagonia" group-title="Regionales",ITV Patagonia
 #EXTVLCOPT:http-referrer=https://www.itvpatagonia.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-https://redirector.dps.live/hls/itv/playlist.m3u8
+https://unlimited1-us.dps.live/itv/itv.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-id="ElPinguinoTV.cl" tvg-name="El Pingüino TV" group-title="Regionales",El Pingüino TV
 #EXTVLCOPT:http-referrer=https://elpinguino.com/
