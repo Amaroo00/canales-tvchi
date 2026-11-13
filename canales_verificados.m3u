@@ -8,7 +8,7 @@ https://unlimited2-cl-isp.dps.live/mega/mega.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="TVPlus.cl" tvg-name="TV+ (TV Más)" tvg-logo="https://cdn.m3u.cl/logo/458_TV_.png" group-title="Nacionales",TV+ (TV Más)
 #EXTVLCOPT:http-referrer=https://www.tvmas.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-https://jireh-8-hls-video-us-isp.dps.live/hls-video/ey6283je82983je9823je8jowowiekldk9838274/tvmas/tvmas.smil/playlist.m3u8
+https://redirector.rudo.video/hls-video/ey6283je82983je9823je8jowowiekldk9838274/tvmas/tvmas.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-id="LaRed.cl" tvg-name="La Red" tvg-logo="https://i.imgur.com/nJOVM6e.png" group-title="Nacionales",La Red
 #EXTVLCOPT:http-referrer=https://www.lared.cl/senal-online/
@@ -25,6 +25,11 @@ https://unlimited1-cl-isp.dps.live/tvr/tvr.smil/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 https://stream.wapptv.cl/video/index.m3u8
 
+#EXTINF:-1 tvg-id="T13EnVivo.cl" tvg-name="T13 En Vivo" tvg-logo="https://cdn.m3u.cl/logo/1054_T13.png" group-title="Noticias",T13 En Vivo
+#EXTVLCOPT:http-referrer=https://www.t13.cl/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+https://redirector.dps.live/hls/t13/playlist.m3u8
+
 #EXTINF:-1 tvg-id="CHVNoticias.cl" tvg-name="CHV Noticias" tvg-logo="https://cdn.m3u.cl/logo/1153_CHV_Noticias.png" group-title="Noticias",CHV Noticias
 #EXTVLCOPT:http-referrer=https://www.chilevision.cl/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
@@ -35,10 +40,15 @@ https://redirector.rudo.video/hls-video/339f69c6122f6d8f4574732c235f09b7683e31a5
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 https://redirector.rudo.video/hls-video/339f69c6122f6d8f4574732c235f09b7683e31a5/bbtv/bbtv.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-id="ADNTV.cl" tvg-name="ADN TV" group-title="Radio con imagen",ADN TV
-#EXTVLCOPT:http-referrer=https://www.adnradio.cl/
+#EXTINF:-1 tvg-id="Cooperativa.cl" tvg-name="Cooperativa TV" group-title="Radio con imagen",Cooperativa TV
+#EXTVLCOPT:http-referrer=https://www.cooperativa.cl/radioenvivo/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-https://redirector.rudo.video/hls-video/931b584451fa6dd1313ee66efbfd5802e3f3bcea/adntv/adntv.smil/playlist.m3u8
+https://unlimited1-cl-isp.dps.live/coopetv/coopetv.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Pauta.cl" tvg-name="Pauta" group-title="Radio con imagen",Pauta
+#EXTVLCOPT:http-referrer=https://www.pauta.cl/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+https://redirector.rudo.video/hls-video/ey6283je82983je9823je8jowowiekldk9838274/pautatv/pautatv.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-id="TVN3.cl" tvg-name="TVN3 Recuerdos" tvg-logo="https://cdn.m3u.cl/logo/1437_TVN3.png" group-title="Retro",TVN3 Recuerdos
 #EXTVLCOPT:http-referrer=https://www.tvn.cl/
@@ -85,11 +95,6 @@ https://redirector.dps.live/hls/13festival/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 https://origin.dpsgo.com/ssai/event/cKWySXKgSK-SzlJmESkOWw/master.m3u8
 
-#EXTINF:-1 tvg-id="13T.cl" tvg-name="13 Teleseries" group-title="Entretenimiento",13 Teleseries
-#EXTVLCOPT:http-referrer=https://www.13.cl/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-https://origin.dpsgo.com/ssai/event/f4TrySe8SoiGF8Lu3EIq1g/master.m3u8
-
 #EXTINF:-1 tvg-id="Canal9BioBioTelevision.cl" tvg-name="Canal 9 Bío Bío" group-title="Regionales",Canal 9 Bío Bío
 #EXTVLCOPT:http-referrer=https://www.canal9.cl/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
@@ -109,6 +114,11 @@ https://origin.skarnetchile.com:8081/iquiquetv-hd/index.m3u8
 #EXTVLCOPT:http-referrer=https://www.itvpatagonia.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 https://unlimited1-us.dps.live/itv/itv.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-id="ElPinguinoTV.cl" tvg-name="El Pingüino TV" group-title="Regionales",El Pingüino TV
+#EXTVLCOPT:http-referrer=https://elpinguino.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+https://redirector.dps.live/hls/pinguinotv/playlist.m3u8
 
 #EXTINF:-1 tvg-id="UMAGTV.cl" tvg-name="UMAG TV" group-title="Regionales",UMAG TV
 #EXTVLCOPT:http-referrer=https://www.umagtv.cl/
