@@ -40,10 +40,15 @@ https://redirector.rudo.video/hls-video/339f69c6122f6d8f4574732c235f09b7683e31a5
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 https://redirector.rudo.video/hls-video/339f69c6122f6d8f4574732c235f09b7683e31a5/bbtv/bbtv.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-id="Cooperativa.cl" tvg-name="Cooperativa TV" group-title="Radio con imagen",Cooperativa TV
-#EXTVLCOPT:http-referrer=https://www.cooperativa.cl/radioenvivo/
+#EXTINF:-1 tvg-id="ADNTV.cl" tvg-name="ADN TV" group-title="Radio con imagen",ADN TV
+#EXTVLCOPT:http-referrer=https://www.adnradio.cl/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-https://unlimited1-cl-isp.dps.live/coopetv/coopetv.smil/playlist.m3u8
+https://redirector.rudo.video/hls-video/931b584451fa6dd1313ee66efbfd5802e3f3bcea/adntv/adntv.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-id="AgriculturaTV.cl" tvg-name="Agricultura TV" group-title="Radio con imagen",Agricultura TV
+#EXTVLCOPT:http-referrer=https://www.radioagricultura.cl/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+https://redirector.rudo.video/hls-video/ey6283je82983je9823je8jowowiekldk9838274/921tv/921tv.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-id="Pauta.cl" tvg-name="Pauta" group-title="Radio con imagen",Pauta
 #EXTVLCOPT:http-referrer=https://www.pauta.cl/
@@ -94,6 +99,11 @@ https://redirector.dps.live/hls/13festival/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://www.13.cl/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 https://origin.dpsgo.com/ssai/event/cKWySXKgSK-SzlJmESkOWw/master.m3u8
+
+#EXTINF:-1 tvg-id="13T.cl" tvg-name="13 Teleseries" group-title="Entretenimiento",13 Teleseries
+#EXTVLCOPT:http-referrer=https://www.13.cl/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+https://origin.dpsgo.com/ssai/event/f4TrySe8SoiGF8Lu3EIq1g/master.m3u8
 
 #EXTINF:-1 tvg-id="Canal9BioBioTelevision.cl" tvg-name="Canal 9 Bío Bío" group-title="Regionales",Canal 9 Bío Bío
 #EXTVLCOPT:http-referrer=https://www.canal9.cl/
