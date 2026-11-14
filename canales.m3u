@@ -18,7 +18,7 @@ https://redirector.rudo.video/hls-video/10b92cafdf3646cbc1e727f3dc76863621a327fd
 #EXTINF:-1 tvg-id="TVPlus.cl" tvg-name="TV+ (TV Más)" tvg-logo="https://cdn.m3u.cl/logo/458_TV_.png" group-title="Nacionales",TV+ (TV Más)
 #EXTVLCOPT:http-referrer=https://www.tvmas.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-https://redirector.rudo.video/hls-video/ey6283je82983je9823je8jowowiekldk9838274/tvmas/tvmas.smil/playlist.m3u8
+https://jireh-8-hls-video-us-isp.dps.live/hls-video/ey6283je82983je9823je8jowowiekldk9838274/tvmas/tvmas.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-id="TVN.cl" tvg-name="TVN HD" tvg-logo="https://i.imgur.com/3FKZHL4.png" group-title="Nacionales",TVN HD
 #EXTVLCOPT:http-referrer=https://live.tvn.cl/?tvn_subseccion=senal-tvn
@@ -58,7 +58,7 @@ https://redirector.rudo.video/hls-video/339f69c6122f6d8f4574732c235f09b7683e31a5
 #EXTINF:-1 tvg-id="BioBioTV.cl" tvg-name="BioBio TV" tvg-logo="https://i.imgur.com/lhglEUP.png" group-title="Noticias",BioBio TV
 #EXTVLCOPT:http-referrer=https://www.biobiochile.cl/biobiotv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-https://redirector.rudo.video/hls-video/339f69c6122f6d8f4574732c235f09b7683e31a5/bbtv/bbtv.smil/playlist.m3u8
+https://jireh-7-hls-video-us-isp.dps.live/hls-video/339f69c6122f6d8f4574732c235f09b7683e31a5/bbtv/bbtv.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-id="MeganoticiasAhora.cl" tvg-name="Meganoticias Ahora" tvg-logo="https://cdn.m3u.cl/logo/JCVEqTc.png" group-title="Noticias",Meganoticias Ahora
 #EXTVLCOPT:http-referrer=https://www.meganoticias.cl/
