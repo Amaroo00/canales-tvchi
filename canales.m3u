@@ -48,7 +48,7 @@ https://mdstrm.com/live-stream-playlist/689ba606ecfe7915e1f8f741.m3u8
 #EXTINF:-1 tvg-id="T13EnVivo.cl" tvg-name="T13 En Vivo" tvg-logo="https://cdn.m3u.cl/logo/1054_T13.png" group-title="Noticias",T13 En Vivo
 #EXTVLCOPT:http-referrer=https://www.t13.cl/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-https://redirector.dps.live/hls/t13/playlist.m3u8
+https://redirector.rudo.video/hls-video/10b92cafdf3646cbc1e727f3dc76863621a327fd/t13/t13.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-id="CHVNoticias.cl" tvg-name="CHV Noticias" tvg-logo="https://cdn.m3u.cl/logo/1153_CHV_Noticias.png" group-title="Noticias",CHV Noticias
 #EXTVLCOPT:http-referrer=https://www.chilevision.cl/
@@ -173,7 +173,7 @@ https://unlimited6-cl.dps.live/c9/c9.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="AntofagastaTV.cl" tvg-name="Antofagasta TV" group-title="Regionales",Antofagasta TV
 #EXTVLCOPT:http-referrer=https://www.antofagasta.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-https://unlimited6-cl.dps.live/atv/atv.smil/playlist.m3u8
+https://unlimited1-cl-isp.dps.live/atv/atv.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-id="IquiqueTV.cl" tvg-name="Iquique TV" group-title="Regionales",Iquique TV
 #EXTVLCOPT:http-referrer=https://www.iquiquetv.cl/
