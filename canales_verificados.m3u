@@ -5,6 +5,11 @@
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 https://unlimited2-cl-isp.dps.live/mega/mega.smil/playlist.m3u8
 
+#EXTINF:-1 tvg-id="TVPlus.cl" tvg-name="TV+ (TV Más)" tvg-logo="https://cdn.m3u.cl/logo/458_TV_.png" group-title="Nacionales",TV+ (TV Más)
+#EXTVLCOPT:http-referrer=https://www.tvmas.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+https://jireh-8-hls-video-us-isp.dps.live/hls-video/ey6283je82983je9823je8jowowiekldk9838274/tvmas/tvmas.smil/playlist.m3u8
+
 #EXTINF:-1 tvg-id="LaRed.cl" tvg-name="La Red" tvg-logo="https://i.imgur.com/nJOVM6e.png" group-title="Nacionales",La Red
 #EXTVLCOPT:http-referrer=https://www.lared.cl/senal-online/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
@@ -80,6 +85,11 @@ https://redirector.dps.live/hls/13realities/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 https://origin.dpsgo.com/ssai/event/Nftd0fM2SXasfDlRphvUsg/master.m3u8
 
+#EXTINF:-1 tvg-id="13Humor.cl" tvg-name="13 Humor" tvg-logo="https://i.imgur.com/KvMuTzN.png" group-title="Entretenimiento",13 Humor
+#EXTVLCOPT:http-referrer=https://www.13.cl/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+https://origin.dpsgo.com/ssai/event/cKWySXKgSK-SzlJmESkOWw/master.m3u8
+
 #EXTINF:-1 tvg-id="13T.cl" tvg-name="13 Teleseries" group-title="Entretenimiento",13 Teleseries
 #EXTVLCOPT:http-referrer=https://www.13.cl/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
@@ -104,6 +114,11 @@ https://origin.skarnetchile.com:8081/iquiquetv-hd/index.m3u8
 #EXTVLCOPT:http-referrer=https://www.itvpatagonia.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 https://unlimited1-us.dps.live/itv/itv.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-id="ElPinguinoTV.cl" tvg-name="El Pingüino TV" group-title="Regionales",El Pingüino TV
+#EXTVLCOPT:http-referrer=https://elpinguino.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+https://redirector.dps.live/hls/pinguinotv/playlist.m3u8
 
 #EXTINF:-1 tvg-id="UMAGTV.cl" tvg-name="UMAG TV" group-title="Regionales",UMAG TV
 #EXTVLCOPT:http-referrer=https://www.umagtv.cl/
