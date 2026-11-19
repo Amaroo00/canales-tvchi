@@ -4,11 +4,13 @@
 #EXTVLCOPT:http-referrer=https://www.13.cl/en-vivo
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 https://redirector.dps.live/hls/13cl/playlist.m3u8
+https://redirector.dps.live/hls/13cl/13cl.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-id="Mega.cl" tvg-name="Mega HD" tvg-logo="https://cdn.m3u.cl/logo/455_Mega.png" group-title="Nacionales",Mega HD
 #EXTVLCOPT:http-referrer=https://www.mega.cl/senal-en-vivo/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-https://unlimited2-cl-isp.dps.live/mega/mega.smil/playlist.m3u8
+https://unlimited2-cl-isp.dps.live/mega/mega.smil/playlist.m3u8?PlaylistM3UCL
+https://unlimited1-cl-isp.dps.live/mega/mega.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-id="ChileVision.cl" tvg-name="Chilevisión (CHV)" tvg-logo="https://cdn.m3u.cl/logo/1569_CHV.png" group-title="Nacionales",Chilevisión (CHV)
 #EXTVLCOPT:http-referrer=https://www.chilevision.cl/senal-online
@@ -204,3 +206,15 @@ https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8
 #EXTVLCOPT:http-referrer=https://www.tvn.cl/tvchile
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 https://mdstrm.com/live-stream-playlist/533adcc949386ce765657d7c.m3u8
+
+#EXTINF:-1 tvg-name="TNT Sport Chile" group-title="Nacionales",TNT Sport Chile
+https://10.ftlly.com/tntsportschile/mono.m3u8?token=f1037059b8be716f3b3f0c64c1e30a6a8a6fa6a4-4f-1795070767-1795052767
+
+#EXTINF:-1 tvg-name="ESPN CHILE" group-title="Nacionales",ESPN CHILE
+https://6.ftlly.com/espn/mono.m3u8?token=3ad59b717abe614938f89867fce4712d8ff2c6ab-a5-1795070789-1795052789
+
+#EXTINF:-1 tvg-name="ESPN Chile PREMIUM" group-title="Nacionales",ESPN Chile PREMIUM
+https://7.ftlly.com/espnpremium/mono.m3u8?token=dbbe6aaf3b97f29e7577e0a3f9b3a10009452957-af-1795070811-1795052811
+
+#EXTINF:-1 tvg-name="ESPN 3" group-title="Nacionales",ESPN 3
+https://8.ftlly.com/espn3/mono.m3u8?token=df34337fc9131b1c0a194f77abcfcd4b6651211d-b4-1795070836-1795052836
