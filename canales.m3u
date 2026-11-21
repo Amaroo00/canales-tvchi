@@ -173,7 +173,7 @@ https://unlimited6-cl.dps.live/c9/c9.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="AntofagastaTV.cl" tvg-name="Antofagasta TV" group-title="Regionales",Antofagasta TV
 #EXTVLCOPT:http-referrer=https://www.antofagasta.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-https://unlimited1-cl-isp.dps.live/atv/atv.smil/playlist.m3u8
+https://unlimited6-cl.dps.live/atv/atv.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-id="IquiqueTV.cl" tvg-name="Iquique TV" group-title="Regionales",Iquique TV
 #EXTVLCOPT:http-referrer=https://www.iquiquetv.cl/
