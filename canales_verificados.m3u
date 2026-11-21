@@ -20,6 +20,11 @@ https://ddycmnicl95kp.cloudfront.net/live/xmw27slnrnv8/master.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 https://unlimited1-us.dps.live/tvr/tvr.smil/playlist.m3u8
 
+#EXTINF:-1 tvg-id="Wapp.cl" tvg-name="Wapp TV" group-title="Nacionales",Wapp TV
+#EXTVLCOPT:http-referrer=https://www.wapptv.cl/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+https://stream.wapptv.cl/video/index.m3u8
+
 #EXTINF:-1 tvg-id="T13EnVivo.cl" tvg-name="T13 En Vivo" tvg-logo="https://cdn.m3u.cl/logo/1054_T13.png" group-title="Noticias",T13 En Vivo
 #EXTVLCOPT:http-referrer=https://www.t13.cl/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
@@ -40,10 +45,20 @@ https://jireh-7-hls-video-us-isp.dps.live/hls-video/339f69c6122f6d8f4574732c235f
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 https://redirector.rudo.video/hls-video/931b584451fa6dd1313ee66efbfd5802e3f3bcea/adntv/adntv.smil/playlist.m3u8
 
+#EXTINF:-1 tvg-id="Cooperativa.cl" tvg-name="Cooperativa TV" group-title="Radio con imagen",Cooperativa TV
+#EXTVLCOPT:http-referrer=https://www.cooperativa.cl/radioenvivo/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+https://unlimited1-cl-isp.dps.live/coopetv/coopetv.smil/playlist.m3u8
+
 #EXTINF:-1 tvg-id="AgriculturaTV.cl" tvg-name="Agricultura TV" group-title="Radio con imagen",Agricultura TV
 #EXTVLCOPT:http-referrer=https://www.radioagricultura.cl/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 https://redirector.rudo.video/hls-video/ey6283je82983je9823je8jowowiekldk9838274/921tv/921tv.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Pauta.cl" tvg-name="Pauta" group-title="Radio con imagen",Pauta
+#EXTVLCOPT:http-referrer=https://www.pauta.cl/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+https://redirector.rudo.video/hls-video/ey6283je82983je9823je8jowowiekldk9838274/pautatv/pautatv.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-id="TVN3.cl" tvg-name="TVN3 Recuerdos" tvg-logo="https://cdn.m3u.cl/logo/1437_TVN3.png" group-title="Retro",TVN3 Recuerdos
 #EXTVLCOPT:http-referrer=https://www.tvn.cl/
@@ -58,7 +73,7 @@ https://janus-tv-ply.senado.cl/playlist/playlist.m3u8
 #EXTINF:-1 tvg-id="TVU.cl" tvg-name="TVU" tvg-logo="https://i.ibb.co/5vFMTxt/Logo-tvu.png" group-title="Cultura",TVU
 #EXTVLCOPT:http-referrer=https://www.tvu.cl/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-https://unlimited1-cl-isp.dps.live/tvu/tvu.smil/playlist.m3u8
+https://unlimited6-cl.dps.live/tvu/tvu.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-id="UCVTV.cl" tvg-name="UCV TV" tvg-logo="https://i.postimg.cc/jjGpZf4T/UCV-Logo.png" group-title="Cultura",UCV TV
 #EXTVLCOPT:http-referrer=https://ucvtv.cl/
