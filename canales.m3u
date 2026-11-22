@@ -25,7 +25,7 @@ https://jireh-8-hls-video-us-isp.dps.live/hls-video/ey6283je82983je9823je8jowowi
 #EXTINF:-1 tvg-id="TVN.cl" tvg-name="TVN HD" tvg-logo="https://i.imgur.com/3FKZHL4.png" group-title="Nacionales",TVN HD
 #EXTVLCOPT:http-referrer=https://live.tvn.cl/?tvn_subseccion=senal-tvn
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-https://cl-a8-i-e-rv11.cdn.mdstrm.com/live-stream-gdai/57a498c4d7b86d600e5461cb/linear/hls/pa/event/-4KOuBUDTUaXhzNVqMNjsQ/stream/71e55015-8a29-476f-b4ed-c58947aa399b:SCL2/master.m3u8?aid=51c2f628b440bd797900051f&dnt=true&dual_render=1&access_token=9LUYszayTfef5Xa4MehQYF7UuqKWFkYCYIlBZrWeDhTrSaY4CuGqU0B47lGDellkrvWOPpSGQi6&uid=P3n5RHRjHEUm4FU3BuAJg9BQCYLuHGAT&sid=xauPG5KLdXD8JV7DoZwf5gPesc3DbbrA&pid=GNwAYUU9PD2AyFg2mbA6EcHS78UNRv95&ref=mdstrm.com&ext_pb=0&adInsertionGoogleStreamId=71e55015-8a29-476f-b4ed-c58947aa399b%3ASCL2&CMCD=cid%3D%2257a498c4d7b86d600e5461cb%22%2Cmtp%3D500%2Cot%3Dm%2Csf%3Dh%2Csid%3D%22GNwAYUU9PD2AyFg2mbA6EcHS78UNRv95%22%2Csu&es=cl-a8-i-e-rv11.cdn.mdstrm.com&ote=1795460482474&ot=16sNOHwECQLeLBKryWoMrQ&proto=https&pz=cl
+https://cl-a8-i-e-rv11.cdn.mdstrm.com/live-stream-gdai/57a498c4d7b86d600e5461cb/linear/hls/pa/event/-4KOuBUDTUaXhzNVqMNjsQ/stream/261c35f8-e7a5-482b-abb2-81f8d740e7a3:SCL2/master.m3u8?aid=51c2f628b440bd797900051f&dnt=true&dual_render=1&access_token=zuys9csJz4h680UfoNfybBUo8jZKzVOJeTHo4szSVXLsEoeYvyjgymyrtsghjaXT7rjYx4fCJ9S&uid=P3n5RHRjHEUm4FU3BuAJg9BQCYLuHGAT&sid=xauPG5KLdXD8JV7DoZwf5gPesc3DbbrA&pid=z2SLS5aINs5eHEhOPPYW6Xmr0ckhekL8&ref=mdstrm.com&ext_pb=0&adInsertionGoogleStreamId=261c35f8-e7a5-482b-abb2-81f8d740e7a3%3ASCL2&CMCD=cid%3D%2257a498c4d7b86d600e5461cb%22%2Cmtp%3D500%2Cot%3Dm%2Csf%3Dh%2Csid%3D%22z2SLS5aINs5eHEhOPPYW6Xmr0ckhekL8%22%2Csu&es=cl-a8-i-e-rv11.cdn.mdstrm.com&ote=1795464038413&ot=llsOnIFu21LIqNshvcAWmg&proto=https&pz=cl
 
 #EXTINF:-1 tvg-id="LaRed.cl" tvg-name="La Red" tvg-logo="https://i.imgur.com/nJOVM6e.png" group-title="Nacionales",La Red
 #EXTVLCOPT:http-referrer=https://www.lared.cl/senal-online/
@@ -208,13 +208,13 @@ https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8
 https://mdstrm.com/live-stream-playlist/533adcc949386ce765657d7c.m3u8
 
 #EXTINF:-1 tvg-name="TNT Sport Chile" group-title="Nacionales",TNT Sport Chile
-https://5.ftlly.com/tntsportschile/mono.m3u8?token=2c5c8de3ceb0eca3aff0245018cde2c367700717-5e-1795391215-1795373215
+https://10.ftlly.com/tntsportschile/mono.m3u8?token=f9c7e82d55b28ccdf610d9018dc37e6e8d500437-c3-1795394769-1795376769
 
 #EXTINF:-1 tvg-name="ESPN CHILE" group-title="Nacionales",ESPN CHILE
-https://2.ftlly.com/espn/mono.m3u8?token=35a076c40769178ddb6a8dc5749909bed2050073-66-1795391237-1795373237
+https://4.ftlly.com/espn/mono.m3u8?token=4bd8f7a624653dbe3685203c25b2b29b79df0026-67-1795394796-1795376796
 
 #EXTINF:-1 tvg-name="ESPN Chile PREMIUM" group-title="Nacionales",ESPN Chile PREMIUM
-https://11.ftlly.com/espnpremium/mono.m3u8?token=10b513c4d2d9cba6d4d125778755dd324412f316-16-1795391260-1795373260
+https://5.ftlly.com/espnpremium/mono.m3u8?token=50dca95cb868c5fa2945859c15da8cc2b6dd2eed-52-1795394819-1795376819
 
 #EXTINF:-1 tvg-name="ESPN 3" group-title="Nacionales",ESPN 3
-https://8.ftlly.com/espn3/mono.m3u8?token=941d81eae0220549948e21788ca64d1d7936062a-14-1795391282-1795373282
+https://2.ftlly.com/espn3/mono.m3u8?token=d207489c9af0ea0d6d306e65dc506616845d4e39-74-1795394841-1795376841
