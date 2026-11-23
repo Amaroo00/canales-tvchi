@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checked_at": "2026-11-22 21:56:03 UTC",
+  "checked_at": "2026-11-23 02:54:50 UTC",
   "vantage": "GitHub Actions",
   "warnings": [
     "m3u.cl Chile: HTTP 403: acceso restringido; no prueba geobloqueo"
@@ -20,17 +20,17 @@
           "source": "Catálogo aprobado",
           "state": "unverified",
           "detail": "HTTP 403: acceso restringido; no prueba geobloqueo",
-          "latency_ms": 1059
+          "latency_ms": 1959
         },
         {
           "host": "redirector.dps.live",
           "source": "Catálogo aprobado",
           "state": "unverified",
           "detail": "HTTP 403: acceso restringido; no prueba geobloqueo",
-          "latency_ms": 677
+          "latency_ms": 1686
         }
       ],
-      "latency_ms": 1059
+      "latency_ms": 1959
     },
     {
       "id": "Mega.cl",
@@ -46,7 +46,7 @@
           "source": "Catálogo aprobado",
           "state": "online",
           "detail": "HLS, segmentos, vídeo y audio comprobados",
-          "latency_ms": 8017,
+          "latency_ms": 13256,
           "video": {
             "codec_name": "h264",
             "codec_type": "video",
@@ -59,8 +59,8 @@
             "codec_type": "audio",
             "sample_rate": "48000",
             "channels": 2,
-            "nb_read_packets": "282",
-            "rms_dbfs": -31.0,
+            "nb_read_packets": "281",
+            "rms_dbfs": -20.4,
             "clipping_percent": 0.0
           }
         },
@@ -69,7 +69,7 @@
           "source": "Catálogo aprobado",
           "state": "online",
           "detail": "HLS, segmentos, vídeo y audio comprobados",
-          "latency_ms": 11852,
+          "latency_ms": 11475,
           "video": {
             "codec_name": "h264",
             "codec_type": "video",
@@ -83,7 +83,7 @@
             "sample_rate": "48000",
             "channels": 2,
             "nb_read_packets": "282",
-            "rms_dbfs": -24.9,
+            "rms_dbfs": -21.0,
             "clipping_percent": 0.0
           }
         }
@@ -93,8 +93,8 @@
         "codec_type": "audio",
         "sample_rate": "48000",
         "channels": 2,
-        "nb_read_packets": "282",
-        "rms_dbfs": -31.0,
+        "nb_read_packets": "281",
+        "rms_dbfs": -20.4,
         "clipping_percent": 0.0
       },
       "video": {
@@ -104,7 +104,7 @@
         "height": 1080,
         "nb_read_packets": "179"
       },
-      "latency_ms": 8017
+      "latency_ms": 13256
     },
     {
       "id": "ChileVision.cl",
@@ -120,75 +120,43 @@
           "source": "Catálogo aprobado",
           "state": "unverified",
           "detail": "HTTP 403: acceso restringido; no prueba geobloqueo",
-          "latency_ms": 350
+          "latency_ms": 888
         },
         {
           "host": "redirector.dps.live",
           "source": "iptv-org Chile",
           "state": "unverified",
           "detail": "HTTP 403: acceso restringido; no prueba geobloqueo",
-          "latency_ms": 761
+          "latency_ms": 1635
         }
       ],
-      "latency_ms": 350
+      "latency_ms": 888
     },
     {
       "id": "TVPlus.cl",
       "name": "TV+ (TV Más)",
       "group": "Nacionales",
-      "state": "online",
-      "detail": "HLS, segmentos, vídeo y audio comprobados",
+      "state": "offline",
+      "detail": "Tiempo agotado al leer paquetes multimedia",
       "verified_backups": 0,
       "candidate_count": 2,
       "attempts": [
         {
           "host": "jireh-8-hls-video-us-isp.dps.live",
           "source": "iptv-org Chile",
-          "state": "online",
-          "detail": "HLS, segmentos, vídeo y audio comprobados",
-          "latency_ms": 56600,
-          "video": {
-            "codec_name": "h264",
-            "codec_type": "video",
-            "width": 1280,
-            "height": 720,
-            "nb_read_packets": "147"
-          },
-          "audio": {
-            "codec_name": "aac",
-            "codec_type": "audio",
-            "sample_rate": "48000",
-            "channels": 2,
-            "nb_read_packets": "226",
-            "rms_dbfs": -19.6,
-            "clipping_percent": 0.0
-          }
+          "state": "offline",
+          "detail": "Tiempo agotado al leer paquetes multimedia",
+          "latency_ms": 48626
         },
         {
           "host": "redirector.rudo.video",
           "source": "Catálogo aprobado",
           "state": "offline",
           "detail": "Tiempo agotado al leer paquetes multimedia",
-          "latency_ms": 28595
+          "latency_ms": 47946
         }
       ],
-      "audio": {
-        "codec_name": "aac",
-        "codec_type": "audio",
-        "sample_rate": "48000",
-        "channels": 2,
-        "nb_read_packets": "226",
-        "rms_dbfs": -19.6,
-        "clipping_percent": 0.0
-      },
-      "video": {
-        "codec_name": "h264",
-        "codec_type": "video",
-        "width": 1280,
-        "height": 720,
-        "nb_read_packets": "147"
-      },
-      "latency_ms": 56600
+      "latency_ms": 48626
     },
     {
       "id": "TVN.cl",
@@ -204,17 +172,17 @@
           "source": "Reproductor público de TVN",
           "state": "unverified",
           "detail": "HTTP 403: acceso restringido; no prueba geobloqueo",
-          "latency_ms": 119
+          "latency_ms": 230
         },
         {
           "host": "mdstrm.com",
           "source": "Catálogo aprobado",
           "state": "unverified",
           "detail": "HTTP 403: acceso restringido; no prueba geobloqueo",
-          "latency_ms": 33
+          "latency_ms": 157
         }
       ],
-      "latency_ms": 119
+      "latency_ms": 230
     },
     {
       "id": "LaRed.cl",
@@ -230,7 +198,7 @@
           "source": "Catálogo aprobado",
           "state": "online",
           "detail": "HLS, segmentos, vídeo y audio comprobados",
-          "latency_ms": 502,
+          "latency_ms": 1259,
           "video": {
             "codec_name": "h264",
             "codec_type": "video",
@@ -244,7 +212,7 @@
             "sample_rate": "48000",
             "channels": 2,
             "nb_read_packets": "282",
-            "rms_dbfs": -24.1,
+            "rms_dbfs": -25.3,
             "clipping_percent": 0.0
           }
         }
@@ -255,7 +223,7 @@
         "sample_rate": "48000",
         "channels": 2,
         "nb_read_packets": "282",
-        "rms_dbfs": -24.1,
+        "rms_dbfs": -25.3,
         "clipping_percent": 0.0
       },
       "video": {
@@ -265,7 +233,7 @@
         "height": 720,
         "nb_read_packets": "180"
       },
-      "latency_ms": 502
+      "latency_ms": 1259
     },
     {
       "id": "TVR.cl",
@@ -281,7 +249,7 @@
           "source": "Catálogo aprobado",
           "state": "online",
           "detail": "HLS, segmentos, vídeo y audio comprobados",
-          "latency_ms": 4573,
+          "latency_ms": 5439,
           "video": {
             "codec_name": "h264",
             "codec_type": "video",
@@ -295,7 +263,7 @@
             "sample_rate": "48000",
             "channels": 2,
             "nb_read_packets": "282",
-            "rms_dbfs": -23.4,
+            "rms_dbfs": -26.0,
             "clipping_percent": 0.0
           }
         },
@@ -304,21 +272,21 @@
           "source": "m3u.cl Chile",
           "state": "online",
           "detail": "HLS, segmentos, vídeo y audio comprobados",
-          "latency_ms": 7461,
+          "latency_ms": 13624,
           "video": {
             "codec_name": "h264",
             "codec_type": "video",
             "width": 1920,
             "height": 1080,
-            "nb_read_packets": "179"
+            "nb_read_packets": "180"
           },
           "audio": {
             "codec_name": "aac",
             "codec_type": "audio",
             "sample_rate": "48000",
             "channels": 2,
-            "nb_read_packets": "281",
-            "rms_dbfs": -23.5,
+            "nb_read_packets": "282",
+            "rms_dbfs": -24.8,
             "clipping_percent": 0.0
           }
         }
@@ -329,7 +297,7 @@
         "sample_rate": "48000",
         "channels": 2,
         "nb_read_packets": "282",
-        "rms_dbfs": -23.4,
+        "rms_dbfs": -26.0,
         "clipping_percent": 0.0
       },
       "video": {
@@ -339,7 +307,7 @@
         "height": 1080,
         "nb_read_packets": "180"
       },
-      "latency_ms": 4573
+      "latency_ms": 5439
     },
     {
       "id": "Wapp.cl",
@@ -355,13 +323,13 @@
           "source": "Catálogo aprobado",
           "state": "online",
           "detail": "HLS, segmentos, vídeo y audio comprobados",
-          "latency_ms": 8801,
+          "latency_ms": 11375,
           "video": {
             "codec_name": "h264",
             "codec_type": "video",
             "width": 1920,
             "height": 1080,
-            "nb_read_packets": "181"
+            "nb_read_packets": "180"
           },
           "audio": {
             "codec_name": "aac",
@@ -369,7 +337,7 @@
             "sample_rate": "48000",
             "channels": 2,
             "nb_read_packets": "282",
-            "rms_dbfs": -32.7,
+            "rms_dbfs": -24.4,
             "clipping_percent": 0.0
           }
         }
@@ -380,7 +348,7 @@
         "sample_rate": "48000",
         "channels": 2,
         "nb_read_packets": "282",
-        "rms_dbfs": -32.7,
+        "rms_dbfs": -24.4,
         "clipping_percent": 0.0
       },
       "video": {
@@ -388,9 +356,9 @@
         "codec_type": "video",
         "width": 1920,
         "height": 1080,
-        "nb_read_packets": "181"
+        "nb_read_packets": "180"
       },
-      "latency_ms": 8801
+      "latency_ms": 11375
     },
     {
       "id": "24Horas.cl",
@@ -406,10 +374,10 @@
           "source": "Catálogo aprobado",
           "state": "unverified",
           "detail": "HTTP 403: acceso restringido; no prueba geobloqueo",
-          "latency_ms": 29
+          "latency_ms": 116
         }
       ],
-      "latency_ms": 29
+      "latency_ms": 116
     },
     {
       "id": "T13EnVivo.cl",
@@ -417,22 +385,15 @@
       "group": "Noticias",
       "state": "online",
       "detail": "HLS, segmentos, vídeo y audio comprobados",
-      "verified_backups": 0,
+      "verified_backups": 1,
       "candidate_count": 3,
       "attempts": [
-        {
-          "host": "redirector.rudo.video",
-          "source": "Catálogo aprobado",
-          "state": "offline",
-          "detail": "Tiempo agotado al leer paquetes multimedia",
-          "latency_ms": 47177
-        },
         {
           "host": "redirector.dps.live",
           "source": "Catálogo aprobado",
           "state": "online",
           "detail": "HLS, segmentos, vídeo y audio comprobados",
-          "latency_ms": 2138,
+          "latency_ms": 4045,
           "video": {
             "codec_name": "h264",
             "codec_type": "video",
@@ -446,8 +407,31 @@
             "sample_rate": "44100",
             "channels": 2,
             "nb_read_packets": "259",
-            "rms_dbfs": -17.0,
-            "clipping_percent": 0.0
+            "rms_dbfs": -15.4,
+            "clipping_percent": 0.03
+          }
+        },
+        {
+          "host": "redirector.rudo.video",
+          "source": "Catálogo aprobado",
+          "state": "online",
+          "detail": "HLS, segmentos, vídeo y audio comprobados",
+          "latency_ms": 4013,
+          "video": {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720,
+            "nb_read_packets": "180"
+          },
+          "audio": {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "sample_rate": "44100",
+            "channels": 2,
+            "nb_read_packets": "258",
+            "rms_dbfs": -16.4,
+            "clipping_percent": 0.04
           }
         },
         {
@@ -455,7 +439,7 @@
           "source": "iptv-org Chile",
           "state": "offline",
           "detail": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1018)>",
-          "latency_ms": 655
+          "latency_ms": 880
         }
       ],
       "audio": {
@@ -464,8 +448,8 @@
         "sample_rate": "44100",
         "channels": 2,
         "nb_read_packets": "259",
-        "rms_dbfs": -17.0,
-        "clipping_percent": 0.0
+        "rms_dbfs": -15.4,
+        "clipping_percent": 0.03
       },
       "video": {
         "codec_name": "h264",
@@ -474,7 +458,7 @@
         "height": 720,
         "nb_read_packets": "180"
       },
-      "latency_ms": 2138
+      "latency_ms": 4045
     },
     {
       "id": "CHVNoticias.cl",
@@ -490,7 +474,7 @@
           "source": "Catálogo aprobado",
           "state": "warning",
           "detail": "Muestra casi silenciosa; puede ser una pausa de programación",
-          "latency_ms": 1276,
+          "latency_ms": 2744,
           "video": {
             "codec_name": "h264",
             "codec_type": "video",
@@ -525,7 +509,7 @@
         "height": 720,
         "nb_read_packets": "150"
       },
-      "latency_ms": 1276
+      "latency_ms": 2744
     },
     {
       "id": "BioBioTV.cl",
@@ -533,52 +517,36 @@
       "group": "Noticias",
       "state": "online",
       "detail": "HLS, segmentos, vídeo y audio comprobados",
-      "verified_backups": 1,
+      "verified_backups": 0,
       "candidate_count": 2,
       "attempts": [
         {
           "host": "jireh-7-hls-video-us-isp.dps.live",
           "source": "iptv-org Chile",
-          "state": "online",
-          "detail": "HLS, segmentos, vídeo y audio comprobados",
-          "latency_ms": 2462,
-          "video": {
-            "codec_name": "h264",
-            "codec_type": "video",
-            "width": 1280,
-            "height": 720,
-            "nb_read_packets": "179"
-          },
-          "audio": {
-            "codec_name": "aac",
-            "codec_type": "audio",
-            "sample_rate": "48000",
-            "channels": 2,
-            "nb_read_packets": "280",
-            "rms_dbfs": -19.1,
-            "clipping_percent": 0.0
-          }
+          "state": "offline",
+          "detail": "Tiempo agotado al leer paquetes multimedia",
+          "latency_ms": 29947
         },
         {
           "host": "redirector.rudo.video",
           "source": "Catálogo aprobado",
           "state": "online",
           "detail": "HLS, segmentos, vídeo y audio comprobados",
-          "latency_ms": 38289,
+          "latency_ms": 17401,
           "video": {
             "codec_name": "h264",
             "codec_type": "video",
-            "width": 1280,
-            "height": 720,
-            "nb_read_packets": "150"
+            "width": 854,
+            "height": 480,
+            "nb_read_packets": "180"
           },
           "audio": {
             "codec_name": "aac",
             "codec_type": "audio",
             "sample_rate": "48000",
             "channels": 2,
-            "nb_read_packets": "234",
-            "rms_dbfs": -16.4,
+            "nb_read_packets": "282",
+            "rms_dbfs": -17.4,
             "clipping_percent": 0.0
           }
         }
@@ -588,18 +556,18 @@
         "codec_type": "audio",
         "sample_rate": "48000",
         "channels": 2,
-        "nb_read_packets": "280",
-        "rms_dbfs": -19.1,
+        "nb_read_packets": "282",
+        "rms_dbfs": -17.4,
         "clipping_percent": 0.0
       },
       "video": {
         "codec_name": "h264",
         "codec_type": "video",
-        "width": 1280,
-        "height": 720,
-        "nb_read_packets": "179"
+        "width": 854,
+        "height": 480,
+        "nb_read_packets": "180"
       },
-      "latency_ms": 2462
+      "latency_ms": 17401
     },
     {
       "id": "MeganoticiasAhora.cl",
@@ -615,10 +583,10 @@
           "source": "Catálogo aprobado",
           "state": "unverified",
           "detail": "HTTP 401: acceso restringido; no prueba geobloqueo",
-          "latency_ms": 32
+          "latency_ms": 125
         }
       ],
-      "latency_ms": 32
+      "latency_ms": 125
     },
     {
       "id": "ADNTV.cl",
@@ -634,21 +602,21 @@
           "source": "Catálogo aprobado",
           "state": "online",
           "detail": "HLS, segmentos, vídeo y audio comprobados",
-          "latency_ms": 5163,
+          "latency_ms": 43513,
           "video": {
             "codec_name": "h264",
             "codec_type": "video",
             "width": 1920,
             "height": 1080,
-            "nb_read_packets": "179"
+            "nb_read_packets": "32"
           },
           "audio": {
             "codec_name": "aac",
             "codec_type": "audio",
             "sample_rate": "48000",
             "channels": 2,
-            "nb_read_packets": "281",
-            "rms_dbfs": -18.0,
+            "nb_read_packets": "51",
+            "rms_dbfs": -20.4,
             "clipping_percent": 0.0
           }
         }
@@ -658,8 +626,8 @@
         "codec_type": "audio",
         "sample_rate": "48000",
         "channels": 2,
-        "nb_read_packets": "281",
-        "rms_dbfs": -18.0,
+        "nb_read_packets": "51",
+        "rms_dbfs": -20.4,
         "clipping_percent": 0.0
       },
       "video": {
@@ -667,25 +635,51 @@
         "codec_type": "video",
         "width": 1920,
         "height": 1080,
-        "nb_read_packets": "179"
+        "nb_read_packets": "32"
       },
-      "latency_ms": 5163
+      "latency_ms": 43513
     },
     {
       "id": "Cooperativa.cl",
       "name": "Cooperativa TV",
       "group": "Radio con imagen",
-      "state": "online",
-      "detail": "HLS, segmentos, vídeo y audio comprobados",
+      "state": "offline",
+      "detail": "HTTP 404",
       "verified_backups": 0,
       "candidate_count": 2,
       "attempts": [
         {
           "host": "unlimited1-cl-isp.dps.live",
           "source": "Catálogo aprobado",
+          "state": "offline",
+          "detail": "HTTP 404",
+          "latency_ms": 716
+        },
+        {
+          "host": "redirector.dps.live",
+          "source": "Página pública de la emisora",
+          "state": "offline",
+          "detail": "HTTP 404",
+          "latency_ms": 504
+        }
+      ],
+      "latency_ms": 716
+    },
+    {
+      "id": "AgriculturaTV.cl",
+      "name": "Agricultura TV",
+      "group": "Radio con imagen",
+      "state": "online",
+      "detail": "HLS, segmentos, vídeo y audio comprobados",
+      "verified_backups": 0,
+      "candidate_count": 1,
+      "attempts": [
+        {
+          "host": "redirector.rudo.video",
+          "source": "Catálogo aprobado",
           "state": "online",
           "detail": "HLS, segmentos, vídeo y audio comprobados",
-          "latency_ms": 8446,
+          "latency_ms": 24260,
           "video": {
             "codec_name": "h264",
             "codec_type": "video",
@@ -698,17 +692,10 @@
             "codec_type": "audio",
             "sample_rate": "48000",
             "channels": 2,
-            "nb_read_packets": "281",
-            "rms_dbfs": -26.2,
+            "nb_read_packets": "282",
+            "rms_dbfs": -22.1,
             "clipping_percent": 0.0
           }
-        },
-        {
-          "host": "redirector.dps.live",
-          "source": "Página pública de la emisora",
-          "state": "offline",
-          "detail": "HTTP 404",
-          "latency_ms": 218
         }
       ],
       "audio": {
@@ -716,8 +703,8 @@
         "codec_type": "audio",
         "sample_rate": "48000",
         "channels": 2,
-        "nb_read_packets": "281",
-        "rms_dbfs": -26.2,
+        "nb_read_packets": "282",
+        "rms_dbfs": -22.1,
         "clipping_percent": 0.0
       },
       "video": {
@@ -727,11 +714,11 @@
         "height": 720,
         "nb_read_packets": "179"
       },
-      "latency_ms": 8446
+      "latency_ms": 24260
     },
     {
-      "id": "AgriculturaTV.cl",
-      "name": "Agricultura TV",
+      "id": "Pauta.cl",
+      "name": "Pauta",
       "group": "Radio con imagen",
       "state": "offline",
       "detail": "Tiempo agotado al decodificar audio",
@@ -743,61 +730,10 @@
           "source": "Catálogo aprobado",
           "state": "offline",
           "detail": "Tiempo agotado al decodificar audio",
-          "latency_ms": 48012
+          "latency_ms": 50688
         }
       ],
-      "latency_ms": 48012
-    },
-    {
-      "id": "Pauta.cl",
-      "name": "Pauta",
-      "group": "Radio con imagen",
-      "state": "online",
-      "detail": "HLS, segmentos, vídeo y audio comprobados",
-      "verified_backups": 0,
-      "candidate_count": 1,
-      "attempts": [
-        {
-          "host": "redirector.rudo.video",
-          "source": "Catálogo aprobado",
-          "state": "online",
-          "detail": "HLS, segmentos, vídeo y audio comprobados",
-          "latency_ms": 10505,
-          "video": {
-            "codec_name": "h264",
-            "codec_type": "video",
-            "width": 854,
-            "height": 480,
-            "nb_read_packets": "84"
-          },
-          "audio": {
-            "codec_name": "aac",
-            "codec_type": "audio",
-            "sample_rate": "48000",
-            "channels": 2,
-            "nb_read_packets": "131",
-            "rms_dbfs": -23.5,
-            "clipping_percent": 0.0
-          }
-        }
-      ],
-      "audio": {
-        "codec_name": "aac",
-        "codec_type": "audio",
-        "sample_rate": "48000",
-        "channels": 2,
-        "nb_read_packets": "131",
-        "rms_dbfs": -23.5,
-        "clipping_percent": 0.0
-      },
-      "video": {
-        "codec_name": "h264",
-        "codec_type": "video",
-        "width": 854,
-        "height": 480,
-        "nb_read_packets": "84"
-      },
-      "latency_ms": 10505
+      "latency_ms": 50688
     },
     {
       "id": "CHVDeportes.cl",
@@ -813,10 +749,10 @@
           "source": "Catálogo aprobado",
           "state": "unverified",
           "detail": "HTTP 403: acceso restringido; no prueba geobloqueo",
-          "latency_ms": 220
+          "latency_ms": 332
         }
       ],
-      "latency_ms": 220
+      "latency_ms": 332
     },
     {
       "id": "NTV.cl",
@@ -832,10 +768,10 @@
           "source": "Catálogo aprobado",
           "state": "unverified",
           "detail": "HTTP 403: acceso restringido; no prueba geobloqueo",
-          "latency_ms": 32
+          "latency_ms": 78
         }
       ],
-      "latency_ms": 32
+      "latency_ms": 78
     },
     {
       "id": "TVN3.cl",
@@ -851,7 +787,7 @@
           "source": "Catálogo aprobado",
           "state": "online",
           "detail": "HLS, segmentos, vídeo y audio comprobados",
-          "latency_ms": 2293,
+          "latency_ms": 3574,
           "video": {
             "codec_name": "h264",
             "codec_type": "video",
@@ -864,8 +800,8 @@
             "codec_type": "audio",
             "sample_rate": "44100",
             "channels": 2,
-            "nb_read_packets": "196",
-            "rms_dbfs": -24.1,
+            "nb_read_packets": "200",
+            "rms_dbfs": -31.7,
             "clipping_percent": 0.0
           }
         }
@@ -875,8 +811,8 @@
         "codec_type": "audio",
         "sample_rate": "44100",
         "channels": 2,
-        "nb_read_packets": "196",
-        "rms_dbfs": -24.1,
+        "nb_read_packets": "200",
+        "rms_dbfs": -31.7,
         "clipping_percent": 0.0
       },
       "video": {
@@ -886,7 +822,7 @@
         "height": 720,
         "nb_read_packets": "180"
       },
-      "latency_ms": 2293
+      "latency_ms": 3574
     },
     {
       "id": "TVSenado.cl",
@@ -902,7 +838,7 @@
           "source": "Catálogo aprobado",
           "state": "online",
           "detail": "HLS, segmentos, vídeo y audio comprobados",
-          "latency_ms": 13647,
+          "latency_ms": 13169,
           "video": {
             "codec_name": "h264",
             "codec_type": "video",
@@ -915,8 +851,8 @@
             "codec_type": "audio",
             "sample_rate": "48000",
             "channels": 2,
-            "nb_read_packets": "136",
-            "rms_dbfs": -26.3,
+            "nb_read_packets": "137",
+            "rms_dbfs": -33.7,
             "clipping_percent": 0.0
           }
         }
@@ -926,8 +862,8 @@
         "codec_type": "audio",
         "sample_rate": "48000",
         "channels": 2,
-        "nb_read_packets": "136",
-        "rms_dbfs": -26.3,
+        "nb_read_packets": "137",
+        "rms_dbfs": -33.7,
         "clipping_percent": 0.0
       },
       "video": {
@@ -937,7 +873,7 @@
         "height": 360,
         "nb_read_packets": "173"
       },
-      "latency_ms": 13647
+      "latency_ms": 13169
     },
     {
       "id": "UChileTV.cl",
@@ -953,17 +889,17 @@
           "source": "Catálogo aprobado",
           "state": "unverified",
           "detail": "HTTP 403: acceso restringido; no prueba geobloqueo",
-          "latency_ms": 489
+          "latency_ms": 715
         },
         {
           "host": "pantera1-100gb-cl-movistar.dps.live",
           "source": "Catálogo aprobado",
           "state": "unverified",
           "detail": "HTTP 403: acceso restringido; no prueba geobloqueo",
-          "latency_ms": 545
+          "latency_ms": 563
         }
       ],
-      "latency_ms": 489
+      "latency_ms": 715
     },
     {
       "id": "TVU.cl",
@@ -979,7 +915,30 @@
           "source": "Catálogo aprobado",
           "state": "online",
           "detail": "HLS, segmentos, vídeo y audio comprobados",
-          "latency_ms": 7111,
+          "latency_ms": 11024,
+          "video": {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1920,
+            "height": 1080,
+            "nb_read_packets": "180"
+          },
+          "audio": {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "sample_rate": "48000",
+            "channels": 2,
+            "nb_read_packets": "281",
+            "rms_dbfs": -43.0,
+            "clipping_percent": 0.0
+          }
+        },
+        {
+          "host": "unlimited1-cl-isp.dps.live",
+          "source": "Catálogo aprobado",
+          "state": "online",
+          "detail": "HLS, segmentos, vídeo y audio comprobados",
+          "latency_ms": 11399,
           "video": {
             "codec_name": "h264",
             "codec_type": "video",
@@ -993,30 +952,7 @@
             "sample_rate": "48000",
             "channels": 2,
             "nb_read_packets": "282",
-            "rms_dbfs": -26.0,
-            "clipping_percent": 0.0
-          }
-        },
-        {
-          "host": "unlimited1-cl-isp.dps.live",
-          "source": "Catálogo aprobado",
-          "state": "online",
-          "detail": "HLS, segmentos, vídeo y audio comprobados",
-          "latency_ms": 7332,
-          "video": {
-            "codec_name": "h264",
-            "codec_type": "video",
-            "width": 1920,
-            "height": 1080,
-            "nb_read_packets": "180"
-          },
-          "audio": {
-            "codec_name": "aac",
-            "codec_type": "audio",
-            "sample_rate": "48000",
-            "channels": 2,
-            "nb_read_packets": "282",
-            "rms_dbfs": -27.8,
+            "rms_dbfs": -42.3,
             "clipping_percent": 0.0
           }
         }
@@ -1026,18 +962,18 @@
         "codec_type": "audio",
         "sample_rate": "48000",
         "channels": 2,
-        "nb_read_packets": "282",
-        "rms_dbfs": -26.0,
+        "nb_read_packets": "281",
+        "rms_dbfs": -43.0,
         "clipping_percent": 0.0
       },
       "video": {
         "codec_name": "h264",
         "codec_type": "video",
-        "width": 1280,
-        "height": 720,
+        "width": 1920,
+        "height": 1080,
         "nb_read_packets": "180"
       },
-      "latency_ms": 7111
+      "latency_ms": 11024
     },
     {
       "id": "UCVTV.cl",
@@ -1053,7 +989,7 @@
           "source": "Catálogo aprobado",
           "state": "online",
           "detail": "HLS, segmentos, vídeo y audio comprobados",
-          "latency_ms": 6532,
+          "latency_ms": 9826,
           "video": {
             "codec_name": "h264",
             "codec_type": "video",
@@ -1067,7 +1003,7 @@
             "sample_rate": "48000",
             "channels": 2,
             "nb_read_packets": "282",
-            "rms_dbfs": -23.3,
+            "rms_dbfs": -24.5,
             "clipping_percent": 0.0
           }
         }
@@ -1078,7 +1014,7 @@
         "sample_rate": "48000",
         "channels": 2,
         "nb_read_packets": "282",
-        "rms_dbfs": -23.3,
+        "rms_dbfs": -24.5,
         "clipping_percent": 0.0
       },
       "video": {
@@ -1088,7 +1024,7 @@
         "height": 720,
         "nb_read_packets": "90"
       },
-      "latency_ms": 6532
+      "latency_ms": 9826
     },
     {
       "id": "TVUsach.cl",
@@ -1104,13 +1040,13 @@
           "source": "Catálogo aprobado",
           "state": "online",
           "detail": "HLS, segmentos, vídeo y audio comprobados",
-          "latency_ms": 10862,
+          "latency_ms": 9528,
           "video": {
             "codec_name": "h264",
             "codec_type": "video",
             "width": 640,
             "height": 360,
-            "nb_read_packets": "178"
+            "nb_read_packets": "179"
           },
           "audio": {
             "codec_name": "aac",
@@ -1118,7 +1054,7 @@
             "sample_rate": "44100",
             "channels": 2,
             "nb_read_packets": "259",
-            "rms_dbfs": -13.8,
+            "rms_dbfs": -15.7,
             "clipping_percent": 0.0
           }
         },
@@ -1127,7 +1063,7 @@
           "source": "m3u.cl Chile",
           "state": "online",
           "detail": "HLS, segmentos, vídeo y audio comprobados",
-          "latency_ms": 7642,
+          "latency_ms": 11879,
           "video": {
             "codec_name": "h264",
             "codec_type": "video",
@@ -1140,8 +1076,8 @@
             "codec_type": "audio",
             "sample_rate": "44100",
             "channels": 2,
-            "nb_read_packets": "259",
-            "rms_dbfs": -13.4,
+            "nb_read_packets": "258",
+            "rms_dbfs": -16.3,
             "clipping_percent": 0.0
           }
         }
@@ -1152,7 +1088,7 @@
         "sample_rate": "44100",
         "channels": 2,
         "nb_read_packets": "259",
-        "rms_dbfs": -13.8,
+        "rms_dbfs": -15.7,
         "clipping_percent": 0.0
       },
       "video": {
@@ -1160,9 +1096,9 @@
         "codec_type": "video",
         "width": 640,
         "height": 360,
-        "nb_read_packets": "178"
+        "nb_read_packets": "179"
       },
-      "latency_ms": 10862
+      "latency_ms": 9528
     },
     {
       "id": "13C.cl",
@@ -1178,21 +1114,21 @@
           "source": "Catálogo aprobado",
           "state": "online",
           "detail": "HLS, segmentos, vídeo y audio comprobados",
-          "latency_ms": 56773,
+          "latency_ms": 4984,
           "video": {
             "codec_name": "h264",
             "codec_type": "video",
             "width": 1920,
             "height": 1080,
-            "nb_read_packets": "151"
+            "nb_read_packets": "179"
           },
           "audio": {
             "codec_name": "aac",
             "codec_type": "audio",
             "sample_rate": "48000",
             "channels": 2,
-            "nb_read_packets": "234",
-            "rms_dbfs": -25.3,
+            "nb_read_packets": "281",
+            "rms_dbfs": -25.4,
             "clipping_percent": 0.0
           }
         }
@@ -1202,8 +1138,8 @@
         "codec_type": "audio",
         "sample_rate": "48000",
         "channels": 2,
-        "nb_read_packets": "234",
-        "rms_dbfs": -25.3,
+        "nb_read_packets": "281",
+        "rms_dbfs": -25.4,
         "clipping_percent": 0.0
       },
       "video": {
@@ -1211,16 +1147,16 @@
         "codec_type": "video",
         "width": 1920,
         "height": 1080,
-        "nb_read_packets": "151"
+        "nb_read_packets": "179"
       },
-      "latency_ms": 56773
+      "latency_ms": 4984
     },
     {
       "id": "13Realities.cl",
       "name": "13 Realities",
       "group": "Entretenimiento",
-      "state": "offline",
-      "detail": "Tiempo agotado al leer paquetes multimedia",
+      "state": "online",
+      "detail": "HLS, segmentos, vídeo y audio comprobados",
       "verified_backups": 0,
       "candidate_count": 2,
       "attempts": [
@@ -1229,17 +1165,49 @@
           "source": "Catálogo aprobado",
           "state": "offline",
           "detail": "Tiempo agotado al leer paquetes multimedia",
-          "latency_ms": 47032
+          "latency_ms": 29685
         },
         {
           "host": "origin.dpsgo.com",
           "source": "Catálogo aprobado",
-          "state": "offline",
-          "detail": "Tiempo agotado al decodificar audio",
-          "latency_ms": 85079
+          "state": "online",
+          "detail": "HLS, segmentos, vídeo y audio comprobados",
+          "latency_ms": 32250,
+          "video": {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720,
+            "nb_read_packets": "41"
+          },
+          "audio": {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "sample_rate": "48000",
+            "channels": 2,
+            "nb_read_packets": "63",
+            "rms_dbfs": -26.9,
+            "clipping_percent": 0.0
+          }
         }
       ],
-      "latency_ms": 47032
+      "audio": {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2,
+        "nb_read_packets": "63",
+        "rms_dbfs": -26.9,
+        "clipping_percent": 0.0
+      },
+      "video": {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1280,
+        "height": 720,
+        "nb_read_packets": "41"
+      },
+      "latency_ms": 32250
     },
     {
       "id": "Mega2.cl",
@@ -1261,32 +1229,32 @@
       "candidate_count": 2,
       "attempts": [
         {
-          "host": "origin.dpsgo.com",
+          "host": "redirector.dps.live",
           "source": "Catálogo aprobado",
           "state": "offline",
-          "detail": "Tiempo agotado al decodificar audio",
-          "latency_ms": 75938
+          "detail": "Faltan paquetes de vídeo o una pista de audio",
+          "latency_ms": 41219
         },
         {
-          "host": "redirector.dps.live",
+          "host": "origin.dpsgo.com",
           "source": "Catálogo aprobado",
           "state": "online",
           "detail": "HLS, segmentos, vídeo y audio comprobados",
-          "latency_ms": 79560,
+          "latency_ms": 34840,
           "video": {
             "codec_name": "h264",
             "codec_type": "video",
-            "width": 426,
-            "height": 240,
-            "nb_read_packets": "37"
+            "width": 1280,
+            "height": 720,
+            "nb_read_packets": "151"
           },
           "audio": {
             "codec_name": "aac",
             "codec_type": "audio",
             "sample_rate": "48000",
             "channels": 2,
-            "nb_read_packets": "55",
-            "rms_dbfs": -21.6,
+            "nb_read_packets": "237",
+            "rms_dbfs": -25.3,
             "clipping_percent": 0.0
           }
         }
@@ -1296,37 +1264,69 @@
         "codec_type": "audio",
         "sample_rate": "48000",
         "channels": 2,
-        "nb_read_packets": "55",
-        "rms_dbfs": -21.6,
+        "nb_read_packets": "237",
+        "rms_dbfs": -25.3,
         "clipping_percent": 0.0
       },
       "video": {
         "codec_name": "h264",
         "codec_type": "video",
-        "width": 426,
-        "height": 240,
-        "nb_read_packets": "37"
+        "width": 1280,
+        "height": 720,
+        "nb_read_packets": "151"
       },
-      "latency_ms": 79560
+      "latency_ms": 34840
     },
     {
       "id": "13Humor.cl",
       "name": "13 Humor",
       "group": "Entretenimiento",
-      "state": "offline",
-      "detail": "Tiempo agotado al leer paquetes multimedia",
+      "state": "online",
+      "detail": "HLS, segmentos, vídeo y audio comprobados",
       "verified_backups": 0,
       "candidate_count": 1,
       "attempts": [
         {
           "host": "origin.dpsgo.com",
           "source": "Catálogo aprobado",
-          "state": "offline",
-          "detail": "Tiempo agotado al leer paquetes multimedia",
-          "latency_ms": 85088
+          "state": "online",
+          "detail": "HLS, segmentos, vídeo y audio comprobados",
+          "latency_ms": 43636,
+          "video": {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 854,
+            "height": 480,
+            "nb_read_packets": "151"
+          },
+          "audio": {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "sample_rate": "48000",
+            "channels": 2,
+            "nb_read_packets": "234",
+            "rms_dbfs": -20.4,
+            "clipping_percent": 0.0
+          }
         }
       ],
-      "latency_ms": 85088
+      "audio": {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2,
+        "nb_read_packets": "234",
+        "rms_dbfs": -20.4,
+        "clipping_percent": 0.0
+      },
+      "video": {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 854,
+        "height": 480,
+        "nb_read_packets": "151"
+      },
+      "latency_ms": 43636
     },
     {
       "id": "13Kids.cl",
@@ -1342,10 +1342,10 @@
           "source": "Catálogo aprobado",
           "state": "offline",
           "detail": "Faltan paquetes de vídeo o una pista de audio",
-          "latency_ms": 47327
+          "latency_ms": 68962
         }
       ],
-      "latency_ms": 47327
+      "latency_ms": 68962
     },
     {
       "id": "13E.cl",
@@ -1361,17 +1361,17 @@
           "source": "Catálogo aprobado",
           "state": "offline",
           "detail": "HTTP 404",
-          "latency_ms": 598
+          "latency_ms": 805
         }
       ],
-      "latency_ms": 598
+      "latency_ms": 805
     },
     {
       "id": "13T.cl",
       "name": "13 Teleseries",
       "group": "Entretenimiento",
       "state": "offline",
-      "detail": "Tiempo agotado al leer paquetes multimedia",
+      "detail": "Tiempo agotado al decodificar audio",
       "verified_backups": 0,
       "candidate_count": 1,
       "attempts": [
@@ -1379,11 +1379,11 @@
           "host": "origin.dpsgo.com",
           "source": "Catálogo aprobado",
           "state": "offline",
-          "detail": "Tiempo agotado al leer paquetes multimedia",
-          "latency_ms": 37838
+          "detail": "Tiempo agotado al decodificar audio",
+          "latency_ms": 51314
         }
       ],
-      "latency_ms": 37838
+      "latency_ms": 51314
     },
     {
       "id": "13P.cl",
@@ -1399,10 +1399,10 @@
           "source": "Catálogo aprobado",
           "state": "offline",
           "detail": "HTTP 404",
-          "latency_ms": 172
+          "latency_ms": 940
         }
       ],
-      "latency_ms": 172
+      "latency_ms": 940
     },
     {
       "id": "Canal9BioBioTelevision.cl",
@@ -1418,13 +1418,13 @@
           "source": "Catálogo aprobado",
           "state": "online",
           "detail": "HLS, segmentos, vídeo y audio comprobados",
-          "latency_ms": 7055,
+          "latency_ms": 13232,
           "video": {
             "codec_name": "h264",
             "codec_type": "video",
             "width": 1280,
             "height": 720,
-            "nb_read_packets": "180"
+            "nb_read_packets": "179"
           },
           "audio": {
             "codec_name": "aac",
@@ -1432,7 +1432,7 @@
             "sample_rate": "48000",
             "channels": 2,
             "nb_read_packets": "280",
-            "rms_dbfs": -16.7,
+            "rms_dbfs": -25.5,
             "clipping_percent": 0.0
           }
         }
@@ -1443,7 +1443,7 @@
         "sample_rate": "48000",
         "channels": 2,
         "nb_read_packets": "280",
-        "rms_dbfs": -16.7,
+        "rms_dbfs": -25.5,
         "clipping_percent": 0.0
       },
       "video": {
@@ -1451,9 +1451,9 @@
         "codec_type": "video",
         "width": 1280,
         "height": 720,
-        "nb_read_packets": "180"
+        "nb_read_packets": "179"
       },
-      "latency_ms": 7055
+      "latency_ms": 13232
     },
     {
       "id": "AntofagastaTV.cl",
@@ -1469,7 +1469,7 @@
           "source": "Catálogo aprobado",
           "state": "online",
           "detail": "HLS, segmentos, vídeo y audio comprobados",
-          "latency_ms": 7964,
+          "latency_ms": 11302,
           "video": {
             "codec_name": "h264",
             "codec_type": "video",
@@ -1483,7 +1483,7 @@
             "sample_rate": "48000",
             "channels": 2,
             "nb_read_packets": "281",
-            "rms_dbfs": -20.5,
+            "rms_dbfs": -19.1,
             "clipping_percent": 0.0
           }
         },
@@ -1492,7 +1492,7 @@
           "source": "m3u.cl Chile",
           "state": "online",
           "detail": "HLS, segmentos, vídeo y audio comprobados",
-          "latency_ms": 7945,
+          "latency_ms": 13069,
           "video": {
             "codec_name": "h264",
             "codec_type": "video",
@@ -1506,7 +1506,7 @@
             "sample_rate": "48000",
             "channels": 2,
             "nb_read_packets": "282",
-            "rms_dbfs": -19.9,
+            "rms_dbfs": -20.3,
             "clipping_percent": 0.0
           }
         }
@@ -1517,7 +1517,7 @@
         "sample_rate": "48000",
         "channels": 2,
         "nb_read_packets": "281",
-        "rms_dbfs": -20.5,
+        "rms_dbfs": -19.1,
         "clipping_percent": 0.0
       },
       "video": {
@@ -1527,7 +1527,7 @@
         "height": 1080,
         "nb_read_packets": "179"
       },
-      "latency_ms": 7964
+      "latency_ms": 11302
     },
     {
       "id": "IquiqueTV.cl",
@@ -1543,21 +1543,21 @@
           "source": "Catálogo aprobado",
           "state": "online",
           "detail": "HLS, segmentos, vídeo y audio comprobados",
-          "latency_ms": 8498,
+          "latency_ms": 11258,
           "video": {
             "codec_name": "h264",
             "codec_type": "video",
             "width": 1920,
             "height": 1080,
-            "nb_read_packets": "178"
+            "nb_read_packets": "176"
           },
           "audio": {
             "codec_name": "aac",
             "codec_type": "audio",
             "sample_rate": "48000",
             "channels": 2,
-            "nb_read_packets": "279",
-            "rms_dbfs": -33.8,
+            "nb_read_packets": "276",
+            "rms_dbfs": -21.4,
             "clipping_percent": 0.0
           }
         }
@@ -1567,8 +1567,8 @@
         "codec_type": "audio",
         "sample_rate": "48000",
         "channels": 2,
-        "nb_read_packets": "279",
-        "rms_dbfs": -33.8,
+        "nb_read_packets": "276",
+        "rms_dbfs": -21.4,
         "clipping_percent": 0.0
       },
       "video": {
@@ -1576,9 +1576,9 @@
         "codec_type": "video",
         "width": 1920,
         "height": 1080,
-        "nb_read_packets": "178"
+        "nb_read_packets": "176"
       },
-      "latency_ms": 8498
+      "latency_ms": 11258
     },
     {
       "id": "ITVPatagonia.cl",
@@ -1594,7 +1594,7 @@
           "source": "Catálogo aprobado",
           "state": "online",
           "detail": "HLS, segmentos, vídeo y audio comprobados",
-          "latency_ms": 3499,
+          "latency_ms": 4317,
           "video": {
             "codec_name": "h264",
             "codec_type": "video",
@@ -1608,7 +1608,7 @@
             "sample_rate": "48000",
             "channels": 2,
             "nb_read_packets": "282",
-            "rms_dbfs": -31.4,
+            "rms_dbfs": -33.0,
             "clipping_percent": 0.0
           }
         },
@@ -1617,7 +1617,7 @@
           "source": "Catálogo aprobado",
           "state": "online",
           "detail": "HLS, segmentos, vídeo y audio comprobados",
-          "latency_ms": 3656,
+          "latency_ms": 5290,
           "video": {
             "codec_name": "h264",
             "codec_type": "video",
@@ -1631,7 +1631,7 @@
             "sample_rate": "48000",
             "channels": 2,
             "nb_read_packets": "281",
-            "rms_dbfs": -30.1,
+            "rms_dbfs": -31.5,
             "clipping_percent": 0.0
           }
         },
@@ -1640,13 +1640,13 @@
           "source": "m3u.cl Chile",
           "state": "online",
           "detail": "HLS, segmentos, vídeo y audio comprobados",
-          "latency_ms": 6985,
+          "latency_ms": 12160,
           "video": {
             "codec_name": "h264",
             "codec_type": "video",
             "width": 1280,
             "height": 720,
-            "nb_read_packets": "176"
+            "nb_read_packets": "177"
           },
           "audio": {
             "codec_name": "aac",
@@ -1654,7 +1654,7 @@
             "sample_rate": "48000",
             "channels": 2,
             "nb_read_packets": "282",
-            "rms_dbfs": -29.9,
+            "rms_dbfs": -31.7,
             "clipping_percent": 0.0
           }
         }
@@ -1665,7 +1665,7 @@
         "sample_rate": "48000",
         "channels": 2,
         "nb_read_packets": "282",
-        "rms_dbfs": -31.4,
+        "rms_dbfs": -33.0,
         "clipping_percent": 0.0
       },
       "video": {
@@ -1675,48 +1675,29 @@
         "height": 720,
         "nb_read_packets": "177"
       },
-      "latency_ms": 3499
+      "latency_ms": 4317
     },
     {
       "id": "ElPinguinoTV.cl",
       "name": "El Pingüino TV",
       "group": "Regionales",
-      "state": "offline",
-      "detail": "Tiempo agotado al leer paquetes multimedia",
+      "state": "online",
+      "detail": "HLS, segmentos, vídeo y audio comprobados",
       "verified_backups": 0,
       "candidate_count": 1,
       "attempts": [
         {
           "host": "redirector.dps.live",
           "source": "Catálogo aprobado",
-          "state": "offline",
-          "detail": "Tiempo agotado al leer paquetes multimedia",
-          "latency_ms": 47586
-        }
-      ],
-      "latency_ms": 47586
-    },
-    {
-      "id": "UMAGTV.cl",
-      "name": "UMAG TV",
-      "group": "Regionales",
-      "state": "warning",
-      "detail": "Muestra casi silenciosa; puede ser una pausa de programación",
-      "verified_backups": 0,
-      "candidate_count": 1,
-      "attempts": [
-        {
-          "host": "tls-cl.cdnz.cl",
-          "source": "Catálogo aprobado",
-          "state": "warning",
-          "detail": "Muestra casi silenciosa; puede ser una pausa de programación",
-          "latency_ms": 6306,
+          "state": "online",
+          "detail": "HLS, segmentos, vídeo y audio comprobados",
+          "latency_ms": 4806,
           "video": {
             "codec_name": "h264",
             "codec_type": "video",
-            "width": 640,
-            "height": 360,
-            "nb_read_packets": "90"
+            "width": 1280,
+            "height": 720,
+            "nb_read_packets": "181"
           },
           "audio": {
             "codec_name": "aac",
@@ -1724,7 +1705,58 @@
             "sample_rate": "48000",
             "channels": 2,
             "nb_read_packets": "282",
-            "rms_dbfs": -70.4,
+            "rms_dbfs": -14.1,
+            "clipping_percent": 0.01
+          }
+        }
+      ],
+      "audio": {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2,
+        "nb_read_packets": "282",
+        "rms_dbfs": -14.1,
+        "clipping_percent": 0.01
+      },
+      "video": {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1280,
+        "height": 720,
+        "nb_read_packets": "181"
+      },
+      "latency_ms": 4806
+    },
+    {
+      "id": "UMAGTV.cl",
+      "name": "UMAG TV",
+      "group": "Regionales",
+      "state": "online",
+      "detail": "HLS, segmentos, vídeo y audio comprobados",
+      "verified_backups": 0,
+      "candidate_count": 1,
+      "attempts": [
+        {
+          "host": "tls-cl.cdnz.cl",
+          "source": "Catálogo aprobado",
+          "state": "online",
+          "detail": "HLS, segmentos, vídeo y audio comprobados",
+          "latency_ms": 8219,
+          "video": {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 640,
+            "height": 360,
+            "nb_read_packets": "89"
+          },
+          "audio": {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "sample_rate": "48000",
+            "channels": 2,
+            "nb_read_packets": "282",
+            "rms_dbfs": -36.8,
             "clipping_percent": 0.0
           }
         }
@@ -1735,7 +1767,7 @@
         "sample_rate": "48000",
         "channels": 2,
         "nb_read_packets": "282",
-        "rms_dbfs": -70.4,
+        "rms_dbfs": -36.8,
         "clipping_percent": 0.0
       },
       "video": {
@@ -1743,9 +1775,9 @@
         "codec_type": "video",
         "width": 640,
         "height": 360,
-        "nb_read_packets": "90"
+        "nb_read_packets": "89"
       },
-      "latency_ms": 6306
+      "latency_ms": 8219
     },
     {
       "id": "DW.es",
@@ -1761,7 +1793,7 @@
           "source": "Catálogo aprobado",
           "state": "online",
           "detail": "HLS, segmentos, vídeo y audio comprobados",
-          "latency_ms": 1042,
+          "latency_ms": 2382,
           "video": {
             "codec_name": "h264",
             "codec_type": "video",
@@ -1775,7 +1807,7 @@
             "sample_rate": "48000",
             "channels": 2,
             "nb_read_packets": "282",
-            "rms_dbfs": -25.4,
+            "rms_dbfs": -27.2,
             "clipping_percent": 0.0
           }
         }
@@ -1786,7 +1818,7 @@
         "sample_rate": "48000",
         "channels": 2,
         "nb_read_packets": "282",
-        "rms_dbfs": -25.4,
+        "rms_dbfs": -27.2,
         "clipping_percent": 0.0
       },
       "video": {
@@ -1796,7 +1828,7 @@
         "height": 540,
         "nb_read_packets": "299"
       },
-      "latency_ms": 1042
+      "latency_ms": 2382
     },
     {
       "id": "TVChile.cl",
@@ -1812,10 +1844,10 @@
           "source": "Catálogo aprobado",
           "state": "unverified",
           "detail": "HTTP 403: acceso restringido; no prueba geobloqueo",
-          "latency_ms": 34
+          "latency_ms": 167
         }
       ],
-      "latency_ms": 34
+      "latency_ms": 167
     }
   ]
 }
