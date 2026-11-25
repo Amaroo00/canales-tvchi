@@ -4,11 +4,13 @@
 #EXTVLCOPT:http-referrer=https://www.13.cl/en-vivo
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 https://redirector.dps.live/hls/13cl/playlist.m3u8
+https://redirector.dps.live/hls/13cl/13cl.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-id="Mega.cl" tvg-name="Mega HD" tvg-logo="https://cdn.m3u.cl/logo/455_Mega.png" group-title="Nacionales",Mega HD
 #EXTVLCOPT:http-referrer=https://www.mega.cl/senal-en-vivo/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-https://unlimited2-cl-isp.dps.live/mega/mega.smil/playlist.m3u8
+https://unlimited2-cl-isp.dps.live/mega/mega.smil/playlist.m3u8?PlaylistM3UCL
+https://unlimited1-cl-isp.dps.live/mega/mega.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-id="ChileVision.cl" tvg-name="Chilevisión (CHV)" tvg-logo="https://cdn.m3u.cl/logo/1569_CHV.png" group-title="Nacionales",Chilevisión (CHV)
 #EXTVLCOPT:http-referrer=https://www.chilevision.cl/senal-online
@@ -23,7 +25,7 @@ https://redirector.rudo.video/hls-video/ey6283je82983je9823je8jowowiekldk9838274
 #EXTINF:-1 tvg-id="TVN.cl" tvg-name="TVN HD" tvg-logo="https://i.imgur.com/3FKZHL4.png" group-title="Nacionales",TVN HD
 #EXTVLCOPT:http-referrer=https://live.tvn.cl/?tvn_subseccion=senal-tvn
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-https://mdstrm.com/live-stream-playlist/57a498c4d7b86d600e5461cb.m3u8
+https://cl-a3-p-e-uy6.cdn.mdstrm.com/live-stream-gdai/57a498c4d7b86d600e5461cb/linear/hls/pa/event/-4KOuBUDTUaXhzNVqMNjsQ/stream/4616f4ef-aafa-4688-b707-cca9445dca74:SCL2/master.m3u8?aid=51c2f628b440bd797900051f&dnt=true&dual_render=1&access_token=eMP42OpGovpJieFTelbeD147BuHrjJBeqkjrQfWzDo9jfo9NhXu9pThm1tla5vG9sV0zc8fppf1&uid=P3n5RHRjHEUm4FU3BuAJg9BQCYLuHGAT&sid=xbvPCeLDxVXIw5I179AcPIDpfC4DDYj9&pid=hwytcQI821GOeXExUrLAgYNtj6OY430N&ref=mdstrm.com&ext_pb=0&adInsertionGoogleStreamId=4616f4ef-aafa-4688-b707-cca9445dca74%3ASCL2&CMCD=cid%3D%2257a498c4d7b86d600e5461cb%22%2Cmtp%3D500%2Cot%3Dm%2Csf%3Dh%2Csid%3D%22hwytcQI821GOeXExUrLAgYNtj6OY430N%22%2Csu&es=cl-a3-p-e-uy6.cdn.mdstrm.com&ote=1795710950665&ot=Gp5_LaKAz7BwfME4bIJHAA&proto=https&pz=cl
 
 #EXTINF:-1 tvg-id="LaRed.cl" tvg-name="La Red" tvg-logo="https://i.imgur.com/nJOVM6e.png" group-title="Nacionales",La Red
 #EXTVLCOPT:http-referrer=https://www.lared.cl/senal-online/
@@ -204,3 +206,15 @@ https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8
 #EXTVLCOPT:http-referrer=https://www.tvn.cl/tvchile
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 https://mdstrm.com/live-stream-playlist/533adcc949386ce765657d7c.m3u8
+
+#EXTINF:-1 tvg-name="TNT Sport Chile" group-title="Nacionales",TNT Sport Chile
+https://9.ftlly.com/tntsportschile/mono.m3u8?token=514dfd5231b3b6456a1fd82f8701ee3a144fb902-46-1795641680-1795623680
+
+#EXTINF:-1 tvg-name="ESPN CHILE" group-title="Nacionales",ESPN CHILE
+https://6.ftlly.com/espn/mono.m3u8?token=d3e703e10cd48b90b3d1e0742b2ece589541f145-d9-1795641702-1795623702
+
+#EXTINF:-1 tvg-name="ESPN Chile PREMIUM" group-title="Nacionales",ESPN Chile PREMIUM
+https://9.ftlly.com/espnpremium/mono.m3u8?token=8b0f44d3f7a05dafa6e9b4ad9cd8594e4a561e9e-a5-1795641724-1795623724
+
+#EXTINF:-1 tvg-name="ESPN 3" group-title="Nacionales",ESPN 3
+https://3.ftlly.com/espn3/mono.m3u8?token=55a145c0e74712f372956d1a81648b2f8ec4aa01-b-1795641746-1795623746
