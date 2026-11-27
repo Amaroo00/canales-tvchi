@@ -4,11 +4,13 @@
 #EXTVLCOPT:http-referrer=https://www.13.cl/en-vivo
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 https://redirector.dps.live/hls/13cl/playlist.m3u8
+https://redirector.dps.live/hls/13cl/13cl.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-id="Mega.cl" tvg-name="Mega HD" tvg-logo="https://cdn.m3u.cl/logo/455_Mega.png" group-title="Nacionales",Mega HD
 #EXTVLCOPT:http-referrer=https://www.mega.cl/senal-en-vivo/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-https://unlimited2-cl-isp.dps.live/mega/mega.smil/playlist.m3u8
+https://unlimited2-cl-isp.dps.live/mega/mega.smil/playlist.m3u8?PlaylistM3UCL
+https://unlimited1-cl-isp.dps.live/mega/mega.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-id="ChileVision.cl" tvg-name="Chilevisión (CHV)" tvg-logo="https://cdn.m3u.cl/logo/1569_CHV.png" group-title="Nacionales",Chilevisión (CHV)
 #EXTVLCOPT:http-referrer=https://www.chilevision.cl/senal-online
